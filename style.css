@@ -1,0 +1,440 @@
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background-color: #0D0D15;
+    color: #F8F7FF;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+a {
+    color: #F8F7FF;
+    text-decoration: none;
+}
+
+.header-nav-list {
+    list-style: none;
+}
+
+.header-nav-item {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-nav-link:hover {
+    border-bottom: 2px solid #0265DC;
+}
+
+.header-search {
+    color: #E7EEF7A8;
+    border: 2px solid #D0D7FB2B;
+    background-color: #0D0D15;
+}
+
+.header-a {
+    font-size: 18px;
+    line-height: 28px;
+    border: 2px solid #D0D7FB2B;
+}
+
+.header-btn {
+    font-size: 18px;
+    line-height: 28px;
+    border: none;
+    background: #0265DC;
+    color: #F5F8FB;
+}
+
+.banner-header {
+    text-align: left;
+}
+
+.banner-header-highlight {
+    color: #0265DC;
+}
+
+.banner-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.banner-numbers-title {
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+}
+
+.banner-numbers-description {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner-btn button {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #F5F8FB;
+}
+
+.banner-main-btn {
+    background-color: #0265DC;
+    border: 2px solid #0265DC;
+}
+
+.banner-sub-btn {
+    background-color: #0D0D15;;
+    border: 2px solid #D0D7FB2B;
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+.catalog-title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.catalog-btn-all {
+    font-size: 18px;
+    line-height: 28px;
+    border: 2px solid #D0D7FB2B;
+}
+
+.catalog-btn-prev {
+    border: 2px solid #D0D7FB2B;
+    background-color: #0D0D15;
+    color: #F5F8FB;
+}
+
+.catalog-btn-next {
+    border: 2px solid #0265DC;
+    background-color: #0265DC;
+}
+
+.catalog-item {
+    background-color: #1D1C28;
+}
+
+.catalog-item-label {
+    background-color: #F5F8FB;
+    color: #0265DC;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.catalog-item-speclabel {
+    background-color: #EA3829;
+    color: #F5F8FB;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.catalog-item-price {
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+}
+
+.catalog-item-name {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 500;   
+    font-size: 20px;
+    line-height: 28px;
+    color: #EFF5FAD1;
+}
+
+.blog-list {
+    list-style: none;
+}
+
+.blog-item {
+    background-color: #1D1C28;
+}
+
+.blog-item-label {
+    background-color: #F5F8FB;
+    color: #0265DC;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.blog-item-subinfo {
+    color: #EFF5FAD1;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.blog-item-header {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.blog-item-description {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blog-item-link {
+    border: 2px solid #D0D7FB2B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.blog-link {
+    border: 2px solid #D0D7FB2B;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.about-item {
+    background-color: #1A1925;
+}
+
+.about-item-header {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.about-item-description {
+    color: #EFF5FAD1;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-link {
+    border: 2px solid #D0D7FB2B;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-item {
+    background-color: #1D1C28;
+}
+
+.team-name {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.team-socials {
+    list-style: none;
+}
+
+.team-description {
+    color: #EFF5FAD1;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.faq-item {
+    background-color: #1D1C28;
+}
+
+.faq-question {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+}
+
+.faq-answer {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.faq-answer a {
+    color: #0265DC;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-nav-header {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-nav-link {
+    color: #F5F8FB;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer-socials {
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    color: #F5F8FB;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.breadcrumbs-active {
+    color: #E7EEF7A8;
+}
+
+aside section {
+    background-color: #1D1C28;
+}
+
+.categories-header, .tags-header {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.categories-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.tags-link {
+    font-size: 14px;
+    line-height: 20px;
+    border: 2px solid #D0D7FB2B;
+}
+
+.article-banner-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #F8F7FF;
+}
+
+.article-header {
+    text-align: left;
+}
+
+.article-category {
+    background-color: #0265DC;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.article-subinfo {
+    color: #EFF5FAD1;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.blog-article p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #F8F7FF;
+}
+
+.blog-article ul li {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.icon-list {
+    list-style: none;
+}
+
+.blog-article blockquote {
+    background-color: #002754;
+    border-radius: 16px;
+}
+
+.blog-article blockquote p {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+}
+
+.blog-article blockquote cite {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.picture-item-title {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.article-link {
+    color: #78BBFA;
+    font-weight: 600;
+}
+
+.blog-article-footer p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blog-article-tag {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #F5F8FB;
+    border: 2px solid #D0D7FB2B;
+}
+
+.blog-article-share {
+    border: 2px solid #D0D7FB2B;
+}
