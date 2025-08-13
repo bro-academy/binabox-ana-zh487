@@ -171,7 +171,6 @@ a {
 }
 
 .catalog-item-name {
-    font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 500;   
     font-size: 20px;
     line-height: 28px;
@@ -297,9 +296,14 @@ a {
     color: #0265DC;
 }
 
+.footer {
+    background-color: #1A1925;
+}
+
 .footer-text {
     font-size: 14px;
     line-height: 20px;
+    font-weight: 400;
 }
 
 .footer-nav-header {
@@ -316,6 +320,7 @@ a {
     color: #F5F8FB;
     font-size: 12px;
     line-height: 16px;
+    font-weight: 600;
 }
 
 .footer-socials {
