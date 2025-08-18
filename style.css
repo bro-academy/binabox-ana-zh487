@@ -4,34 +4,27 @@ body {
     color: #F8F7FF;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 400;
 }
 
 h1 {
     font-size: 52px;
     line-height: 62px;
-    letter-spacing: -0.5px;
     text-align: center;
 }
 
 h2 {
     font-size: 36px;
     line-height: 48px;
-    letter-spacing: -0.5px;
     text-align: center;
 }
 
 h3 {
     font-size: 28px;
     line-height: 36px;
-    letter-spacing: -0.5px;
-}
-
-h4 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0px;
 }
 
 a {
@@ -43,26 +36,26 @@ a {
     list-style: none;
 }
 
-.header-nav-item {
+.header-nav-link {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-}
-
-.header-nav-link:hover {
-    border-bottom: 2px solid #0265DC;
 }
 
 .header-search {
     color: #E7EEF7A8;
     border: 2px solid #D0D7FB2B;
     background-color: #0D0D15;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .header-a {
     font-size: 18px;
     line-height: 28px;
     border: 2px solid #D0D7FB2B;
+    font-weight: 600;
+    color: #F5F8FB;
 }
 
 .header-btn {
@@ -71,19 +64,21 @@ a {
     border: none;
     background: #0265DC;
     color: #F5F8FB;
+    font-weight: 600;
 }
 
 .banner-header {
     text-align: left;
 }
 
-.banner-header-highlight {
+.banner-header-highlighted {
     color: #0265DC;
 }
 
 .banner-text {
     font-size: 20px;
     line-height: 28px;
+    font-weight: 500;
 }
 
 .banner-numbers-title {
@@ -101,7 +96,7 @@ a {
 
 .banner-btn button {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
     font-weight: 600;
     color: #F5F8FB;
 }
@@ -130,6 +125,7 @@ a {
     font-size: 18px;
     line-height: 28px;
     border: 2px solid #D0D7FB2B;
+    font-weight: 600;
 }
 
 .catalog-btn-prev {
@@ -171,6 +167,7 @@ a {
 }
 
 .catalog-item-name {
+    font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 500;   
     font-size: 20px;
     line-height: 28px;
@@ -197,11 +194,12 @@ a {
     color: #EFF5FAD1;
     font-size: 14px;
     line-height: 20px;
+    font-weight: 600;
 }
 
 .blog-item-header {
     font-size: 36px;
-    font-weight: 400;
+    line-height: 48px;
 }
 
 .blog-item-description {
@@ -303,7 +301,6 @@ a {
 .footer-text {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 400;
 }
 
 .footer-nav-header {
@@ -357,6 +354,7 @@ aside section {
     font-size: 14px;
     line-height: 20px;
     border: 2px solid #D0D7FB2B;
+    font-weight: 600;
 }
 
 .article-banner-title {
@@ -417,10 +415,15 @@ aside section {
     font-style: normal;
 }
 
+.picture-list {
+    list-style: none;
+}
+
 .picture-item-title {
     color: #FFF;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .article-link {
@@ -428,7 +431,7 @@ aside section {
     font-weight: 600;
 }
 
-.blog-article-footer p {
+.blog-article-footer span {
     font-size: 16px;
     line-height: 24px;
 }
