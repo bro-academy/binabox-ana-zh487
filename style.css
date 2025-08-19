@@ -298,16 +298,16 @@ a {
     background-color: #1A1925;
 }
 
-.footer-text {
-    font-size: 14px;
-    line-height: 20px;
-}
-
 .footer-nav-header {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .footer-nav-list {
