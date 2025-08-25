@@ -72,21 +72,21 @@ a {
     text-decoration: none;
 }
 
-.header-navigation__list {
+.header__navigation-list {
     list-style: none;
 }
 
-.header-navigation__link {
+.header__navigation-link {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
 
-.header-navigation__link--active {
+.header__navigation-link--active {
     border-bottom: 2px solid #0265DC;
 }
 
-.header-controls__search {
+.header__controls-search {
     color: #E7EEF7A8;
     border: 2px solid #D0D7FB2B;
     background-color: #0D0D15;
@@ -98,7 +98,7 @@ a {
     text-align: left;
 }
 
-.banner-header__highlighted {
+.banner__header--highlighted {
     color: #0265DC;
 }
 
@@ -108,7 +108,7 @@ a {
     font-weight: 500;
 }
 
-.banner-stats__title {
+.banner__stats-title {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     font-weight: 400;
     font-size: 52px;
@@ -116,7 +116,7 @@ a {
     letter-spacing: -0.5px;
 }
 
-.banner-stats__description {
+.banner__stats-description {
     font-size: 16px;
     line-height: 24px;
 }
@@ -135,14 +135,14 @@ a {
     background-color: #1D1C28;
 }
 
-.catalog-item__price {
+.product-item__price {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
 }
 
-.catalog-item__name {
+.product-item__name {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 500;   
     font-size: 20px;
@@ -154,25 +154,26 @@ a {
     list-style: none;
 }
 
-.blog__item {
+.blog-article {
     background-color: #1D1C28;
 }
 
-.blog-item__author, .blog-item__date {
+.article-info__author, .article-info__date {
     color: #EFF5FAD1;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
-.blog-item__header {
+.blog-article__header {
     font-size: 36px;
     line-height: 48px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     letter-spacing: -0.5px;
+    font-weight: 400;
 }
 
-.blog-item__description {
+.blog-article__description {
     font-size: 16px;
     line-height: 24px;
 }
@@ -184,17 +185,18 @@ a {
     font-weight: 500;
 }
 
-.about__item {
+.counted-list__item {
     background-color: #1A1925;
 }
 
-.about-item__header {
+.counted-list__header {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
 }
 
-.about-item__description {
+.counted-list__description {
     color: #EFF5FAD1;
     font-size: 18px;
     line-height: 28px;
@@ -204,18 +206,19 @@ a {
     list-style: none;
 }
 
-.team__item {
+.person-card {
     background-color: #1D1C28;
     text-align: center;
 }
 
-.team-item__name {
+.person-card__name {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
 }
 
-.team-item__role {
+.person-card__role {
     color: #EFF5FAD1;
     font-size: 18px;
     line-height: 28px;
@@ -225,22 +228,22 @@ a {
     list-style: none;
 }
 
-.faq__item {
+.faq-unit {
     background-color: #1D1C28;
 }
 
-.faq-item__question {
+.faq-unit__question {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
 }
 
-.faq-item__answer {
+.faq-unit__answer {
     font-size: 16px;
     line-height: 24px;
 }
 
-.faq-item__answer a {
+.faq-unit__answer a {
     color: #0265DC;
 }
 
@@ -253,17 +256,17 @@ a {
     line-height: 20px;
 }
 
-.footer-navigation__header {
+.footer__navigation-header {
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.footer-navigation__list {
+.footer__navigation-list {
     list-style: none;
 }
 
-.footer-navigation__link {
+.footer__navigation-link {
     color: #F5F8FB;
     font-size: 12px;
     line-height: 16px;
@@ -274,7 +277,7 @@ a {
     list-style: none;
 }
 
-.breadcrumbs-item__link {
+.breadcrumbs__item-link {
     color: #F5F8FB;
     font-size: 14px;
     line-height: 20px;
@@ -306,29 +309,29 @@ a {
     font-weight: 600;
 }
 
-.article-banner__title {
+.picture__title {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     color: #F8F7FF;
 }
 
-.article__header {
+.article-page__header {
     text-align: left;
 }
 
-.article__text {
+.article-page__text {
     font-size: 18px;
     line-height: 28px;
     color: #F8F7FF;
 }
 
-.article-list__item, .article-icon-list__item {
+.article-page__list-item, .icon-list__item {
     font-size: 18px;
     line-height: 28px;
 }
 
-.article__icon-list {
+.icon-list {
     list-style: none;
 }
 
@@ -350,15 +353,8 @@ a {
     font-style: normal;
 }
 
-.article__picture-list {
+.article-page__picture-list {
     list-style: none;
-}
-
-.picture-list-item__title {
-    color: #FFF;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
 }
 
 .article__link {
@@ -366,7 +362,7 @@ a {
     font-weight: 600;
 }
 
-.article-footer__title {
+.article-page__footer-title {
     font-size: 16px;
     line-height: 24px;
 }
