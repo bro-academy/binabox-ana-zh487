@@ -228,22 +228,22 @@ a {
     list-style: none;
 }
 
-.faq-unit {
+.faq__item {
     background-color: #1D1C28;
 }
 
-.faq-unit__question {
+.faq__question {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
 }
 
-.faq-unit__answer {
+.faq__answer {
     font-size: 16px;
     line-height: 24px;
 }
 
-.faq-unit__answer a {
+.faq__answer a {
     color: #0265DC;
 }
 
@@ -353,7 +353,7 @@ a {
     font-style: normal;
 }
 
-.article-page__picture-list {
+.picture-list {
     list-style: none;
 }
 
