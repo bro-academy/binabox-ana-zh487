@@ -4,6 +4,7 @@ body {
     color: #F8F7FF;
 }
 
+
 .page-header {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     letter-spacing: -0.5px;
@@ -82,6 +83,7 @@ a {
     line-height: 24px;
 }
 
+
 .header__navigation-link--active {
     border-bottom: 2px solid #0265DC;
 }
@@ -93,6 +95,7 @@ a {
     font-size: 14px;
     line-height: 20px;
 }
+
 
 .banner__header {
     text-align: left;
@@ -120,6 +123,7 @@ a {
     font-size: 16px;
     line-height: 24px;
 }
+
 
 .catalog__header {
     text-align: left;
@@ -251,6 +255,7 @@ a {
     background-color: #1A1925;
 }
 
+
 .footer__text {
     font-size: 14px;
     line-height: 20px;
@@ -261,6 +266,7 @@ a {
     line-height: 28px;
     font-weight: 500;
 }
+
 
 .footer__navigation-list {
     list-style: none;
@@ -361,6 +367,7 @@ a {
     color: #78BBFA;
     font-weight: 600;
 }
+
 
 .article-page__footer-title {
     font-size: 16px;
