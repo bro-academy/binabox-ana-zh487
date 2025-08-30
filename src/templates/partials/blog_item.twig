@@ -1,0 +1,13 @@
+<article class="blog-article">
+	<img src="{{ item.picture_src }}" alt="{{ item.picture_alt }}" class="blog-article__image">
+	<span class="blog-article__label item-label">{{ item.label }}</span>
+	<div class="article-info">
+		<img src="#" alt="people icon">
+		<span class="article-info__author">{{ item.author }}</span>
+		<img src="#" alt="calendar icon">
+		<time datetime="{{ item.date }}" class="article-info__date">{{ item.date_text}}</time>
+	</div>
+	<h3 class="blog-article__header">{{ item.header }}</h3>
+	<p class="blog-article__description">{{ item.description }}</p>
+	<a href="{{ item.link }}" class="blog-article__button button">Read more ></a>
+</article>
