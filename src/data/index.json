@@ -59,6 +59,318 @@
           "name": "Phantom Console"
         }
       ]
-      }
+    },
+    "blog": {
+      "header": "Our blog",
+      "list": [
+        {
+          "picture_src": "#",
+          "picture_alt": "Neural Drift",
+          "label": "NFT",
+          "author": "NOVA RIVEN",
+          "date": "2022-12-04",
+          "date_text": "04 Dec 2022",
+          "header": "Neural Drift",
+          "description": "I woke up inside the void. My body stayed in the past — only thoughts were allowed through the wires.",
+          "link": "#"
+        },
+        {
+          "picture_src": "#",
+          "picture_alt": "Deadframe",
+          "label": "DROP",
+          "author": "Kairo Null",
+          "date": "2022-12-06",
+          "date_text": "06 Dec 2022",
+          "header": "Deadframe",
+          "description": "He just stood there, waiting. Not for a person — for a signal. Like the memory of the network took shape.",
+          "link": "#"
+        },
+        {
+          "picture_src": "#",
+          "picture_alt": "Glitch Panther",
+          "label": "NFT",
+          "author": "Synthya Void",
+          "date": "2022-12-07",
+          "date_text": "07 Dec 2022",
+          "header": "Glitch Panther",
+          "description": "Cats always knew more than they showed. Especially the ones that vanish into code.",
+          "link": "#"
+        },
+        {
+          "picture_src": "#",
+          "picture_alt": "Primal",
+          "label": "RARE",
+          "author": "Dr. Wex Omega",
+          "date": "2022-12-08",
+          "date_text": "08 Dec 2022",
+          "header": "Primal",
+          "description": "We tried to resurrect the past. What we got was rage compressed into an algorithm.",
+          "link": "#"
+        },
+        {
+          "picture_src": "#",
+          "picture_alt": "White Protocol",
+          "label": "NFT",
+          "author": "Tony Nguyen",
+          "date": "2022-06-20",
+          "date_text": "20 Jun 2022",
+          "header": "White Protocol",
+          "description": "At first, it was just a signal — clean, white, hypnotic. We didn't know it was alive.",
+          "link": "#"
+        },
+        {
+          "picture_src": "#",
+          "picture_alt": "Retrocore",
+          "label": "ARTIFACT",
+          "author": "Echo Zero",
+          "date": "2022-12-09",
+          "date_text": "09 Dec 2022",
+          "header": "Retrocore",
+          "description": "This console comes from a game no one remembers how to play. But it's still powered on.",
+          "link": "#"
+        }
+      ],
+      "readmore_link": "#",
+      "readmore_text": "Read more"
+    },
+    "about": {
+      "header": "About us",
+      "description": "We craft digital artifacts for those who live between worlds.<br>Our space is built for creators, collectors, and the quietly obsessed.",
+      "list": [
+        {
+          "header": "Crystal Clear Quality",
+          "description": "Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean."
+        },
+        {
+          "header": "Curated Depth",
+          "description": "Not just big - meaningful. Each piece tells a story, every collection builds a universe."
+        },
+        {
+          "header": "Rare Source Access",
+          "description": "Early drops. Backstage peeks. Our members don't scroll — they unlock."
+        },
+        {
+          "header": "Living Network",
+          "description": "Our community isn't a list — it's a force.<br>Artists, rebels, dreamers."
+        }
+      ],
+      "readmore_link": "#",
+      "readmore_text": "Read more"
+    },
+    "team": {
+      "header": "Our team",
+      "list": [
+        {
+          "avatar_src": "#",
+          "name": "Nova Riven",
+          "role": "Creative Architect",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Facebook"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Instagram"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Echo Zero",
+          "role": "Tech Whisperer",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Instagram"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Kairo Null",
+          "role": "Lore Engineer",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Facebook"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Dr. Wex Omega",
+          "role": "Visual Disruptor",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Facebook"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Instagram"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Synthya Void",
+          "role": "UX Seer",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Mirlo Drift",
+          "role": "Community Catalyst",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Facebook"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Instagram"
+            }
+          ]
+        },
+        {
+          "avatar_src": "#",
+          "name": "Axon Rune",
+          "role": "Security Ghost",
+          "socials": [
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Twitter"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Facebook"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Telegram"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "LinkedIn"
+            },
+            {
+              "link": "#",
+              "logo_src": "#",
+              "logo_alt": "Instagram"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "header": "FAQs",
+      "list": [
+        {
+          "question": "What are the NFTs?",
+          "answer": "NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art, music, code, memes, memories — anything that can be owned and verified. No copies. No fakes. Just you and the chain."
+        },
+        {
+          "question": "How do i get NFTs?",
+          "answer": "..."
+        },
+        {
+          "question": "How can we buy your NFTs?",
+          "answer": "..."
+        },
+        {
+          "question": "Who are the team behind the project?",
+          "answer": "..."
+        }
+      ]
     }
+  }
 }
