@@ -1,5 +1,105 @@
 {
   "common": {
-    "siteTitle": "Bro Starter"
+    "siteTitle": "Binabox",
+    "logo_src": "#",
+    "logo_alt": "Binabox logo",
+    "header": {
+      "navigation": [
+        {
+          "text": "Home",
+          "link": "index.html"
+        },
+        {
+          "text": "Blog",
+          "link": "blog.html"
+        },
+        {
+          "text": "Catalog",
+          "link": "catalog.html"
+        },
+        {
+          "text": "Contact Us",
+          "link": "contacts.html"
+        }
+      ],
+      "controls": {
+        "button_discord_text": "Discord",
+        "button_discord_link": "discord.com",
+        "button_login_text": "Log in"
+      }
+    },
+    "footer": {
+      "slogan": "We are the best way to check the rarity of NFT collection.",
+      "navigation": {
+        "header": "Navigation",
+        "list": [
+          {
+            "text": "Home",
+            "link": "index.html"
+          },
+          {
+            "text": "Blog",
+            "link": "blog.html"
+          },
+          {
+            "text": "Catalog",
+            "link": "catalog.html"
+          },
+          {
+            "text": "Contact Us",
+            "link": "contacts.html"
+          },
+          {
+            "text": "Terms Conditions",
+            "link": "terms-conditions.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "link": "privacy-policy.html"
+          },
+          {
+            "text": "Whitepaper",
+            "link": "whitepaper.html"
+          },
+          {
+            "text": "Help Center",
+            "link": "help-center.html"
+          }
+        ]
+      },
+      "copyright_text": "BINABOX 2025 - ALL rights reserved",
+      "socials": [
+        {
+          "link": "x.com",
+          "logo": "#",
+          "alt": "Twitter"
+        },
+        {
+          "link": "facebook.com",
+          "logo": "#",
+          "alt": "Facebook"
+        },
+        {
+          "link": "telegram.org",
+          "logo": "#",
+          "alt": "Telegram"
+        },
+        {
+          "link": "youtube.com",
+          "logo": "#",
+          "alt": "Youtube"
+        },
+        {
+          "link": "tiktok.com",
+          "logo": "#",
+          "alt": "TikTok"
+        },
+        {
+          "link": "discord.com",
+          "logo": "#",
+          "alt": "Discord"
+        }
+      ]
+    }
   }
 }
