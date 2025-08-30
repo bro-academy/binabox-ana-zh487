@@ -1,0 +1,12 @@
+<article class="person-card">
+	<img src="{{ item.avatar_src }}" alt="{{ item.name }}" class="person-card__avatar">
+	<h3 class="person-card__name">{{ item.name }}</h3>
+	<p class="person-card__role">{{ item.role }}</p>
+	<ul class="socials">
+		{% for unit in item.socials %}
+			<li class="socials__item">
+				<a href="{{ unit.link }}" class="socials__item-link"><img src="{{ unit.logo_src }}" class="socials__item-icon" alt="{{ unit.logo_alt }}"></a>
+			</li>
+		{% endfor %}
+	</ul>
+</article>
