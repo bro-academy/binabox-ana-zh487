@@ -1,0 +1,10 @@
+<section class="page-title">
+	<h1 class="page-title__header page-header">{{ blog.header }}</h1>
+	<nav class="breadcrumbs">
+		<ul class="breadcrumbs__list">
+        {% for item in blog.breadcrumbs %}
+            {% include '/breadcrumbs.twig' %}
+        {% endfor %}
+        </ul>
+	</nav>
+</section>
