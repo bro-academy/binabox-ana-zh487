@@ -1,6 +1,10 @@
 <article class="product-item">
 	<img src="{{ item.picture_src }}" alt="{{ item.picture_alt }}" class="product-item__picture">
-	<span class="product-item__label item-label">{{ item.label }}</span>
+	<span class="product-item__label item-label
+	{% if item.label == "Sold out" %}
+	item-label--accent
+	{% endif %}
+	">{{ item.label }}</span>
 	<p class="product-item__price">{{ item.price}}</p>
 	<h3 class="product-item__name">{{ item.name}}</h3>
 </article>
