@@ -14,7 +14,8 @@
             },
             {
                 "link": "#",
-                "text": "The Basilisks NFT"
+                "text": "The Basilisks NFT",
+                "active": true
             }
         ],
         "aside": {
