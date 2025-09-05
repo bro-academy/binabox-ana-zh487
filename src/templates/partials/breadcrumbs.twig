@@ -1,7 +1,7 @@
 <li class="breadcrumbs__item">
-	<a href="{{ item.link }}" class="breadcrumbs__item-link
-			{% if item.active %}
-			breadcrumbs__item-link--active
-			{% endif %}
-			">{{ item.text }}</a>
+	{% if loop.last %}
+		<span class="breadcrumbs__item-link breadcrumbs__item-link--active">{{ item.text }}</span>
+	{% else %}
+		<a href="{{ item.link }}" class="breadcrumbs__item-link">{{ item.text }}</a>
+	{% endif %}
 </li>
