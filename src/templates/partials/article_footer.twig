@@ -1,0 +1,14 @@
+<footer class="article-page__footer">
+	<div class="article-page__footer-unit">
+		<span class="article-page__footer-title">{{ blog.article.footer.tags.header }}</span>
+		{% for item in blog.article.footer.tags.list %}
+			<a href="{{ item.link }}" class="article-page__footer-button button button--small">{{ item.text }}</a>
+		{% endfor %}
+	</div>
+	<div class="article-page__footer-unit">
+		<span class="article-page__footer-title">{{ blog.article.footer.share.header }}</span>
+		{% for item in blog.article.footer.share.list %}
+			<a href="{{ item.link }}" class="article-page__footer-button button button--small"><img src="{{ item.logo_src }}" alt="{{ item.logo_alt }}"></a>
+		{% endfor %}
+	</div>
+</footer>

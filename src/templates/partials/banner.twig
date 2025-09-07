@@ -1,0 +1,17 @@
+<section class="banner">
+	<h1 class="banner__header page-header">{{ index.banner.header_text_1 }}
+		<span class="banner__header-highlighted">{{ index.banner.header_text_highlighted }}</span>
+		{{ index.banner.header_text_2 }}</h1>
+	<p class="banner__text">{{ index.banner.promo_text }}</p>
+	<dl class="banner__stats">
+    {% for item in index.banner.stats %}
+        <dt class="banner__stats-title">{{ item.title}}</dt>
+		<dd class="banner__stats-description">{{ item.description}}</dd>
+    {% endfor %}
+	</dl>
+	<div class="banner__controls">
+		<button class="banner__controls-button button button--large button--primary">Connect Wallet</button>
+		<button class="banner__controls-button button button--large">Whitelist now</button>
+	</div>
+	<img src="{{ index.banner.picture_src}}" alt="{{ index.banner.picture_alt }}" class="banner__picture">
+</section>

@@ -4,27 +4,68 @@ body {
     color: #F8F7FF;
 }
 
-h1, h2, h3 {
+
+.page-header {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     letter-spacing: -0.5px;
     font-weight: 400;
-}
-
-h1 {
     font-size: 52px;
     line-height: 62px;
     text-align: center;
 }
 
-h2 {
+.section-header {
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 400;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
 }
 
-h3 {
+.sub-header {
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 400;
     font-size: 28px;
     line-height: 36px;
+}
+
+.button {
+    border: 2px solid #D0D7FB2B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #F5F8FB;
+}
+
+.button--large {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.button--small {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button--primary {
+    border: 2px solid #0265DC;
+    background-color: #0265DC;
+}
+
+.item-label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #0265DC;
+    background-color: #F5F8FB;
+}
+
+.item-label--accent {
+    background-color: #EA3829;
+    color: #F5F8FB;
 }
 
 a {
@@ -32,17 +73,22 @@ a {
     text-decoration: none;
 }
 
-.header-nav-list {
+.header__navigation-list {
     list-style: none;
 }
 
-.header-nav-link {
+.header__navigation-link {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
 
-.header-search {
+
+.header__navigation-link--active {
+    border-bottom: 2px solid #0265DC;
+}
+
+.header__controls-search {
     color: #E7EEF7A8;
     border: 2px solid #D0D7FB2B;
     background-color: #0D0D15;
@@ -50,38 +96,22 @@ a {
     line-height: 20px;
 }
 
-.header-a {
-    font-size: 18px;
-    line-height: 28px;
-    border: 2px solid #D0D7FB2B;
-    font-weight: 600;
-    color: #F5F8FB;
-}
 
-.header-btn {
-    font-size: 18px;
-    line-height: 28px;
-    border: none;
-    background: #0265DC;
-    color: #F5F8FB;
-    font-weight: 600;
-}
-
-.banner-header {
+.banner__header {
     text-align: left;
 }
 
-.banner-header-highlighted {
+.banner__header-highlighted {
     color: #0265DC;
 }
 
-.banner-text {
+.banner__text {
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.banner-numbers-title {
+.banner__stats-title {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     font-weight: 400;
     font-size: 52px;
@@ -89,84 +119,34 @@ a {
     letter-spacing: -0.5px;
 }
 
-.banner-numbers-description {
+.banner__stats-description {
     font-size: 16px;
     line-height: 24px;
 }
 
-.banner-btn button {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #F5F8FB;
+
+.catalog__header {
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
 }
 
-.banner-main-btn {
-    background-color: #0265DC;
-    border: 2px solid #0265DC;
-}
-
-.banner-sub-btn {
-    background-color: #0D0D15;;
-    border: 2px solid #D0D7FB2B;
-}
-
-.catalog-list {
+.catalog__list {
     list-style: none;
 }
 
-.catalog-title {
-    font-size: 24px;
-    line-height: 32px;
-    text-align: left;
-}
-
-.catalog-btn-all {
-    font-size: 18px;
-    line-height: 28px;
-    border: 2px solid #D0D7FB2B;
-    font-weight: 600;
-}
-
-.catalog-btn-prev {
-    border: 2px solid #D0D7FB2B;
-    background-color: #0D0D15;
-    color: #F5F8FB;
-}
-
-.catalog-btn-next {
-    border: 2px solid #0265DC;
-    background-color: #0265DC;
-}
-
-.catalog-item {
+.catalog__item {
     background-color: #1D1C28;
 }
 
-.catalog-item-label {
-    background-color: #F5F8FB;
-    color: #0265DC;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-}
-
-.catalog-item-speclabel {
-    background-color: #EA3829;
-    color: #F5F8FB;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-}
-
-.catalog-item-price {
+.product-item__price {
     font-family: 'Bakbak one', 'Verdana', sans-serif;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
 }
 
-.catalog-item-name {
+.product-item__name {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 500;   
     font-size: 20px;
@@ -174,123 +154,100 @@ a {
     color: #EFF5FAD1;
 }
 
-.blog-list {
+.blog__list {
     list-style: none;
 }
 
-.blog-item {
+.blog-article {
     background-color: #1D1C28;
 }
 
-.blog-item-label {
-    background-color: #F5F8FB;
-    color: #0265DC;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-}
-
-.blog-item-subinfo {
+.article-info__author, .article-info__date {
     color: #EFF5FAD1;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
-.blog-item-header {
+.blog-article__header {
     font-size: 36px;
     line-height: 48px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 400;
 }
 
-.blog-item-description {
+.blog-article__description {
     font-size: 16px;
     line-height: 24px;
 }
 
-.blog-item-link {
-    border: 2px solid #D0D7FB2B;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-}
-
-.blog-link {
-    border: 2px solid #D0D7FB2B;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-}
-
-.about-text {
+.about__description {
     text-align: center;
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.about-item {
+.counted-list__item {
     background-color: #1A1925;
 }
 
-.about-item-header {
+.counted-list__header {
     font-size: 24px;
     line-height: 32px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
 }
 
-.about-item-description {
+.counted-list__description {
     color: #EFF5FAD1;
     font-size: 18px;
     line-height: 28px;
 }
 
-.about-link {
-    border: 2px solid #D0D7FB2B;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-}
-
-.team-list {
+.team__list {
     list-style: none;
 }
 
-.team-item {
+.person-card {
     background-color: #1D1C28;
-}
-
-.team-name {
-    font-size: 24px;
-    line-height: 32px;
     text-align: center;
 }
 
-.team-socials {
-    list-style: none;
+.person-card__name {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
 }
 
-.team-description {
+.person-card__role {
     color: #EFF5FAD1;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
 }
 
-.faq-item {
+.socials {
+    list-style: none;
+}
+
+.faq__item {
     background-color: #1D1C28;
 }
 
-.faq-question {
+.faq__question {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
 }
 
-.faq-answer {
+.faq__answer {
     font-size: 16px;
     line-height: 24px;
 }
 
-.faq-answer a {
+.faq__answer a {
     color: #0265DC;
 }
 
@@ -298,96 +255,84 @@ a {
     background-color: #1A1925;
 }
 
-.footer-nav-header {
+
+.footer__text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer__navigation-header {
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
 }
 
-.footer-text {
-    font-size: 14px;
-    line-height: 20px;
-}
 
-.footer-nav-list {
+.footer__navigation-list {
     list-style: none;
 }
 
-.footer-nav-link {
+.footer__navigation-link {
     color: #F5F8FB;
     font-size: 12px;
     line-height: 16px;
     font-weight: 600;
 }
 
-.footer-socials {
+.breadcrumbs__list {
     list-style: none;
 }
 
-.breadcrumbs-link {
+.breadcrumbs__item-link {
     color: #F5F8FB;
     font-size: 14px;
     line-height: 20px;
+    font-weight: 600;
 }
 
-.breadcrumbs-active {
+.breadcrumbs__item-link--active {
     color: #E7EEF7A8;
 }
 
-aside section {
+.sidebar section {
     background-color: #1D1C28;
 }
 
-.categories-header, .tags-header {
+.sidebar-categories__header, .sidebar-tags__header {
     font-size: 24px;
     line-height: 32px;
+    font-family: 'Bakbak one', 'Verdana', sans-serif;
+    font-weight: 400;
 }
 
-.categories-link {
+.sidebar-categories__list, .sidebar-tags__list {
+    list-style: none;
+}
+
+.sidebar-categories__link {
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
-.tags-link {
-    font-size: 14px;
-    line-height: 20px;
-    border: 2px solid #D0D7FB2B;
-    font-weight: 600;
-}
-
-.article-banner-title {
+.picture__title {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     color: #F8F7FF;
 }
 
-.article-header {
+.article-page__header {
     text-align: left;
 }
 
-.article-category {
-    background-color: #0265DC;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-}
-
-.article-subinfo {
-    color: #EFF5FAD1;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-}
-
-.blog-article p {
+.article-page__text {
     font-size: 18px;
     line-height: 28px;
     color: #F8F7FF;
 }
 
-.blog-article ul li {
+.article-page__list-item, .icon-list__item {
     font-size: 18px;
     line-height: 28px;
 }
@@ -396,18 +341,18 @@ aside section {
     list-style: none;
 }
 
-.blog-article blockquote {
+.blockquote {
     background-color: #002754;
     border-radius: 16px;
 }
 
-.blog-article blockquote p {
+.blockquote__text {
     font-size: 28px;
     line-height: 36px;
     font-family: 'Bakbak one', 'Verdana', sans-serif;
 }
 
-.blog-article blockquote cite {
+.blockquote__cite {
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
@@ -418,31 +363,13 @@ aside section {
     list-style: none;
 }
 
-.picture-item-title {
-    color: #FFF;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-}
-
-.article-link {
+.article__link {
     color: #78BBFA;
     font-weight: 600;
 }
 
-.blog-article-footer span {
+
+.article-page__footer-title {
     font-size: 16px;
     line-height: 24px;
-}
-
-.blog-article-tag {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #F5F8FB;
-    border: 2px solid #D0D7FB2B;
-}
-
-.blog-article-share {
-    border: 2px solid #D0D7FB2B;
 }
