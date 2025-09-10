@@ -1,0 +1,25 @@
+@use '../base/variables' as *;
+
+.header {
+    &__navigation-list {
+        list-style: none;
+    }
+
+    &__navigation-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__navigation-link--active {
+        border-bottom: 2px solid $accent-color;
+    }
+
+    &__controls-search {
+        color: $placeholder-color;
+        border: 2px solid $border-color;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

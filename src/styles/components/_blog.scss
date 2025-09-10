@@ -1,0 +1,9 @@
+@use '../base/variables' as *;
+
+.blog {
+
+    &__list {
+        list-style: none;
+    }
+
+}

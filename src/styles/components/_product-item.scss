@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.product-item {
+
+    &__price {
+        font-family: $font-secondary;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+    }
+
+    &__name {
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: $text-color-secondary;
+    }
+}

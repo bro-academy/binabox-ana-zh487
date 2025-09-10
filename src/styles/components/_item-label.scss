@@ -1,0 +1,14 @@
+@use '../base/variables' as *;
+
+.item-label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: $accent-color;
+    background-color: $main-color;
+}
+
+.item-label--accent {
+    background-color: $negative-color;
+    color: $main-color;
+}

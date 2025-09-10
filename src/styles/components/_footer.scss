@@ -1,0 +1,27 @@
+@use '../base/variables' as *;
+
+.footer {
+    background-color: $card-bg-color-secondary;
+
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &__navigation-header {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    &__navigation-list {
+        list-style: none;
+    }
+
+    &__navigation-link {
+        color: $main-color;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+    }
+}

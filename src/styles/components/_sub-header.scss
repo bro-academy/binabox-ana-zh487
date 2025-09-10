@@ -1,0 +1,9 @@
+@use '../base/variables' as *;
+
+.sub-header {
+    font-family: $font-secondary;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}

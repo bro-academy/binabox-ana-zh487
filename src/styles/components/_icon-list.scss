@@ -1,0 +1,10 @@
+@use '../base/variables' as *;
+
+.icon-list {
+    list-style: none;
+
+    &__item {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

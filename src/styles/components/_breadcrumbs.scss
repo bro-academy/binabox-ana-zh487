@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.breadcrumbs {
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item-link {
+        color: $main-color;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    &__item-link--active {
+        color: $placeholder-color;
+    }
+}

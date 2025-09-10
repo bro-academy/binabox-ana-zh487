@@ -1,0 +1,30 @@
+@use '../base/variables' as *;
+
+.banner {
+    &__header {
+        text-align: left;
+    }
+
+    &__header-highlighted {
+        color: $accent-color;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+
+    &__stats-title {
+        font-family: $font-secondary;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        letter-spacing: -0.5px;
+    }
+
+    &__stats-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
