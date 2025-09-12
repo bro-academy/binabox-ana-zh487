@@ -7,10 +7,10 @@
     }
 
     &__item-link {
-        color: $main-color;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
+        color: $color-primary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
     }
 
     &__item-link--active {

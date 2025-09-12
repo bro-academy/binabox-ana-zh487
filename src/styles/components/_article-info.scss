@@ -2,16 +2,16 @@
 
 .article-info {
     &__author {
-        color: $text-color-secondary;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
+        color: $color-secondary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
     }
 
     &__date {
-        color: $text-color-secondary;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
+        color: $color-secondary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
     }
 }

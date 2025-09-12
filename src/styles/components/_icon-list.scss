@@ -4,7 +4,7 @@
     list-style: none;
 
     &__item {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: $text-fs-m;
+        line-height: $lh-m;
     }
 }

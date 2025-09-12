@@ -6,24 +6,24 @@
     }
 
     &__text {
-        font-size: 18px;
-        line-height: 28px;
-        color: $text-color;
+        font-size: $text-fs-m;
+        line-height: $lh-m;
+        color: $color-thirdly;
     }
 
     &__list-item {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: $text-fs-m;
+        line-height: $lh-m;
     }
 
     &__link {
-        color: $article-link-color;
-        font-weight: 600;
+        color: $link-color;
+        font-weight: $fw-l;
     }
 
     &__footer-title {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
     }
 
 }

@@ -6,9 +6,9 @@
     }
 
     &__navigation-link {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
+        font-weight: $fw-l;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
     }
 
     &__navigation-link--active {
@@ -17,9 +17,9 @@
 
     &__controls-search {
         color: $placeholder-color;
-        border: 2px solid $border-color;
+        border: 2px solid $seporator-color;
         background-color: transparent;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
     }
 }

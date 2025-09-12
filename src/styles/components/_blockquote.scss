@@ -5,15 +5,15 @@
     border-radius: 16px;
 
     &__text {
-        font-size: 28px;
-        line-height: 36px;
-        font-family: $font-secondary;
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
+        font-family: $ff-secondary;
     }
 
     &__cite {
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
         font-style: normal;
     }
 }

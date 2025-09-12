@@ -3,8 +3,8 @@
 .about {
     &__description {
         text-align: center;
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 500;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        font-weight: $fw-m;
     }
 }

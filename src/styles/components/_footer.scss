@@ -4,14 +4,14 @@
     background-color: $card-bg-color-secondary;
 
     &__text {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
     }
 
     &__navigation-header {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 500;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        font-weight: $fw-m;
     }
 
     &__navigation-list {
@@ -19,9 +19,9 @@
     }
 
     &__navigation-link {
-        color: $main-color;
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 600;
+        color: $color-primary;
+        font-size: $text-fs-xxs;
+        line-height: $lh-xxs;
+        font-weight: $fw-l;
     }
 }

@@ -4,15 +4,15 @@
     background-color: $card-bg-color;
 
     &__header {
-        font-size: 36px;
-        line-height: 48px;
-        font-family: $font-secondary;
-        letter-spacing: -0.5px;
-        font-weight: 400;
+        font-size: $header-fs-s;
+        line-height: $lh-xxl;
+        font-family: $ff-secondary;
+        letter-spacing: $ls-s;
+        font-weight: $fw-s;
     }
 
     &__description {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
     }
 }

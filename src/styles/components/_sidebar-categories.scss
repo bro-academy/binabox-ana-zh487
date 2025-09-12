@@ -5,10 +5,10 @@
     background-color: $card-bg-color;
 
     &__header {
-        font-size: 24px;
-        line-height: 32px;
-        font-family: $font-secondary;
-        font-weight: 400;
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+        font-weight: $fw-s;
     }
 
     &__list {
@@ -16,8 +16,8 @@
     }
 
     &__link {
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 600;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
     }
 }

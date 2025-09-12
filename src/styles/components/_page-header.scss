@@ -1,10 +1,10 @@
 @use '../base/variables' as *;
 
 .page-header {
-    font-family: $font-secondary;
-    letter-spacing: -0.5px;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 62px;
+    font-family: $ff-secondary;
+    letter-spacing: $ls-s;
+    font-weight: $fw-s;
+    font-size: $header-fs-m;
+    line-height: $lh-xxxl;
     text-align: center;
 }

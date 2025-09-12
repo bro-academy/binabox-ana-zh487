@@ -1,22 +1,22 @@
 @use '../base/variables' as *;
 
 .button {
-    border: 2px solid $border-color;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
+    border: 2px solid $seporator-color;
+    font-size: $text-fs-s;
+    line-height: $lh-s;
+    font-weight: $fw-l;
     background-color: transparent;
-    color: $main-color;
+    color: $color-primary;
 }
 
 .button--large {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: $text-fs-m;
+    line-height: $lh-m;
 }
 
 .button--small {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: $text-fs-xs;
+    line-height: $lh-xs;
 }
 
 .button--primary {

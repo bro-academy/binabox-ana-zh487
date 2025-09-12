@@ -1,12 +1,12 @@
 @use 'variables' as *;
 
 body {
-    font-family: $font-primary;
+    font-family: $ff-primary;
     background-color: $body-bg-color;
-    color: $main-color;
+    color: $color-primary;
 }
 
 a {
-    color: $main-color;
+    color: $color-primary;
     text-decoration: none;
 }

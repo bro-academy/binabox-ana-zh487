@@ -3,17 +3,17 @@
 .product-item {
 
     &__price {
-        font-family: $font-secondary;
-        font-size: 36px;
-        line-height: 48px;
-        letter-spacing: -0.5px;
+        font-family: $ff-secondary;
+        font-size: $header-fs-s;
+        line-height: $lh-xxl;
+        letter-spacing: $ls-s;
     }
 
     &__name {
-        font-family: $font-primary;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 28px;
-        color: $text-color-secondary;
+        font-family: $ff-primary;
+        font-weight: $fw-m;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        color: $color-secondary;
     }
 }

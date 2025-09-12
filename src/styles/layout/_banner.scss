@@ -10,21 +10,21 @@
     }
 
     &__text {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 500;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        font-weight: $fw-m;
     }
 
     &__stats-title {
-        font-family: $font-secondary;
-        font-weight: 400;
-        font-size: 52px;
-        line-height: 62px;
-        letter-spacing: -0.5px;
+        font-family: $ff-secondary;
+        font-weight: $fw-s;
+        font-size: $header-fs-m;
+        line-height: $lh-xxxl;
+        letter-spacing: $ls-s;
     }
 
     &__stats-description {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
     }
 }

@@ -2,9 +2,9 @@
 
 .picture {
     &__title {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 500;
-        color: $text-color;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+        font-weight: $fw-m;
+        color: $color-thirdly;
     }
 }
