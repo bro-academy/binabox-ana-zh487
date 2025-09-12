@@ -2,13 +2,13 @@
 
 
 @mixin mixin-button-color($btn-bg-color) {
+    background-color: $btn-bg-color;
+    
     @if $btn-bg-color == transparent {
         border: 2px solid $seporator-color;
-        background-color: transparent;
     }
     @else {
         border: 2px solid $btn-bg-color;
-        background-color: $btn-bg-color;
     }
 }
 
