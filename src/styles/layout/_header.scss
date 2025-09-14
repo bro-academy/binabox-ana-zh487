@@ -1,9 +1,6 @@
 @use '../base/variables' as *;
 
 .header {
-    &__navigation-list {
-        list-style: none;
-    }
 
     &__navigation-link {
         font-weight: $fw-l;
@@ -17,7 +14,7 @@
 
     &__controls-search {
         color: $placeholder-color;
-        border: 2px solid $seporator-color;
+        border: 2px solid $separator-color;
         background-color: transparent;
         font-size: $text-fs-xs;
         line-height: $lh-xs;

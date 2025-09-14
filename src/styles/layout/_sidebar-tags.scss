@@ -1,6 +1,6 @@
 @use '../base/variables' as *;
 
-.sidebar-categories {
+.sidebar-tags {
 
     background-color: $card-bg-color;
 
@@ -9,10 +9,6 @@
         line-height: $lh-l;
         font-family: $ff-secondary;
         font-weight: $fw-s;
-    }
-
-    &__list {
-        list-style: none;
     }
 
     &__link {
