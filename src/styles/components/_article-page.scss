@@ -11,6 +11,10 @@
         color: $color-thirdly;
     }
 
+    &__list {
+        list-style: disc;
+    }
+
     &__list-item {
         font-size: $text-fs-m;
         line-height: $lh-m;

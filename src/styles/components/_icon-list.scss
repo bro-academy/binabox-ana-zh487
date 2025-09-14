@@ -1,7 +1,6 @@
 @use '../base/variables' as *;
 
 .icon-list {
-    list-style: none;
 
     &__item {
         font-size: $text-fs-m;

@@ -1,0 +1,10 @@
+@use '../base/variables' as *;
+
+.about {
+    &__description {
+        text-align: center;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        font-weight: $fw-m;
+    }
+}
