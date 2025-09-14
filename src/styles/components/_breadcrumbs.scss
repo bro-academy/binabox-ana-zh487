@@ -2,18 +2,14 @@
 
 .breadcrumbs {
 
-    &__list {
-        list-style: none;
-    }
-
     &__item-link {
         color: $color-primary;
         font-size: $text-fs-xs;
         line-height: $lh-xs;
         font-weight: $fw-l;
-    }
 
-    &__item-link--active {
-        color: $placeholder-color;
+        &--active {
+            color: $placeholder-color;
+        }
     }
 }
