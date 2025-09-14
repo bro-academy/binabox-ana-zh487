@@ -1,20 +1,25 @@
 @use '../base/variables' as *;
-@use '../base/mixins' as *;
 
 .button {
-    color: $color-primary;
+    border: 2px solid $separator-color;
+    font-size: $text-fs-s;
+    line-height: $lh-s;
     font-weight: $fw-l;
-    @include mixin-button-color(transparent);
+    background-color: transparent;
+    color: $color-primary;
 }
 
 .button--large {
-    @include mixin-button-size($text-fs-m, $lh-m);
+    font-size: $text-fs-m;
+    line-height: $lh-m;
 }
 
 .button--small {
-    @include mixin-button-size($text-fs-xs, $lh-xs);
+    font-size: $text-fs-xs;
+    line-height: $lh-xs;
 }
 
 .button--primary {
-    @include mixin-button-color($accent-color);
+    border: 2px solid $accent-color;
+    background-color: $accent-color;
 }

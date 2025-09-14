@@ -12,11 +12,19 @@ $blockquote-bg-color: #002754;
 
 
 /* additional colors */
-$seporator-color: #D0D7FB2B;
+$separator-color: #D0D7FB2B;
+$separator-color-secondary: #BFC5EE1F;
 $placeholder-color: #E7EEF7A8;
 $accent-color: #0265DC;
 $negative-color: #EA3829;
 $link-color: #78BBFA;
+
+
+/* state colors */
+$accent-color-focus: #3892F3;
+$accent-color-active: #0054B6;
+$separator-color-disabled: #E5ECFB5C;
+$background-color-disabled: #D0D7FB2B;
 
 
 /* font-family */
