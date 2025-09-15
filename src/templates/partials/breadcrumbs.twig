@@ -1,0 +1,13 @@
+<nav class="breadcrumbs">
+	<ul class="breadcrumbs__list">
+		{% for item in breadcrumbs_array %}
+			<li class="breadcrumbs__item">
+				{% if loop.last %}
+					<span class="breadcrumbs__item-link breadcrumbs__item-link--active">{{ item.text }}</span>
+				{% else %}
+					<a href="{{ item.link }}" class="breadcrumbs__item-link">{{ item.text }}</a>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+</nav>
