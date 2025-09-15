@@ -20,8 +20,9 @@
 @use '../components/banner';
 @use '../components/catalog';
 @use '../components/article-page';
+@use '../components/sidebar-categories';
+@use '../components/sidebar-tags';
+
 
 @use '../layout/footer';
 @use '../layout/header';
-@use '../layout/sidebar-categories';
-@use '../layout/sidebar-tags';

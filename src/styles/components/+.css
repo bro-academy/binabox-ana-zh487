@@ -16,4 +16,6 @@
 @import "./_picture.scss";
 @import "./_product-item.scss";
 @import "./_section-header.scss";
+@import "./_sidebar-categories.scss";
+@import "./_sidebar-tags.scss";
 @import "./_sub-header.scss";
