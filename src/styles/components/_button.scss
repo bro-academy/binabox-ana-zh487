@@ -1,25 +1,60 @@
 @use '../base/variables' as *;
 
 .button {
-    border: 2px solid $separator-color;
+    border: $border-width-s solid $separator-color;
     font-size: $text-fs-s;
     line-height: $lh-s;
     font-weight: $fw-l;
     background-color: transparent;
     color: $color-primary;
-}
 
-.button--large {
-    font-size: $text-fs-m;
-    line-height: $lh-m;
-}
+    &:hover,
+    &:active {
+        border: $border-width-s solid $separator-color-secondary;
+        background-color: $separator-color-secondary;
+    }
 
-.button--small {
-    font-size: $text-fs-xs;
-    line-height: $lh-xs;
+    &:focus {
+        border: $border-width-m solid $accent-color-focus;
+        background-color: $separator-color-secondary;
+    }
+
+    &:disabled {
+        border: $border-width-s solid $separator-color-disabled;
+        background-color: $background-color-disabled;
+    }
 }
 
 .button--primary {
-    border: 2px solid $accent-color;
+    border: $border-width-s solid transparent;
     background-color: $accent-color;
+
+    &:hover {
+        background-color: $accent-color-focus;
+    }
+
+    &:focus {
+        border: $border-width-m solid $accent-color-focus;
+        background-color: $accent-color;
+    }
+
+    &:active {
+        border: $border-width-s solid transparent;
+        background-color: $accent-color-active;
+    }
+
+    &:disabled {
+        background-color: $background-color-disabled;
+        color: $separator-color-disabled;
+    }
+
+    .button--large {
+        font-size: $text-fs-m;
+        line-height: $lh-m;
+    }
+
+    .button--small {
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+    }
 }
