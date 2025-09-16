@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+body {
+    font-family: $ff-primary;
+    background-color: $body-bg-color;
+    color: $color-primary;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+@use '../base/variables' as *;
+
+.blog-article {
+    background-color: $card-bg-color;
+
+    &__header {
+        font-size: $header-fs-s;
+        line-height: $lh-xxl;
+        font-family: $ff-secondary;
+        letter-spacing: $ls-s;
+        font-weight: $fw-s;
+    }
+
+    &__description {
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+    }
+}

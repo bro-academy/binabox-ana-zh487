@@ -1,0 +1,10 @@
+@use '../base/variables' as *;
+
+.section-header {
+    font-family: $ff-secondary;
+    letter-spacing: $ls-s;
+    font-weight: $fw-s;
+    font-size: $header-fs-s;
+    line-height: $lh-xxl;
+    text-align: center;
+}

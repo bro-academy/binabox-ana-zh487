@@ -1,0 +1,17 @@
+@use '../base/variables' as *;
+
+.article-info {
+    &__author {
+        color: $color-secondary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
+    }
+
+    &__date {
+        color: $color-secondary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
+    }
+}

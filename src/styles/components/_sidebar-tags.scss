@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.sidebar-tags {
+
+    background-color: $card-bg-color;
+
+    &__header {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+        font-weight: $fw-s;
+    }
+
+    &__link {
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
+    }
+}

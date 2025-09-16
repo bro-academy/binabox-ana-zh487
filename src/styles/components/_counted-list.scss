@@ -1,0 +1,23 @@
+@use '../base/variables' as *;
+
+.counted-list {
+
+    list-style: auto;
+
+    &__item {
+        background-color: $card-bg-color-secondary;
+    }
+
+    &__header {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+        font-weight: $fw-s;
+    }
+
+    &__description {
+        color: $color-secondary;
+        font-size: $text-fs-m;
+        line-height: $lh-m;
+    }
+}

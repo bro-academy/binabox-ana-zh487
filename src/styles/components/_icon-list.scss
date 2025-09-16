@@ -1,0 +1,9 @@
+@use '../base/variables' as *;
+
+.icon-list {
+
+    &__item {
+        font-size: $text-fs-m;
+        line-height: $lh-m;
+    }
+}

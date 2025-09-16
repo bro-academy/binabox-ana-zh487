@@ -1,0 +1,13 @@
+@use '../base/variables' as *;
+
+.catalog {
+    &__header {
+        text-align: left;
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+    }
+
+    &__item {
+        background-color: $card-bg-color;
+    }
+}

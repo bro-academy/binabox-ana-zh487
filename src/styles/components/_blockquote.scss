@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.blockquote {
+    background-color: $blockquote-bg-color;
+    border-radius: 16px;
+
+    &__text {
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
+        font-family: $ff-secondary;
+    }
+
+    &__cite {
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
+        font-style: normal;
+    }
+}

@@ -1,0 +1,15 @@
+@use '../base/variables' as *;
+
+.breadcrumbs {
+
+    &__item-link {
+        color: $color-primary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        font-weight: $fw-l;
+
+        &--active {
+            color: $placeholder-color;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use '../base/variables' as *;
+
+.picture {
+    &__title {
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+        font-weight: $fw-m;
+        color: $color-thirdly;
+    }
+}

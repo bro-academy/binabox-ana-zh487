@@ -1,0 +1,25 @@
+@use '../base/variables' as *;
+
+.faq {
+    &__item {
+        background-color: $card-bg-color;
+    }
+
+    &__question {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+    }
+
+    &__answer {
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+    }
+
+    &__answer {
+        a {
+            color: $accent-color;
+        }
+    }
+
+}

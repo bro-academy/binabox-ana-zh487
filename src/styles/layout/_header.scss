@@ -1,0 +1,22 @@
+@use '../base/variables' as *;
+
+.header {
+
+    &__navigation-link {
+        font-weight: $fw-l;
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+    }
+
+    &__navigation-link--active {
+        border-bottom: 2px solid $accent-color;
+    }
+
+    &__controls-search {
+        color: $placeholder-color;
+        border: 2px solid $separator-color;
+        background-color: transparent;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+    }
+}

@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.person-card {
+    background-color: $card-bg-color;
+    text-align: center;
+
+    &__name {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+        font-weight: $fw-s;
+    }
+
+    &__role {
+        color: $color-secondary;
+        font-size: $text-fs-m;
+        line-height: $lh-m;
+    }
+}
