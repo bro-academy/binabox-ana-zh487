@@ -4,7 +4,7 @@
 	<ul class="sidebar-categories__list">
 		{% for item in blog.aside.categories.list %}
 			<li class="sidebar-categories__item">
-				<a href="{{ item.link }}" class="sidebar-categories__link">{{ item.text }}
+				<a href="{{ item.link }}" class="sidebar-categories__link link">{{ item.text }}
 					({{ item.count }})</a>
 			</li>
 		{% endfor %}

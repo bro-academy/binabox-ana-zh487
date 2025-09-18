@@ -3,6 +3,7 @@
 .header {
 
     &__navigation-link {
+        color: $color-primary;
         font-weight: $fw-l;
         font-size: $text-fs-s;
         line-height: $lh-s;

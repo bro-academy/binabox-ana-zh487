@@ -8,7 +8,7 @@
 		<ul class="footer__navigation-list">
 			{% for item in common.footer.navigation.list %}
 				<li class="footer__navigation-item">
-					<a href="{{ item.link }}" class="footer__navigation-link">{{ item.text }}</a>
+					<a href="{{ item.link }}" class="footer__navigation-link link">{{ item.text }}</a>
 				</li>
 			{% endfor %}
 		</ul>
@@ -19,7 +19,7 @@
 		<ul class="footer__socials-list socials">
 			{% for item in common.footer.socials %}
 				<li class="socials__item">
-					<a href="{{ item.link }}" class="socials__item-link"><img src="{{ item.logo }}" class="socials__item-icon" alt="{{ item.alt }}"></a>
+					<a href="{{ item.link }}" class="socials__item-link link"><img src="{{ item.logo }}" class="socials__item-icon" alt="{{ item.alt }}"></a>
 				</li>
 			{% endfor %}
 		</ul>
