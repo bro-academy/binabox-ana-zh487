@@ -48,13 +48,15 @@
         color: $separator-color-disabled;
     }
 
-    .button--large {
-        font-size: $text-fs-m;
-        line-height: $lh-m;
-    }
+}
 
-    .button--small {
-        font-size: $text-fs-xs;
-        line-height: $lh-xs;
-    }
+.button--large {
+    font-size: $text-fs-m;
+    line-height: $lh-m;
+}
+
+
+.button--small {
+    font-size: $text-fs-xs;
+    line-height: $lh-xs;
 }
