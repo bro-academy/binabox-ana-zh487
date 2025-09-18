@@ -1,0 +1,13 @@
+{% set page="catalog.html" %}
+
+{% extends 'src/templates/layouts/base.twig' %}
+
+{% from 'src/templates/partials/ui/icon.twig' import icon %}
+
+{% block content %}
+
+	{% include 'src/templates/partials/catalog_header.twig' %}
+
+	{% include 'src/templates/partials/catalog_filter.twig' %}
+
+{% endblock %}

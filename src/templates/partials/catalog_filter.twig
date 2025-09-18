@@ -1,0 +1,14 @@
+<aside>
+
+	{% for item in catalog.sidebar_filter %}
+
+		<h2>{{ item.header }}</h2>
+
+		{% for field in item.fieldset %}
+            <input type="{{ field.type }}" id="{{ field.id }}" name="{{ field.name }}" />
+            <label for="{{ field.id }}">{{ field.label }}</label>
+        {% endfor %}
+
+	{% endfor %}
+
+</aside>

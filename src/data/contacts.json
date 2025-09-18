@@ -1,0 +1,90 @@
+{
+    "contacts": {
+        "url": "contacts.html",
+        "title": "Binabox Contacts",
+        "header": "Contact Us",
+        "breadcrumbs": [
+            {
+                "link": "/",
+                "text": "Home"
+            },
+            {
+                "link": "#",
+                "text": "Contact Us"
+            }
+        ],
+        "form": {
+            "header": "Get in touch",
+            "description": "Browse through the most frequently asked questions",
+            "fields": [
+                {
+                    "id": "first_name",
+                    "name": "first_name",
+                    "type": "text",
+                    "placeholder": "Enter your name",
+                    "label": "Name"
+                },
+                {
+                    "id": "last_name",
+                    "name": "last_name",
+                    "type": "text",
+                    "placeholder": "Enter your last name",
+                    "label": "Last name"
+                },
+                {
+                    "id": "date_birth",
+                    "name": "date_birth",
+                    "type": "date",
+                    "placeholder": "",
+                    "label": "Date of birth"
+                },
+                {
+                    "type": "subheader",
+                    "text": "Sex"
+                },
+                {
+                    "id": "male",
+                    "name": "sex",
+                    "type": "radio",
+                    "placeholder": "",
+                    "label": "Male"
+                },
+                {
+                    "id": "female",
+                    "name": "sex",
+                    "type": "radio",
+                    "placeholder": "",
+                    "label": "Female"
+                },
+                {
+                    "id": "email",
+                    "name": "email",
+                    "type": "email",
+                    "placeholder": "Enter your email",
+                    "label": "Email"
+                },
+                {
+                    "id": "phone",
+                    "name": "phone",
+                    "type": "tel",
+                    "placeholder": "Enter your number",
+                    "label": "Phone Number"
+                },
+                {
+                    "id": "message",
+                    "name": "message",
+                    "type": "textarea",
+                    "placeholder": "Text your message here",
+                    "label": "Message"
+                },
+                {
+                    "id": "terms",
+                    "name": "terms",
+                    "type": "checkbox",
+                    "label": "By clicking on the ‘Send Message’ button I agree to <a href='#' class='link'>all the terms of the security policy</a>"
+                }
+            ],
+            "button_text": "Send Message"
+        }
+    }
+}
