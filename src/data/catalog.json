@@ -1,0 +1,83 @@
+{
+    "catalog": {
+        "url": "catalog.html",
+        "title": "Binabox Catalog",
+        "header": "Explore Catalog",
+        "breadcrumbs": [
+            {
+                "link": "/",
+                "text": "Home"
+            },
+            {
+                "link": "#",
+                "text": "Catalog"
+            }
+        ],
+        "sidebar_filter": [
+            {
+                "header": "Clothing",
+                "fieldset": [
+                    {
+                        "type": "checkbox",
+                        "id": "combatant",
+                        "name": "combatant",
+                        "label": "Combatant"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "ninja",
+                        "name": "ninja",
+                        "label": "Ninja"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "king",
+                        "name": "king",
+                        "label": "King"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "queen",
+                        "name": "queen",
+                        "label": "Queen"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "robot",
+                        "name": "robot",
+                        "label": "Robot"
+                    }
+                ]
+            },
+            {
+                "header": "Eyes",
+                "fieldset": [
+                    {
+                        "type": "radio",
+                        "id": "yellow",
+                        "name": "eyes",
+                        "label": "Yellow"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "green",
+                        "name": "eyes",
+                        "label": "Green"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "mix",
+                        "name": "eyes",
+                        "label": "Mix"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "orange",
+                        "name": "eyes",
+                        "label": "Orange"
+                    }
+                ]
+            }
+        ]
+    }
+}

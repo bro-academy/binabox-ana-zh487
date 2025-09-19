@@ -1,0 +1,21 @@
+<form action="" method="post">
+
+	<h2 class="section-header">{{ contacts.form.header }}</h2>
+	<p>{{ contacts.form.description }}</p>
+
+	{% for item in contacts.form.fields %}
+            {% if item.type == "subheader" %}
+                <p>{{ item.text }}</p>
+			{% elseif item.type == "radio" or item.type == "checkbox" %}
+				<input type="{{ item.type }}" id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"/>
+				<label for="{{ item.id }}">{{ item.label }}</label>
+            {% elseif item.type == "textarea" %}
+                <label for="{{ item.id }}">{{ item.label }}</label>
+                <textarea id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"></textarea>
+			{% else %}
+				<label for="{{ item.id }}">{{ item.label }}</label>
+				<input type="{{ item.type }}" id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"/>
+			{% endif %}
+	{% endfor %}
+    <input type="submit" value="{{ contacts.form.button_text }}" />
+</form>

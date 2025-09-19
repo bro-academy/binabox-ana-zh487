@@ -1,12 +1,13 @@
 @use '../base/global';
 
 
+@use '../components/link';
+@use '../components/button';
 @use '../components/about';
 @use '../components/article-info';
 @use '../components/blockquote';
 @use '../components/blog-article';
 @use '../components/breadcrumbs';
-@use '../components/button';
 @use '../components/counted-list';
 @use '../components/faq';
 @use '../components/icon-list';
