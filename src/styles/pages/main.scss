@@ -1,17 +1,24 @@
 @use '../base/global';
 
 
+@use '../components/link';
+@use '../components/button';
 @use '../components/about';
+@use '../components/input-default';
+@use '../components/field-radio';
+@use '../components/field-checkbox';
+@use '../components/field-textarea';
+@use '../components/label-default';
+@use '../components/search';
+@use '../components/select';
 @use '../components/article-info';
 @use '../components/blockquote';
 @use '../components/blog-article';
 @use '../components/breadcrumbs';
-@use '../components/button';
 @use '../components/counted-list';
 @use '../components/faq';
 @use '../components/icon-list';
 @use '../components/item-label';
-@use '../components/link';
 @use '../components/page-header';
 @use '../components/person-card';
 @use '../components/picture';
@@ -23,6 +30,8 @@
 @use '../components/article-page';
 @use '../components/sidebar-categories';
 @use '../components/sidebar-tags';
+@use '../components/contacts-form';
+@use '../components/catalog-filter';
 
 
 @use '../layout/footer';

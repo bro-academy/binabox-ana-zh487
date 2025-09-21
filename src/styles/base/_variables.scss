@@ -18,6 +18,10 @@ $placeholder-color: #E7EEF7A8;
 $accent-color: #0265DC;
 $negative-color: #EA3829;
 $link-color: #78BBFA;
+$check-color: #D4D9F242;
+$check-active-border: #B5DEFF;
+$textarea-focus: #96CEFD;
+$dropdown-bg-color: #202631;
 
 
 /* state colors */
@@ -67,9 +71,18 @@ $header-fs-m: 52px;
 
 
 /* border-width */
+$border-width-xs: 1px;
 $border-width-s: 2px;
-$border-width-m: 4px;
+$border-width-m: 3px;
+$border-width-l: 4px;
+$border-width-xl: 5px;
 
 
 /* border-radius */
+$border-radius-xs: 4px;
 $border-radius-s: 5px;
+
+
+/* input size */
+$radio-size: 16px;
+$checkbox-size: 16px;

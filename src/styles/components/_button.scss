@@ -15,7 +15,7 @@
     }
 
     &:focus {
-        border: $border-width-m solid $accent-color-focus;
+        border: $border-width-l solid $accent-color-focus;
         background-color: $separator-color-secondary;
     }
 
@@ -26,7 +26,7 @@
 }
 
 .button--primary {
-    border: $border-width-s solid transparent;
+    border-color: transparent;
     background-color: $accent-color;
 
     &:hover {
@@ -34,12 +34,12 @@
     }
 
     &:focus {
-        border: $border-width-m solid $accent-color-focus;
+        border: $border-width-l solid $accent-color-focus;
         background-color: $accent-color;
     }
 
     &:active {
-        border: $border-width-s solid transparent;
+        border-color: transparent;
         background-color: $accent-color-active;
     }
 
