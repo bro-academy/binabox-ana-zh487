@@ -1,0 +1,16 @@
+<div class="field-radio">
+	<input 
+        type="radio" 
+        id="{{ item.id }}" 
+        name="{{ item.name }}" 
+        value="{{ item.value }}" 
+        class="field-radio__input" 
+        {% if item.required == "yes" %} required {% endif %}
+    />
+	<label 
+        for="{{ item.id }}" 
+        class="label-default"
+    >
+		{{ item.label }}
+	</label>
+</div>
