@@ -1,0 +1,5 @@
+<select class="select">
+    {% for item in options_array %}
+        <option value="{{ item.value }}">{{ item.text }}</option>
+    {% endfor %}
+</select>
