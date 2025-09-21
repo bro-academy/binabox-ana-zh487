@@ -21,31 +21,36 @@
                         "type": "checkbox",
                         "id": "combatant",
                         "name": "combatant",
-                        "label": "Combatant"
+                        "label": "Combatant",
+                        "value": "combatant"
                     },
                     {
                         "type": "checkbox",
                         "id": "ninja",
                         "name": "ninja",
-                        "label": "Ninja"
+                        "label": "Ninja",
+                        "value": "ninja"
                     },
                     {
                         "type": "checkbox",
                         "id": "king",
                         "name": "king",
-                        "label": "King"
+                        "label": "King",
+                        "value": "king"
                     },
                     {
                         "type": "checkbox",
                         "id": "queen",
                         "name": "queen",
-                        "label": "Queen"
+                        "label": "Queen",
+                        "value": "queen"
                     },
                     {
                         "type": "checkbox",
                         "id": "robot",
                         "name": "robot",
-                        "label": "Robot"
+                        "label": "Robot",
+                        "value": "robot"
                     }
                 ]
             },
@@ -56,27 +61,159 @@
                         "type": "radio",
                         "id": "yellow",
                         "name": "eyes",
-                        "label": "Yellow"
+                        "label": "Yellow",
+                        "value": "yellow"
                     },
                     {
                         "type": "radio",
                         "id": "green",
                         "name": "eyes",
-                        "label": "Green"
+                        "label": "Green",
+                        "value": "green"
                     },
                     {
                         "type": "radio",
                         "id": "mix",
                         "name": "eyes",
-                        "label": "Mix"
+                        "label": "Mix",
+                        "value": "mix"
                     },
                     {
                         "type": "radio",
                         "id": "orange",
                         "name": "eyes",
-                        "label": "Orange"
+                        "label": "Orange",
+                        "value": "orange"
                     }
                 ]
+            },
+            {
+                "header": "Face",
+                "fieldset": [
+                    {
+                        "type": "radio",
+                        "id": "round",
+                        "name": "face",
+                        "label": "Round",
+                        "value": "round"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "oval",
+                        "name": "face",
+                        "label": "Oval",
+                        "value": "oval"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "square",
+                        "name": "face",
+                        "label": "Square",
+                        "value": "square"
+                    }
+                ]
+            },
+            {
+                "header": "Skin",
+                "fieldset": [
+                    {
+                        "type": "radio",
+                        "id": "dark",
+                        "name": "skin",
+                        "label": "Dark",
+                        "value": "dark"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "light",
+                        "name": "skin",
+                        "label": "Light",
+                        "value": "light"
+                    }
+                ]
+            },
+            {
+                "header": "Background",
+                "fieldset": [
+                    {
+                        "type": "radio",
+                        "id": "black",
+                        "name": "background",
+                        "label": "Black",
+                        "value": "black"
+                    },
+                    {
+                        "type": "radio",
+                        "id": "white",
+                        "name": "background",
+                        "label": "White",
+                        "value": "white"
+                    }
+                ]
+            },
+            {
+                "header": "Special",
+                "fieldset": [
+                    {
+                        "type": "checkbox",
+                        "id": "yellow",
+                        "name": "special",
+                        "label": "Yellow",
+                        "value": "yellow"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "green",
+                        "name": "special",
+                        "label": "Green",
+                        "value": "green"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "mix",
+                        "name": "special",
+                        "label": "Mix",
+                        "value": "mix"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "orange",
+                        "name": "special",
+                        "label": "Orange",
+                        "value": "orange"
+                    }
+                ]
+            }
+        ],
+        "sidebar_button_text": "Apply",
+        "sidebar_action": "#",
+        "search": {
+            "action": "",
+            "name": "search_catalog",
+            "button_icon_src": "#",
+            "button_icon_alt": "Search in catalog",
+            "placeholder": "Search"
+        },
+        "sort": [
+            {
+                "value": "",
+                "text": "Sort by"
+            },
+            {
+                "value": "newest",
+                "text": "Newest"
+            },
+            {
+                "value": "popular",
+                "text": "Most popular"
+            },
+            {
+                "value": "increase_price",
+                "text": "Increasing in price"
+            },
+            {
+                "value": "lower_price",
+                "text": "Lowering the price"
             }
         ]
     }
