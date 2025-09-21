@@ -1,0 +1,45 @@
+@use '../base/variables' as *;
+
+.search {
+
+    border: $border-width-s solid $separator-color;
+    background-color: transparent;
+
+
+    &__button {
+        background-color: transparent;
+        border: none;
+    }
+
+    &__button-icon {
+        color: $placeholder-color;
+    }
+
+    &__input {
+        color: $color-primary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        background-color: transparent;
+        border: none;
+    }
+
+    &__input::placeholder {
+        color: $placeholder-color;
+    }
+
+    &:hover {
+        border: $border-width-s solid $accent-color-focus;
+    }
+
+    &:focus {
+        border: $border-width-m solid $accent-color-focus;
+    }
+
+    &:has(&__input:user-invalid) {
+        border: $border-width-s solid $negative-color;
+    }
+
+    &:has(&__input[disabled]) {
+        background-color: $separator-color-secondary;
+    }
+}
