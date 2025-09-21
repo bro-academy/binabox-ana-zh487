@@ -14,6 +14,7 @@
             }
         ],
         "form": {
+            "action": "",
             "header": "Get in touch",
             "description": "Browse through the most frequently asked questions",
             "fields": [
@@ -22,21 +23,26 @@
                     "name": "first_name",
                     "type": "text",
                     "placeholder": "Enter your name",
-                    "label": "Name"
+                    "label": "Name",
+                    "required": "yes",
+                    "pattern": "[A-Za-z]+"
                 },
                 {
                     "id": "last_name",
                     "name": "last_name",
                     "type": "text",
                     "placeholder": "Enter your last name",
-                    "label": "Last name"
+                    "label": "Last name",
+                    "pattern": "[A-Za-z]+"
                 },
                 {
                     "id": "date_birth",
                     "name": "date_birth",
                     "type": "date",
-                    "placeholder": "",
-                    "label": "Date of birth"
+                    "placeholder": "dd/mm/yyyy",
+                    "label": "Date of birth",
+                    "min": "1900-01-01",
+                    "max": "2020-12-31"
                 },
                 {
                     "type": "subheader",
@@ -46,42 +52,47 @@
                     "id": "male",
                     "name": "sex",
                     "type": "radio",
-                    "placeholder": "",
-                    "label": "Male"
+                    "label": "Male",
+                    "value": "male"
                 },
                 {
                     "id": "female",
                     "name": "sex",
                     "type": "radio",
-                    "placeholder": "",
-                    "label": "Female"
+                    "label": "Female",
+                    "value": "female"
                 },
                 {
                     "id": "email",
                     "name": "email",
                     "type": "email",
                     "placeholder": "Enter your email",
-                    "label": "Email"
+                    "label": "Email",
+                    "required": "yes"
                 },
                 {
                     "id": "phone",
                     "name": "phone",
                     "type": "tel",
                     "placeholder": "Enter your number",
-                    "label": "Phone Number"
+                    "label": "Phone Number",
+                    "pattern": "[0-9]{11}"
                 },
                 {
                     "id": "message",
                     "name": "message",
                     "type": "textarea",
                     "placeholder": "Text your message here",
-                    "label": "Message"
+                    "label": "Message",
+                    "maxlength": "1000"
                 },
                 {
                     "id": "terms",
                     "name": "terms",
                     "type": "checkbox",
-                    "label": "By clicking on the ‘Send Message’ button I agree to <a href='#' class='link'>all the terms of the security policy</a>"
+                    "label": "By clicking on the ‘Send Message’ button I agree to <a href='#' class='link'>all the terms of the security policy</a>",
+                    "value": "accepted-terms",
+                    "required": "yes"
                 }
             ],
             "button_text": "Send Message"
