@@ -4,6 +4,13 @@
 @use '../components/link';
 @use '../components/button';
 @use '../components/about';
+@use '../components/input-default';
+@use '../components/field-radio';
+@use '../components/field-checkbox';
+@use '../components/field-textarea';
+@use '../components/label-default';
+@use '../components/search';
+@use '../components/select';
 @use '../components/article-info';
 @use '../components/blockquote';
 @use '../components/blog-article';
@@ -23,6 +30,8 @@
 @use '../components/article-page';
 @use '../components/sidebar-categories';
 @use '../components/sidebar-tags';
+@use '../components/contacts-form';
+@use '../components/catalog-filter';
 
 
 @use '../layout/footer';

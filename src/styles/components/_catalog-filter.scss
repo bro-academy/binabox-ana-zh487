@@ -1,0 +1,17 @@
+@use '../base/variables' as *;
+
+.catalog-filter {
+
+    &__fieldset {
+        background-color: $card-bg-color;
+        border: none;;
+    }
+
+    &__title {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+        font-family: $ff-secondary;
+        border-bottom: $border-width-xs solid $separator-color-secondary;
+    }
+
+}

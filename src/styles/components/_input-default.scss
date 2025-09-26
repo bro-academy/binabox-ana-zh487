@@ -1,0 +1,30 @@
+@use '../base/variables' as *;
+
+.input-default {
+
+    border: $border-width-s solid $separator-color;
+    background-color: transparent;
+    color: $color-primary;
+    font-size: $text-fs-xs;
+    line-height: $lh-xs;
+
+    &::placeholder {
+        color: $placeholder-color;
+    }
+
+    &:hover {
+        border-color: $accent-color-focus;
+    }
+
+    &:focus {
+        border: $border-width-m solid $accent-color-focus;
+    }
+    
+    &:user-invalid {
+        border-color: $negative-color;
+    }
+
+    &:disabled {
+        background-color: $separator-color-secondary;
+    }
+}

@@ -1,0 +1,83 @@
+@use '../base/variables' as *;
+
+.field-checkbox {
+
+    &__input {
+        appearance: none;
+        width: $checkbox-size;
+        height: $checkbox-size;
+        border-radius: $border-radius-xs;
+        border: $border-width-s solid $check-color;
+        background-color: $body-bg-color;
+
+        &::before {
+            content: "\2714";
+            /* icon will be added later */
+            color: $color-primary;
+            font-size: 10px;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            opacity: 0;
+        }
+
+        &:checked {
+            background-color: $accent-color;
+            border-color: transparent;
+
+            &::before {
+                opacity: 1;
+            }
+
+        }
+
+        &:hover {
+            background-color: $card-bg-color;
+
+            &:checked {
+                background-color: $accent-color-focus;
+            }
+        }
+
+        &:active {
+            border-color: transparent;
+            background-color: $check-active-border;
+
+            &:checked {
+                background-color: $check-active-border;
+
+                &::before {
+                    color: $accent-color;
+                }
+            }
+        }
+
+        &:focus {
+            outline: $border-width-s solid $accent-color-focus;
+            background-color: $card-bg-color-secondary;
+
+            &:checked {
+                background-color: $accent-color;
+            }
+        }
+
+        &:disabled {
+            border-color: transparent;
+            background-color: $background-color-disabled;
+
+            &:checked::before {
+                color: $separator-color-disabled;
+            }
+        }
+
+        &:user-invalid {
+            border-color: $negative-color;
+
+            &:checked {
+                background-color: $accent-color;
+            }
+        }
+
+    }
+
+}

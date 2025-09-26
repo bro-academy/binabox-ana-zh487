@@ -1,0 +1,9 @@
+@use '../base/variables' as *;
+
+.label-default {
+
+    color: $color-primary;
+    font-size: $text-fs-xs;
+    line-height: $lh-xs;
+
+}

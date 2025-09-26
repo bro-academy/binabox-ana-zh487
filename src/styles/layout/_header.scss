@@ -13,11 +13,4 @@
         border-bottom: $border-width-s solid $accent-color;
     }
 
-    &__controls-search {
-        color: $placeholder-color;
-        border: $border-width-s solid $separator-color;
-        background-color: transparent;
-        font-size: $text-fs-xs;
-        line-height: $lh-xs;
-    }
 }

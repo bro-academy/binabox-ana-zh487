@@ -1,21 +1,26 @@
-<form action="" method="post">
+<form action="{{ contacts.form.action }}" method="post" class="contacts-form">
 
-	<h2 class="section-header">{{ contacts.form.header }}</h2>
-	<p>{{ contacts.form.description }}</p>
+	<h2 class="section-header contacts-form__header">{{ contacts.form.header }}</h2>
+	<p class="contacts-form__description">{{ contacts.form.description }}</p>
 
 	{% for item in contacts.form.fields %}
-            {% if item.type == "subheader" %}
-                <p>{{ item.text }}</p>
-			{% elseif item.type == "radio" or item.type == "checkbox" %}
-				<input type="{{ item.type }}" id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"/>
-				<label for="{{ item.id }}">{{ item.label }}</label>
-            {% elseif item.type == "textarea" %}
-                <label for="{{ item.id }}">{{ item.label }}</label>
-                <textarea id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"></textarea>
-			{% else %}
-				<label for="{{ item.id }}">{{ item.label }}</label>
-				<input type="{{ item.type }}" id="{{ item.id }}" name="{{ item.name }}" placeholder="{{ item.placeholder }}"/>
-			{% endif %}
+		{% if item.type == "subheader" %}
+			<span class="contacts-form__label">{{ item.text }}</span>
+		{% elseif item.type == "checkbox" %}
+			{% include '/field-checkbox.twig' %}
+		{% elseif item.type == "radio" %}
+			{% include '/field-radio.twig' %}
+		{% elseif item.type == "date" %}
+			{% include '/field-date.twig' %}
+		{% elseif item.type == "textarea" %}
+			{% include '/field-textarea.twig' %}
+		{% elseif item.type == "text" %}
+			{% include '/field-text.twig' %}
+		{% elseif item.type == "email" %}
+			{% include '/field-email.twig' %}
+		{% elseif item.type == "tel" %}
+			{% include '/field-tel.twig' %}
+		{% endif %}
 	{% endfor %}
-    <input type="submit" value="{{ contacts.form.button_text }}" />
+	<button type="submit" class="button button--primary">{{ contacts.form.button_text }}</button>
 </form>

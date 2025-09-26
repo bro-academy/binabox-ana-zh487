@@ -1,0 +1,63 @@
+@use '../base/variables' as *;
+
+.field-radio {
+
+    &__input {
+        appearance: none;
+        width: $radio-size;
+        height: $radio-size;
+        border-radius: $radio-size;
+        border: $border-width-s solid $check-color;
+        background-color: $body-bg-color;
+
+        &:checked {
+            border: $border-width-xl solid $accent-color;
+        }
+
+        &:hover {
+            background-color: $card-bg-color;
+
+            &:checked {
+                border-color: $accent-color-focus;
+            }
+        }
+
+        &:active {
+            border: $border-width-xl solid $check-active-border;
+
+            &:checked {
+                border: $border-width-xl solid $check-active-border;
+            }
+        }
+
+        &:focus {
+            border: $border-width-s solid $placeholder-color;
+            outline: $border-width-s solid $accent-color-focus;
+            outline-offset: 1px;
+
+            &:checked {
+                border: $border-width-xl solid $accent-color-focus;
+                outline: $border-width-s solid $accent-color-focus;
+                outline-offset: 1px;
+            }
+        }
+
+        &:disabled {
+            border-color: transparent;
+            background-color: $background-color-disabled;
+
+            &:checked {
+                border-color: $check-color;
+                background-color: $background-color-disabled;
+            }
+        }
+
+        &:user-invalid {
+            border-color: $negative-color;
+        }
+
+    }
+
+
+
+}

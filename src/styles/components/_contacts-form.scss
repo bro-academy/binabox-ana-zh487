@@ -1,0 +1,24 @@
+@use '../base/variables' as *;
+
+.contacts-form {
+
+    text-align: center;
+
+    &__header {
+        color: $color-thirdly;
+    }
+
+    &__description {
+        font-weight: $fw-m;
+        font-size: $text-fs-l;
+        line-height: $lh-m;
+        color: $color-secondary;
+    }
+
+    &__label {
+        color: $color-primary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+    }
+
+}

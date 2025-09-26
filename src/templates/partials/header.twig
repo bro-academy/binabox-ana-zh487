@@ -15,8 +15,13 @@
 		</ul>
 	</nav>
 	<div class="header__controls">
-		<input type="search" class="header__controls-search" placeholder="Search">
+
+
+		<div class="header__controls-search">{% include '/search.twig' with { item:common.header.search } %}</div>
+
+
+
 		<a class="header__controls-button button button--large" href="{{ common.header.controls.button_discord_link }}">{{ common.header.controls.button_discord_text }}</a>
-		<button class="header__controls-button button button--large button--primary">{{ common.header.controls.button_login_text }}</button>
+		<button type="button" class="header__controls-button button button--large button--primary">{{ common.header.controls.button_login_text }}</button>
 	</div>
 </header>
