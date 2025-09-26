@@ -36,7 +36,8 @@
                         "id": "king",
                         "name": "king",
                         "label": "King",
-                        "value": "king"
+                        "value": "king",
+                        "checked": "yes"
                     },
                     {
                         "type": "checkbox",
@@ -69,7 +70,9 @@
                         "id": "green",
                         "name": "eyes",
                         "label": "Green",
-                        "value": "green"
+                        "value": "green",
+                        "checked": "yes",
+                        "required": "yes"
                     },
                     {
                         "type": "radio",
@@ -173,7 +176,8 @@
                         "id": "mix",
                         "name": "special",
                         "label": "Mix",
-                        "value": "mix"
+                        "value": "mix",
+                        "checked": "yes"
                     },
                     {
                         "type": "checkbox",
