@@ -6,6 +6,7 @@
         value="{{ item.value }}" 
         class="field-checkbox__input" 
         {% if item.required == "yes" %} required {% endif %}
+        {% if item.checked == "yes" %} checked {% endif %}
     />
 	<label 
         for="{{ item.id }}" 
