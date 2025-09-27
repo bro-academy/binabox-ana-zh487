@@ -1,5 +1,18 @@
+{% import "ui/picture.twig" as ui %}
+
 <article class="person-card">
-	<img src="{{ item.avatar_src }}" alt="{{ item.name }}" class="person-card__avatar">
+
+	{{ ui.picture(
+			"person-card__avatar",
+			item.picture.src,
+			item.picture.sources,
+			item.picture.alt,
+			item.picture.width,
+			item.picture.height,
+			"center",
+			"cover"
+		) }}
+
 	<h3 class="person-card__name">{{ item.name }}</h3>
 	<p class="person-card__role">{{ item.role }}</p>
 	<ul class="socials">

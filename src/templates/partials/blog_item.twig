@@ -1,5 +1,18 @@
+{% import "ui/picture.twig" as ui %}
+
 <article class="blog-article">
-	<img src="{{ item.picture_src }}" alt="{{ item.picture_alt }}" class="blog-article__image">
+
+	{{ ui.picture(
+			"blog-article__image",
+			item.picture.src,
+			item.picture.sources,
+			item.picture.alt,
+			item.picture.width,
+			item.picture.height,
+			"center",
+			"cover"
+		) }}
+
 	<span class="blog-article__label item-label">{{ item.label }}</span>
 	<div class="article-info">
 		<img src="#" alt="people icon">
