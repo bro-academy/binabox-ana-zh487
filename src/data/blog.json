@@ -89,13 +89,23 @@
             }
         },
         "article": {
-            "main_picture": [
-                {
-                    "picture_src": "#",
-                    "picture_alt": "A Basilisk enters the arena",
-                    "picture_title": "A Basilisk enters the arena — its emerald scales shimmer with encoded rage."
-                }
-            ],
+            "main_picture": {
+                "src": "/the-basilisk-nft/basilisk-enters-the-arena.jpg",
+                "alt": "A Basilisk enters the arena",
+                "title": "A Basilisk enters the arena — its emerald scales shimmer with encoded rage.",
+                "width": "1024",
+                "height": "560",
+                "sources": [
+                    {
+                        "src": "/the-basilisk-nft/basilisk-enters-the-arena.avif",
+                        "type": "avif"
+                    },
+                    {
+                        "src": "/the-basilisk-nft/basilisk-enters-the-arena.webp",
+                        "type": "webp"
+                    }
+                ]
+            },
             "header": "The Basilisks NFT",
             "category": "Gaming",
             "category_link": "#",
@@ -136,14 +146,38 @@
             },
             "list_picture": [
                 {
-                    "picture_src": "#",
-                    "picture_alt": "Close-up of a Gen-3 Basilisk",
-                    "picture_title": "Close-up of a Gen-3 Basilisk. Eyes trained by code."
+                    "src": "/the-basilisk-nft/gen-3-basilisk.jpg",
+                    "alt": "Close-up of a Gen-3 Basilisk",
+                    "title": "Close-up of a Gen-3 Basilisk. Eyes trained by code.",
+                    "width": "500",
+                    "height": "395",
+                    "sources": [
+                        {
+                            "src": "/the-basilisk-nft/gen-3-basilisk.avif",
+                            "type": "avif"
+                        },
+                        {
+                            "src": "/the-basilisk-nft/gen-3-basilisk.webp",
+                            "type": "webp"
+                        }
+                    ]
                 },
                 {
-                    "picture_src": "#",
-                    "picture_alt": "A bonded Basilisk with its summoner",
-                    "picture_title": "A bonded Basilisk with its summoner. Loyalty is minted — not earned."
+                    "src": "/the-basilisk-nft/basilisk-with-summoner.jpg",
+                    "alt": "A bonded Basilisk with its summoner",
+                    "title": "A bonded Basilisk with its summoner. Loyalty is minted — not earned.",
+                    "width": "500",
+                    "height": "395",
+                    "sources": [
+                        {
+                            "src": "/the-basilisk-nft/basilisk-with-summoner.avif",
+                            "type": "avif"
+                        },
+                        {
+                            "src": "/the-basilisk-nft/basilisk-with-summoner.webp",
+                            "type": "webp"
+                        }
+                    ]
                 }
             ],
             "sub_header_1": "NFTs are digital assets that represent real-world objects",
