@@ -20,6 +20,7 @@
 @import "./_label-default.scss";
 @import "./_link.scss";
 @import "./_page-header.scss";
+@import "./_page-title.scss";
 @import "./_person-card.scss";
 @import "./_picture.scss";
 @import "./_product-item.scss";
