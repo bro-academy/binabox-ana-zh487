@@ -20,8 +20,8 @@
       "picture": {
         "src": "/banner/banner-cube.png",
         "alt": "shadow box Binabox",
-        "width": "534",
-        "height": "640",
+        "width": "534px",
+        "height": "640px",
         "sources": [
           {
             "src": "/banner/banner-cube.avif",
@@ -41,8 +41,8 @@
           "picture": {
             "src": "/catalog/echo-of-bones.jpg",
             "alt": "Echo of Bones",
-            "width": "253",
-            "height": "324",
+            "width": "253px",
+            "height": "324px",
             "sources": [
               {
                 "src": "/catalog/echo-of-bones.avif",
@@ -62,8 +62,8 @@
           "picture": {
             "src": "/catalog/nyx-the-watcher.jpg",
             "alt": "Nyx the Watcher",
-            "width": "253",
-            "height": "324",
+            "width": "253px",
+            "height": "324px",
             "sources": [
               {
                 "src": "/catalog/nyx-the-watcher.avif",
@@ -83,8 +83,8 @@
           "picture": {
             "src": "/catalog/blade-of-silence.jpg",
             "alt": "Blade of Silence",
-            "width": "253",
-            "height": "324",
+            "width": "253px",
+            "height": "324px",
             "sources": [
               {
                 "src": "/catalog/blade-of-silence.avif",
@@ -104,8 +104,8 @@
           "picture": {
             "src": "/catalog/data-core-alpha.jpg",
             "alt": "Data Core: Alpha",
-            "width": "253",
-            "height": "324",
+            "width": "253px",
+            "height": "324px",
             "sources": [
               {
                 "src": "/catalog/data-core-alpha.avif",
@@ -125,8 +125,8 @@
           "picture": {
             "src": "/catalog/phantom-console.jpg",
             "alt": "Phantom Console",
-            "width": "253",
-            "height": "324",
+            "width": "253px",
+            "height": "324px",
             "sources": [
               {
                 "src": "/catalog/phantom-console.avif",
@@ -151,8 +151,8 @@
           "picture": {
             "src": "/blog/neural-drift.jpg",
             "alt": "Neural Drift",
-            "width": "736",
-            "height": "664",
+            "width": "736px",
+            "height": "664px",
             "sources": [
               {
                 "src": "/blog/neural-drift.avif",
@@ -176,8 +176,8 @@
           "picture": {
             "src": "/blog/deadframe.jpg",
             "alt": "Neural Drift",
-            "width": "736",
-            "height": "198",
+            "width": "736px",
+            "height": "198px",
             "sources": [
               {
                 "src": "/blog/deadframe.avif",
@@ -203,8 +203,8 @@
           "picture": {
             "src": "/blog/glytch-panther.jpg",
             "alt": "Glytch Panther",
-            "width": "736",
-            "height": "198",
+            "width": "736px",
+            "height": "198px",
             "sources": [
               {
                 "src": "/blog/glytch-panther.avif",
@@ -228,8 +228,8 @@
           "picture": {
             "src": "/blog/primal.jpg",
             "alt": "Primal",
-            "width": "736",
-            "height": "198",
+            "width": "736px",
+            "height": "198px",
             "sources": [
               {
                 "src": "/blog/primal.avif",
@@ -253,8 +253,8 @@
           "picture": {
             "src": "/blog/white-protocol.jpg",
             "alt": "White Protocol",
-            "width": "736",
-            "height": "198",
+            "width": "736px",
+            "height": "198px",
             "sources": [
               {
                 "src": "/blog/white-protocol.avif",
@@ -278,8 +278,8 @@
           "picture": {
             "src": "/blog/retrocore.jpg",
             "alt": "Retrocore",
-            "width": "736",
-            "height": "664",
+            "width": "736px",
+            "height": "664px",
             "sources": [
               {
                 "src": "/blog/retrocore.avif",
@@ -334,8 +334,8 @@
           "picture": {
             "src": "/team/nova-riven.png",
             "alt": "Nova Riven",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/nova-riven.avif",
@@ -376,8 +376,8 @@
           "picture": {
             "src": "/team/echo-zero.png",
             "alt": "Echo Zero",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/echo-zero.avif",
@@ -418,8 +418,8 @@
           "picture": {
             "src": "/team/kairo-null.png",
             "alt": "Kairo Null",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/kairo-null.avif",
@@ -460,8 +460,8 @@
           "picture": {
             "src": "/team/dr-wex-omega.png",
             "alt": "Dr. Wex Omega",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/dr-wex-omega.avif",
@@ -507,8 +507,8 @@
           "picture": {
             "src": "/team/synthya-void.png",
             "alt": "Synthya Void",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/synthya-void.avif",
@@ -534,8 +534,8 @@
           "picture": {
             "src": "/team/mirlo-drift.png",
             "alt": "Mirlo Drift",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/mirlo-drift.avif",
@@ -581,8 +581,8 @@
           "picture": {
             "src": "/team/axon-rune.png",
             "alt": "Axone Rune",
-            "width": "120",
-            "height": "120",
+            "width": "120px",
+            "height": "120px",
             "sources": [
               {
                 "src": "/team/axon-rune.avif",
