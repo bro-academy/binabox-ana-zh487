@@ -2,7 +2,7 @@
 
 .banner {
 
-    background: radial-gradient(ellipse 50% 30% at 5% 0, rgba(2, 101, 220, 0.5), transparent);
+    background: radial-gradient(ellipse 50% 30% at 5% 0, rgba($accent-color, 0.5), transparent);
 
     &__header {
         text-align: left;
