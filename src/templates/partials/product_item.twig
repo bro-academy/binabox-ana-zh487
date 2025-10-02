@@ -1,5 +1,18 @@
+{% import "ui/picture.twig" as ui %}
+
 <article class="product-item">
-	<img src="{{ item.picture_src }}" alt="{{ item.picture_alt }}" class="product-item__picture">
+
+	{{ ui.picture(
+			"product-item__picture",
+			item.picture.src,
+			item.picture.sources,
+			item.picture.alt,
+			item.picture.width,
+			item.picture.height,
+			"center",
+			"cover"
+		) }}
+
 	<span class="product-item__label item-label
 	{% if item.label == "Sold out" %}
 	item-label--accent

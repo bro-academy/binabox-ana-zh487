@@ -12,9 +12,7 @@
 
 	<article class="article-page">
 
-		{% for item in blog.article.main_picture %}
-			{% include 'src/templates/partials/article_picture.twig' %}
-		{% endfor %}
+		{% include 'src/templates/partials/article_picture.twig' with { item:blog.article.main_picture } %}
 
 		{% include 'src/templates/partials/article_header.twig' %}
 

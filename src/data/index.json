@@ -17,43 +17,127 @@
           "description": "Profiles whitelisted"
         }
       ],
-      "picture_src": "#",
-      "picture_alt": "shadow box Binabox"
+      "picture": {
+        "src": "/banner/banner-cube.png",
+        "alt": "shadow box Binabox",
+        "width": "534px",
+        "height": "640px",
+        "sources": [
+          {
+            "src": "/banner/banner-cube.avif",
+            "type": "avif"
+          },
+          {
+            "src": "/banner/banner-cube.webp",
+            "type": "webp"
+          }
+        ]
+      }
     },
     "catalog": {
       "header": "Catalog",
       "list": [
         {
-          "picture_scr": "#",
-          "picture_alt": "Echo of Bones",
+          "picture": {
+            "src": "/catalog/echo-of-bones.jpg",
+            "alt": "Echo of Bones",
+            "width": "253px",
+            "height": "324px",
+            "sources": [
+              {
+                "src": "/catalog/echo-of-bones.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/catalog/echo-of-bones.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "New",
           "price": "$1990",
           "name": "Echo of Bones"
         },
         {
-          "picture_scr": "#",
-          "picture_alt": "Nyx the Watcher",
+          "picture": {
+            "src": "/catalog/nyx-the-watcher.jpg",
+            "alt": "Nyx the Watcher",
+            "width": "253px",
+            "height": "324px",
+            "sources": [
+              {
+                "src": "/catalog/nyx-the-watcher.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/catalog/nyx-the-watcher.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "New",
           "price": "$299.99",
           "name": "Nyx the Watcher"
         },
         {
-          "picture_scr": "#",
-          "picture_alt": "Blade of Silence",
+          "picture": {
+            "src": "/catalog/blade-of-silence.jpg",
+            "alt": "Blade of Silence",
+            "width": "253px",
+            "height": "324px",
+            "sources": [
+              {
+                "src": "/catalog/blade-of-silence.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/catalog/blade-of-silence.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "Sold out",
           "price": "$20",
           "name": "Blade of Silence"
         },
         {
-          "picture_scr": "#",
-          "picture_alt": "Data Core: Alpha",
+          "picture": {
+            "src": "/catalog/data-core-alpha.jpg",
+            "alt": "Data Core: Alpha",
+            "width": "253px",
+            "height": "324px",
+            "sources": [
+              {
+                "src": "/catalog/data-core-alpha.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/catalog/data-core-alpha.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "New",
           "price": "$1.000.000",
           "name": "Data Core: Alpha"
         },
         {
-          "picture_scr": "#",
-          "picture_alt": "Phantom Console",
+          "picture": {
+            "src": "/catalog/phantom-console.jpg",
+            "alt": "Phantom Console",
+            "width": "253px",
+            "height": "324px",
+            "sources": [
+              {
+                "src": "/catalog/phantom-console.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/catalog/phantom-console.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "New",
           "price": "$199.5",
           "name": "Phantom Console"
@@ -64,8 +148,22 @@
       "header": "Our blog",
       "list": [
         {
-          "picture_src": "#",
-          "picture_alt": "Neural Drift",
+          "picture": {
+            "src": "/blog/neural-drift.jpg",
+            "alt": "Neural Drift",
+            "width": "736px",
+            "height": "664px",
+            "sources": [
+              {
+                "src": "/blog/neural-drift.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/neural-drift.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "NFT",
           "author": "NOVA RIVEN",
           "date": "2022-12-04",
@@ -75,6 +173,22 @@
           "link": "#"
         },
         {
+          "picture": {
+            "src": "/blog/deadframe.jpg",
+            "alt": "Neural Drift",
+            "width": "736px",
+            "height": "198px",
+            "sources": [
+              {
+                "src": "/blog/deadframe.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/deadframe.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "picture_src": "#",
           "picture_alt": "Deadframe",
           "label": "DROP",
@@ -86,8 +200,22 @@
           "link": "#"
         },
         {
-          "picture_src": "#",
-          "picture_alt": "Glitch Panther",
+          "picture": {
+            "src": "/blog/glytch-panther.jpg",
+            "alt": "Glytch Panther",
+            "width": "736px",
+            "height": "198px",
+            "sources": [
+              {
+                "src": "/blog/glytch-panther.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/glytch-panther.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "NFT",
           "author": "Synthya Void",
           "date": "2022-12-07",
@@ -97,8 +225,22 @@
           "link": "#"
         },
         {
-          "picture_src": "#",
-          "picture_alt": "Primal",
+          "picture": {
+            "src": "/blog/primal.jpg",
+            "alt": "Primal",
+            "width": "736px",
+            "height": "198px",
+            "sources": [
+              {
+                "src": "/blog/primal.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/primal.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "RARE",
           "author": "Dr. Wex Omega",
           "date": "2022-12-08",
@@ -108,8 +250,22 @@
           "link": "#"
         },
         {
-          "picture_src": "#",
-          "picture_alt": "White Protocol",
+          "picture": {
+            "src": "/blog/white-protocol.jpg",
+            "alt": "White Protocol",
+            "width": "736px",
+            "height": "198px",
+            "sources": [
+              {
+                "src": "/blog/white-protocol.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/white-protocol.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "NFT",
           "author": "Tony Nguyen",
           "date": "2022-06-20",
@@ -119,8 +275,22 @@
           "link": "#"
         },
         {
-          "picture_src": "#",
-          "picture_alt": "Retrocore",
+          "picture": {
+            "src": "/blog/retrocore.jpg",
+            "alt": "Retrocore",
+            "width": "736px",
+            "height": "664px",
+            "sources": [
+              {
+                "src": "/blog/retrocore.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/blog/retrocore.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "label": "ARTIFACT",
           "author": "Echo Zero",
           "date": "2022-12-09",
@@ -161,7 +331,22 @@
       "header": "Our team",
       "list": [
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/nova-riven.png",
+            "alt": "Nova Riven",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/nova-riven.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/nova-riven.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Nova Riven",
           "role": "Creative Architect",
           "socials": [
@@ -188,7 +373,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/echo-zero.png",
+            "alt": "Echo Zero",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/echo-zero.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/echo-zero.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Echo Zero",
           "role": "Tech Whisperer",
           "socials": [
@@ -215,7 +415,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/kairo-null.png",
+            "alt": "Kairo Null",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/kairo-null.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/kairo-null.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Kairo Null",
           "role": "Lore Engineer",
           "socials": [
@@ -242,7 +457,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/dr-wex-omega.png",
+            "alt": "Dr. Wex Omega",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/dr-wex-omega.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/dr-wex-omega.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Dr. Wex Omega",
           "role": "Visual Disruptor",
           "socials": [
@@ -274,7 +504,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/synthya-void.png",
+            "alt": "Synthya Void",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/synthya-void.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/synthya-void.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Synthya Void",
           "role": "UX Seer",
           "socials": [
@@ -286,7 +531,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/mirlo-drift.png",
+            "alt": "Mirlo Drift",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/mirlo-drift.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/mirlo-drift.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Mirlo Drift",
           "role": "Community Catalyst",
           "socials": [
@@ -318,7 +578,22 @@
           ]
         },
         {
-          "avatar_src": "#",
+          "picture": {
+            "src": "/team/axon-rune.png",
+            "alt": "Axone Rune",
+            "width": "120px",
+            "height": "120px",
+            "sources": [
+              {
+                "src": "/team/axon-rune.avif",
+                "type": "avif"
+              },
+              {
+                "src": "/team/axon-rune.webp",
+                "type": "webp"
+              }
+            ]
+          },
           "name": "Axon Rune",
           "role": "Security Ghost",
           "socials": [

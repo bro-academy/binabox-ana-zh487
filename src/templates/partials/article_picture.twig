@@ -1,4 +1,17 @@
+{% import "ui/picture.twig" as ui %}
+
 <figure class="picture">
-	<img src="{{ item.picture_src }}" alt="{{ item.picture_alt }}" class="picture__image">
-	<figcaption class="picture__title">{{ item.picture_title }}</figcaption>
+
+	{{ ui.picture(
+			"picture__image",
+			item.src,
+			item.sources,
+			item.alt,
+			item.width,
+			item.height,
+			"center",
+			"cover"
+		) }}
+
+	<figcaption class="picture__title">{{ item.title }}</figcaption>
 </figure>

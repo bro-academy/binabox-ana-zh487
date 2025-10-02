@@ -8,7 +8,7 @@
 	<div class="article-page__footer-unit">
 		<span class="article-page__footer-title">{{ blog.article.footer.share.header }}</span>
 		{% for item in blog.article.footer.share.list %}
-			<a href="{{ item.link }}" class="article-page__footer-button button button--small"><img src="{{ item.logo_src }}" alt="{{ item.logo_alt }}"></a>
+			<a href="{{ item.link }}" class="article-page__footer-button button button--small"><img src="{{ item.logo_src }}" alt="{{ item.logo_alt }}" width="16px" height="16px"></a>
 		{% endfor %}
 	</div>
 </footer>

@@ -1,0 +1,16 @@
+{% macro picture(classes, main_src, sources, alt, width, height, position, fit) %}
+    <picture>
+        {% for source in sources %}
+            <source srcset="/src/assets/images/{{ source.src }}" type="image/{{ source.type }}">
+        {% endfor %}
+        <img 
+                class="{{ classes }}"
+                src="/src/assets/images/{{ main_src }}"
+                alt="{{ alt }}"
+                loading="lazy"
+                decoding="async"
+                width="{{ width }}"
+                height="{{ height }}"
+                style="object-position: {{ position }}, object-fit: {{ fit }}">
+    </picture>
+{% endmacro %}
