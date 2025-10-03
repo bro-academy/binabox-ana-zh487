@@ -1,8 +1,8 @@
-{% import "ui/picture.twig" as ui %}
+{% from "ui/picture.twig" import picture %}
 
 <article class="product-item">
 
-	{{ ui.picture(
+	{{ picture(
 			"product-item__picture",
 			item.picture.src,
 			item.picture.sources,
