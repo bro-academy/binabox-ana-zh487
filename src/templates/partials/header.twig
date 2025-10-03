@@ -1,3 +1,5 @@
+{% from "ui/icon.twig" import icon %}
+
 <header class="header">
 	<a href="/" class="header__logo"><img src="{{ common.logo_src }}" alt="{{ common.logo_alt }}" class="header__logo-image" width="188px" height="42px"></a>
 	<nav class="header__navigation">
@@ -9,7 +11,9 @@
 					header__navigation-link--active
 					{% endif %}
 					">
-					{{ item.text }}</a>
+					{{ item.text }}
+					{{ icon ("header__navigation-icon","down",24,24) }}
+					</a>
 				</li>
 			{% endfor %}
 		</ul>
