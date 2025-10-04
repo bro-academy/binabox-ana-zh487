@@ -1,10 +1,12 @@
+{% from "ui/icon.twig" import icon %}
+
 <header>
 	<h2 class="article-page__header section-header">{{ blog.article.header }}</h2>
 	<a href="{{ blog.article.category_link }}" class="article-page__category button button--large button--primary">{{ blog.article.category }}</a>
 	<div class="article-info">
-		<img src="#" alt="people icon" width="16px" height="16px">
+		{{ icon ("article-info__icon", "user", 16, 16) }}
 		<span class="article-info__author">{{ blog.article.author }}</span>
-		<img src="#" alt="calendar icon" width="16px" height="16px">
+		{{ icon ("article-info__icon", "calendar", 16, 16) }}
 		<time class="article-info__date" datetime="{{ blog.article.date }}">{{ blog.article.date_text }}</time>
 	</div>
 </header>
