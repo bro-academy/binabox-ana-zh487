@@ -1,7 +1,10 @@
 {% from "ui/icon.twig" import icon %}
 
 <header class="header">
-	<a href="/" class="header__logo"><img src="{{ common.logo_src }}" alt="{{ common.logo_alt }}" class="header__logo-image" width="188px" height="42px"></a>
+	<a href="/" class="header__logo">
+		<svg class="header__logo-icon" width="36px" height="40px"><use href="/src/assets/logos/logo.svg" /></svg>
+		<svg class="header__logo-text" width="135px" height="21px"><use href="/src/assets/logos/binabox.svg" /></svg>
+	</a>
 	<nav class="header__navigation">
 		<ul class="header__navigation-list">
 			{% for item in common.header.navigation %}
