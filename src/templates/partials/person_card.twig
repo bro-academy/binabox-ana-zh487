@@ -1,4 +1,5 @@
 {% from "ui/picture.twig" import picture %}
+{% from "ui/icon.twig" import icon %}
 
 <article class="person-card">
 
@@ -18,7 +19,9 @@
 	<ul class="socials">
 		{% for unit in item.socials %}
 			<li class="socials__item">
-				<a href="{{ unit.link }}" class="socials__item-link"><img src="{{ unit.logo_src }}" class="socials__item-icon" alt="{{ unit.logo_alt }}" width="24px" height="24px"></a>
+				<a href="{{ unit.link }}" class="socials__item-link">
+					{{ icon ("socials__item-icon", unit.icon_id, 24, 24) }}
+				</a>
 			</li>
 		{% endfor %}
 	</ul>
