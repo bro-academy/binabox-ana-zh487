@@ -3,6 +3,10 @@
 .footer {
     background-color: $card-bg-color-secondary;
 
+    &__logo-text {
+        color: $accent-color;
+    }
+
     &__text {
         font-size: $text-fs-xs;
         line-height: $lh-xs;

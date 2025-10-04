@@ -1,0 +1,13 @@
+@use '../base/variables' as *;
+
+.socials {
+
+    &__item-icon {
+        fill: currentColor;
+    }
+
+    &__item-link:hover {
+        color: $accent-color-focus;
+    }
+
+}

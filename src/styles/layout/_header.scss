@@ -9,6 +9,10 @@
         line-height: $lh-s;
     }
 
+    &__navigation-icon {
+        fill: currentColor;
+    }
+
     &__navigation-link--active {
         border-bottom: $border-width-s solid $accent-color;
     }

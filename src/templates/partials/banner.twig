@@ -1,4 +1,4 @@
-{% import "ui/picture.twig" as ui %}
+{% from "ui/picture.twig" import picture %}
 
 <section class="banner">
 	<h1 class="banner__header page-header">{{ index.banner.header_text_1 }}
@@ -16,7 +16,7 @@
 		<button type="button" class="banner__controls-button button button--large">Whitelist now</button>
 	</div>
 
-	{{ ui.picture(
+	{{ picture(
 			"banner__picture",
 			index.banner.picture.src,
 			index.banner.picture.sources,

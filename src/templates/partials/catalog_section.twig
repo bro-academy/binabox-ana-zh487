@@ -1,10 +1,19 @@
+{% from "ui/icon.twig" import icon %}
+
 <section class="catalog">
 	<header>
-		<h2 class="catalog__header section-header">{{ index.catalog.header }}</h2>
+		<h2 class="catalog__header section-header">
+			{{ icon ("section-header__icon","folder", 24, 24) }}
+			{{ index.catalog.header }}
+		</h2>
 		<div class="catalog__controls">
 			<a class="catalog__controls-button button button--large" href="#">See all</a>
-			<button type="button" class="catalog__controls-button button button--large"><img src="#" alt="left arrow" width="24px" height="24px"></button>
-			<button type="button" class="catalog__controls-button button button--large button--primary"><img src="#" alt="right arrow" width="24px" height="24px"></button>
+			<button type="button" class="catalog__controls-button button button--large">
+				{{ icon ("button__icon", "left", 24, 24) }}	
+			</button>
+			<button type="button" class="catalog__controls-button button button--large button--primary button--accent-text">
+				{{ icon ("button__icon", "right", 24, 24) }}
+			</button>
 		</div>
 	</header>
 	<ul class="catalog__list">

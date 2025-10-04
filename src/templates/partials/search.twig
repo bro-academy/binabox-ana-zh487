@@ -1,4 +1,8 @@
+{% from 'ui/icon.twig' import icon %}
+
 <form action="{{ item.action }}" method="post" class="search">
-	<button type="submit" class="search__button"><img src="{{ item.button_icon_src }}" alt="{{ item.button_icon_alt }}" class="search__button-icon" width="24px" height="24px"/></button>
+	<button type="submit" class="search__button">
+	{{ icon ("search__button-icon", "search", 24, 24) }}
+	</button>
 	<input type="search" placeholder="{{ item.placeholder }}" name="{{ item.name }}" class="search__input" minlength="2" maxlength="500" required/>
 </form>

@@ -3,9 +3,9 @@
 	<form action="{{ catalog.sidebar_action }}" method="post" class="catalog-filter">
 		{% for module in catalog.sidebar_filter %}
 
-			<div class="catalog-filter__fieldset">
-				<h4 class="catalog-filter__title">{{ module.header }}</h4>
-
+			<details class="catalog-filter__fieldset accordion">
+				<summary class="catalog-filter__title accordion__header">{{ module.header }}</summary>
+				<div class="accordion__content">
 				{% for item in module.fieldset %}
 					{% if item.type == "checkbox" %}
 						{% include '/field-checkbox.twig' %}
@@ -13,7 +13,8 @@
 						{% include '/field-radio.twig' %}
 					{% endif %}
 				{% endfor %}
-			</div>
+				</div>
+			</details>
 
 		{% endfor %}
 

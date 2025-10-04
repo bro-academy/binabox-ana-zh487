@@ -23,6 +23,11 @@
         border: $border-width-s solid $separator-color-disabled;
         background-color: $background-color-disabled;
     }
+
+    &__icon {
+        fill: currentColor;
+    }
+
 }
 
 .button--primary {
@@ -59,4 +64,8 @@
 .button--small {
     font-size: $text-fs-xs;
     line-height: $lh-xs;
+}
+
+.button--accent-text {
+    color: $body-bg-color;
 }
