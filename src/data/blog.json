@@ -207,18 +207,15 @@
                     "list": [
                         {
                             "link": "#",
-                            "logo_src": "#",
-                            "logo_alt": "Twitter"
+                            "icon_id": "twitter"
                         },
                         {
                             "link": "#",
-                            "logo_src": "#",
-                            "logo_alt": "Facebook"
+                            "icon_id": "facebook"
                         },
                         {
                             "link": "#",
-                            "logo_src": "#",
-                            "logo_alt": "Instagram"
+                            "icon_id": "instagram"
                         }
                     ]
                 }
