@@ -1,4 +1,5 @@
 {% from "ui/picture.twig" import picture %}
+{% from "ui/icon.twig" import icon %}
 
 <article class="blog-article">
 
@@ -15,12 +16,14 @@
 
 	<span class="blog-article__label item-label">{{ item.label }}</span>
 	<div class="article-info">
-		<img src="#" alt="people icon" width="16px" height="16px">
+		{{ icon ("article-info__icon", "user", 16, 16) }}
 		<span class="article-info__author">{{ item.author }}</span>
-		<img src="#" alt="calendar icon" width="16px" height="16px">
+		{{ icon ("article-info__icon", "calendar", 16, 16) }}
 		<time datetime="{{ item.date }}" class="article-info__date">{{ item.date_text}}</time>
 	</div>
 	<h3 class="blog-article__header">{{ item.header }}</h3>
 	<p class="blog-article__description">{{ item.description }}</p>
-	<a href="{{ item.link }}" class="blog-article__button button">Read more ></a>
+	<a href="{{ item.link }}" class="blog-article__button button">Read more 
+		{{ icon ("button__icon", "right", 24, 24) }}
+	</a>
 </article>
