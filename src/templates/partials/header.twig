@@ -7,12 +7,12 @@
 			{% for item in common.header.navigation %}
 				<li class="header__navigation-item">
 					<a href="{{ item.link }}" class="header__navigation-link link
-					{% if item.link == page %}
-					header__navigation-link--active
-					{% endif %}
-					">
-					{{ item.text }}
-					{{ icon ("header__navigation-icon","down",24,24) }}
+												{% if item.link == page %}
+												header__navigation-link--active
+												{% endif %}
+												">
+						{{ item.text }}
+						{{ icon ("header__navigation-icon", "down", 24, 24) }}
 					</a>
 				</li>
 			{% endfor %}
@@ -24,7 +24,13 @@
 		<div class="header__controls-search">{% include '/search.twig' with { item:common.header.search } %}</div>
 
 
-		<a class="header__controls-button button button--large" href="{{ common.header.controls.button_discord_link }}">{{ common.header.controls.button_discord_text }}</a>
-		<button type="button" class="header__controls-button button button--large button--primary">{{ common.header.controls.button_login_text }}</button>
+		<a class="header__controls-button button button--large" href="{{ common.header.controls.button_discord_link }}">
+			{{ icon ("button__icon", "discord", 24, 24) }}
+			{{ common.header.controls.button_discord_text }}
+		</a>
+		<button type="button" class="header__controls-button button button--large button--primary">
+			{{ icon ("button__icon", "user", 24, 24) }}
+			{{ common.header.controls.button_login_text }}
+		</button>
 	</div>
 </header>

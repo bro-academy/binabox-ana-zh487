@@ -23,6 +23,11 @@
         border: $border-width-s solid $separator-color-disabled;
         background-color: $background-color-disabled;
     }
+
+    &__icon {
+        fill: currentColor;
+    }
+
 }
 
 .button--primary {
