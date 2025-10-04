@@ -1,0 +1,15 @@
+{% from 'ui/icon.twig' import icon %}
+
+<section class="contacts-info">
+    <ul class="contacts-info__list">
+        {% for item in contacts.info %}
+            <li class="contacts-info__item">
+                <article class="contacts-info__block">
+                    {{ icon ("contacts-info__icon", item.icon_id, 56, 56) }}
+                    <h2 class="contacts-info__title section-header">{{ item.title }}</h2>
+                    <p class="contacts-info__description">{{ item.description }}</p>
+                </article>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
