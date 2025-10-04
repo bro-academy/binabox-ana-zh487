@@ -16,4 +16,8 @@
         font-weight: $fw-l;
         font-style: normal;
     }
+
+    &__cite-icon {
+        fill: $blockquote-icon-color;
+    }
 }
