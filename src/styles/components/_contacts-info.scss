@@ -1,0 +1,17 @@
+@use '../base/variables' as *;
+
+.contacts-info {
+
+    &__block {
+        border: $border-width-xs solid $check-color;
+        fill: $color-primary;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: $text-fs-s;
+        line-height: $lh-s;
+        color: $color-secondary;
+    }
+
+}

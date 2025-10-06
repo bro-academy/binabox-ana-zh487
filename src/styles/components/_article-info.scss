@@ -14,4 +14,8 @@
         line-height: $lh-xs;
         font-weight: $fw-l;
     }
+
+    &__icon {
+        fill: currentColor;
+    }
 }

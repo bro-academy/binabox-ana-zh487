@@ -8,6 +8,8 @@
         font-size: $text-fs-xxl;
         line-height: $lh-xl;
         font-family: $ff-secondary;
+        -webkit-text-stroke: 1px $blockquote-stroke-color;
+        text-shadow: 0 4px 4px $blockquote-shadow-color;
     }
 
     &__cite {
@@ -15,5 +17,9 @@
         line-height: $lh-xs;
         font-weight: $fw-l;
         font-style: normal;
+    }
+
+    &__cite-icon {
+        fill: $blockquote-icon-color;
     }
 }

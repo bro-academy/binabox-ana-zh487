@@ -1,4 +1,5 @@
 @import "./_about.scss";
+@import "./_accordion.scss";
 @import "./_article-info.scss";
 @import "./_article-page.scss";
 @import "./_banner.scss";
@@ -9,6 +10,7 @@
 @import "./_catalog-filter.scss";
 @import "./_catalog.scss";
 @import "./_contacts-form.scss";
+@import "./_contacts-info.scss";
 @import "./_counted-list.scss";
 @import "./_faq.scss";
 @import "./_field-checkbox.scss";
@@ -29,4 +31,5 @@
 @import "./_select.scss";
 @import "./_sidebar-categories.scss";
 @import "./_sidebar-tags.scss";
+@import "./_socials.scss";
 @import "./_sub-header.scss";

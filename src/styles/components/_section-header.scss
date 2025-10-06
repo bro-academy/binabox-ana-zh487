@@ -7,4 +7,9 @@
     font-size: $header-fs-s;
     line-height: $lh-xxl;
     text-align: center;
+
+    &__icon {
+        fill: currentColor;
+    }
+
 }

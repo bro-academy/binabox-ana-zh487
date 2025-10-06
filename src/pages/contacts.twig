@@ -8,6 +8,8 @@
 
 	{% include 'src/templates/partials/page_title.twig' with { page_header:contacts.header, breadcrumbs_array:contacts.breadcrumbs } %}
 
+    {% include 'src/templates/partials/contacts_info.twig' %}
+
     {% include 'src/templates/partials/contacts_form.twig' %}
 
 {% endblock %}

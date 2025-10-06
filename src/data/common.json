@@ -25,8 +25,6 @@
       "search": {
         "action": "",
         "name": "search_header",
-        "button_icon_src": "#",
-        "button_icon_alt": "Search in site",
         "placeholder": "Search"
       },
       "controls": {
@@ -78,33 +76,27 @@
       "socials": [
         {
           "link": "x.com",
-          "logo": "#",
-          "alt": "Twitter"
+          "icon_id": "twitter"
         },
         {
           "link": "facebook.com",
-          "logo": "#",
-          "alt": "Facebook"
+          "icon_id": "facebook"
         },
         {
           "link": "telegram.org",
-          "logo": "#",
-          "alt": "Telegram"
+          "icon_id": "telegram"
         },
         {
           "link": "youtube.com",
-          "logo": "#",
-          "alt": "Youtube"
+          "icon_id": "youtube"
         },
         {
           "link": "tiktok.com",
-          "logo": "#",
-          "alt": "TikTok"
+          "icon_id": "tiktok"
         },
         {
           "link": "discord.com",
-          "logo": "#",
-          "alt": "Discord"
+          "icon_id": "discord"
         }
       ]
     }

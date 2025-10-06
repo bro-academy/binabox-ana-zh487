@@ -1,9 +1,9 @@
 <section class="faq">
 	<h2 class="faq__header section-header">{{ index.faq.header }}</h2>
     {% for item in index.faq.list %}
-	<details class="faq__item">
-		<summary class="faq__question">{{ item.question }}</summary>
-		<p class="faq__answer">{{ item.answer }}</p>
+	<details class="faq__item accordion">
+		<summary class="faq__question accordion__header">{{ item.question }}</summary>
+		<p class="faq__answer accordion__content">{{ item.answer }}</p>
 	</details>
     {% endfor %}
 </section>

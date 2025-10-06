@@ -352,23 +352,19 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Facebook"
+              "icon_id": "facebook"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Instagram"
+              "icon_id": "instagram"
             }
           ]
         },
@@ -394,23 +390,19 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Instagram"
+              "icon_id": "instagram"
             }
           ]
         },
@@ -436,23 +428,19 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Facebook"
+              "icon_id": "facebook"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             }
           ]
         },
@@ -478,28 +466,23 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Facebook"
+              "icon_id": "facebook"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Instagram"
+              "icon_id": "instagram"
             }
           ]
         },
@@ -525,8 +508,7 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             }
           ]
         },
@@ -552,28 +534,23 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Facebook"
+              "icon_id": "facebook"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Instagram"
+              "icon_id": "instagram"
             }
           ]
         },
@@ -599,28 +576,23 @@
           "socials": [
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Twitter"
+              "icon_id": "twitter"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Facebook"
+              "icon_id": "facebook"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Telegram"
+              "icon_id": "telegram"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "LinkedIn"
+              "icon_id": "linkedin"
             },
             {
               "link": "#",
-              "logo_src": "#",
-              "logo_alt": "Instagram"
+              "icon_id": "instagram"
             }
           ]
         }
