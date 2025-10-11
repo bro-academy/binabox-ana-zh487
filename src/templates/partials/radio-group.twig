@@ -1,0 +1,6 @@
+<div class="radio-group">
+    <p class="radio-group__header">{{ item.header }}</p>
+    {% for option in item.options %}
+        {% include '/field-radio.twig' with { item:option } %}
+    {% endfor %}
+</div>
