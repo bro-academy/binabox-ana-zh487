@@ -1,18 +1,32 @@
 @use '../base/variables' as *;
 
 .article-page {
+
+    max-width: $article-page-width;
+
+    &__title {
+        margin-block-end: $space-l-plus;
+    }
+
     &__header {
         text-align: left;
+        margin-block-end: $space-m;
+    }
+
+    &__category {
+        margin-block-end: $space-l-plus;
     }
 
     &__text {
         font-size: $text-fs-m;
         line-height: $lh-m;
         color: $color-thirdly;
+        margin-block-end: $space-l-plus;
     }
 
     &__list {
         list-style: disc;
+        margin-block-end: $space-l-plus;
     }
 
     &__list-item {
@@ -20,9 +34,26 @@
         line-height: $lh-m;
     }
 
+    &__icon-list {
+        margin-block-end: $space-l-plus;
+    }
+
     &__footer-title {
         font-size: $text-fs-s;
         line-height: $lh-s;
+        margin-inline-end: $space-m-minus;
+    }
+
+    &__footer-button {
+        margin-inline-end: $space-m-minus;
+    }
+
+    &__footer-button:last-child {
+        margin-inline-end: 0;
+    }
+
+    &__sub-header {
+        margin-block-end: $space-s-plus;
     }
 
 }

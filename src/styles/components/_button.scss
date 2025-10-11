@@ -1,12 +1,15 @@
 @use '../base/variables' as *;
 
 .button {
+    
     border: $border-width-s solid $separator-color;
     font-size: $text-fs-s;
     line-height: $lh-s;
     font-weight: $fw-l;
     background-color: transparent;
     color: $color-primary;
+    padding-block: $space-s;
+    padding-inline: $space-l-minus;
 
     &:hover,
     &:active {
@@ -58,14 +61,30 @@
 .button--large {
     font-size: $text-fs-m;
     line-height: $lh-m;
+    padding-block: $space-s-plus;
+    padding-inline: $space-l;
 }
 
 
 .button--small {
     font-size: $text-fs-xs;
     line-height: $lh-xs;
+    padding-block: $space-s-minus;
+    padding-inline: $space-m-minus;
 }
 
 .button--accent-text {
     color: $body-bg-color;
+}
+
+
+.button--icon {
+    padding-block: $space-s;
+    padding-inline: $space-s;
+}
+
+
+.button--icon.button--large {
+    padding-block: $space-m-minus;
+    padding-inline: $space-m-minus;
 }

@@ -3,12 +3,25 @@
 .sidebar-tags {
 
     background-color: $card-bg-color;
+    padding-block: $space-l;
+    padding-inline: $space-l;
+    width: $blog-sidebar-width;
 
     &__header {
         font-size: $text-fs-xl;
         line-height: $lh-l;
         font-family: $ff-secondary;
         font-weight: $fw-s;
+        margin-block-end: $space-m;
+    }
+
+    &__list {
+        margin-block-start: $space-m;
+    }
+
+    &__item {
+        margin-block-end: $space-s;
+        margin-inline-end: $space-s;
     }
 
     &__link {

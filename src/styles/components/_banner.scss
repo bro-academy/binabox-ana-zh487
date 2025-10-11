@@ -6,6 +6,8 @@
 
     &__header {
         text-align: left;
+        margin-block-start: 0;
+        margin-block-end: $space-s;
     }
 
     &__header-highlighted {
@@ -16,6 +18,19 @@
         font-size: $text-fs-l;
         line-height: $lh-m;
         font-weight: $fw-m;
+        margin-block-end: $space-l-plus;
+    }
+
+    &__stats {
+        margin-block-end: $space-l-plus;
+    }
+
+    &__stats-item {
+        margin-inline-end: $space-xl;
+
+        &:last-child {
+            margin-inline-end: 0;
+        }
     }
 
     &__stats-title {
@@ -30,4 +45,13 @@
         font-size: $text-fs-s;
         line-height: $lh-s;
     }
+
+    &__controls-button {
+        margin-inline-end: $space-m;
+
+        &:last-child {
+            margin-inline-end: 0;
+        }
+    }
+
 }

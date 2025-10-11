@@ -2,11 +2,25 @@
 
 .header {
 
+    padding-block: $space-l-plus;
+    padding-inline: $space-l-plus;
+
+    &__logo-icon {
+        margin-inline-end: $space-m-plus;
+    }
+
     &__navigation-link {
         color: $color-primary;
         font-weight: $fw-l;
         font-size: $text-fs-s;
         line-height: $lh-s;
+        padding-block: $space-s;
+        padding-inline: $space-l-minus;
+    }
+
+    &__navigation-icon {
+        fill: currentColor;
+        margin-inline-start: $space-s;
     }
 
     &__navigation-icon {
@@ -15,6 +29,10 @@
 
     &__navigation-link--active {
         border-bottom: $border-width-s solid $accent-color;
+    }
+
+    &__controls-button {
+        margin-inline-start: $space-m;
     }
 
 }

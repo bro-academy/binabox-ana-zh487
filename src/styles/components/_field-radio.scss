@@ -9,6 +9,7 @@
         border-radius: $radio-size;
         border: $border-width-s solid $check-color;
         background-color: $body-bg-color;
+        margin-inline-end: $space-xs;
 
         &:checked {
             border: $border-width-xl solid $accent-color;

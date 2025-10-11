@@ -3,12 +3,31 @@
 .sidebar-categories {
 
     background-color: $card-bg-color;
+    padding-block: $space-l;
+    padding-inline: $space-l;
+    margin-block-end: $space-l-minus;
+    width: $blog-sidebar-width;
 
     &__header {
         font-size: $text-fs-xl;
         line-height: $lh-l;
         font-family: $ff-secondary;
         font-weight: $fw-s;
+        margin-block-end: $space-m;
+    }
+
+    &__list {
+        margin-block-start: $space-m;
+    }
+
+    &__item {
+        padding-block: $space-s-minus;
+        padding-inline: $space-m-minus;
+        margin-block-end: $space-s;
+    }
+
+    &__item:last-child {
+        margin-block-end: 0;
     }
 
     &__link {

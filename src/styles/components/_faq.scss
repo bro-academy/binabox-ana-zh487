@@ -1,8 +1,18 @@
 @use '../base/variables' as *;
 
 .faq {
+
+    padding-block: $space-xl;
+
+    &__header {
+        margin-block-end: $space-xl-minus;
+    }
+
     &__item {
         background-color: $card-bg-color;
+        padding-block: $space-l;
+        padding-inline: $space-l;
+        margin-block-end: $space-l;
     }
 
     &__question {
@@ -14,6 +24,7 @@
     &__answer {
         font-size: $text-fs-s;
         line-height: $lh-s;
+        margin-block-start: $space-m-plus;
     }
 
     &__answer {

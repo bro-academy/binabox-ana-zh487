@@ -6,6 +6,8 @@
     font-weight: $fw-l;
     color: $accent-color;
     background-color: $color-primary;
+    padding-block: $space-s;
+    padding-inline: $space-s-plus;
 }
 
 .item-label--accent {
