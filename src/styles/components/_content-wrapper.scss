@@ -1,0 +1,6 @@
+@use '../base/variables' as *;
+
+.content-wrapper {
+    max-width: $content-width;
+    margin-inline: auto;
+}
