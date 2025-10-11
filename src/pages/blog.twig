@@ -8,50 +8,54 @@
 
 	{% include 'src/templates/partials/page_title.twig' with { page_header:blog.header, breadcrumbs_array:blog.breadcrumbs } %}
 
-	{% include 'src/templates/partials/blog_aside.twig' %}
+	<div class="content-wrapper">
 
-	<article class="article-page">
+		{% include 'src/templates/partials/blog_aside.twig' %}
 
-		{% include 'src/templates/partials/article_picture.twig' with { item:blog.article.main_picture } %}
+		<article class="article-page">
 
-		{% include 'src/templates/partials/article_header.twig' %}
+			{% include 'src/templates/partials/article_picture.twig' with { item:blog.article.main_picture } %}
 
-		<p class="article-page__text">{{ blog.article.paragraph_1 }}</p>
+			{% include 'src/templates/partials/article_title.twig' %}
 
-		<ul class="article-page__list">
-			{% for item in blog.article.list %}
-				<li class="article-page__list-item">{{ item.text }}</li>
-			{% endfor %}
-		</ul>
+			<p class="article-page__text">{{ blog.article.paragraph_1 }}</p>
 
-		<ul class="icon-list">
-			{% for item in blog.article.icon_list %}
-				<li class="icon-list__item">{{ item.text }}</li>
-			{% endfor %}
-		</ul>
+			<ul class="article-page__list">
+				{% for item in blog.article.list %}
+					<li class="article-page__list-item">{{ item.text }}</li>
+				{% endfor %}
+			</ul>
 
-		{% include 'src/templates/partials/article_blockquote.twig' %}
+			<ul class="icon-list article-page__icon-list">
+				{% for item in blog.article.icon_list %}
+					<li class="icon-list__item">{{ item.text }}</li>
+				{% endfor %}
+			</ul>
 
-		<ul class="picture-list">
-			{% for item in blog.article.list_picture %}
-				<li class="picture-list__item">
-					{% include 'src/templates/partials/article_picture.twig' %}
-				</li>
-			{% endfor %}
-		</ul>
+			{% include 'src/templates/partials/article_blockquote.twig' %}
 
-		<h3 class="sub-header">{{ blog.article.sub_header_1 }}</h3>
+			<ul class="picture-list">
+				{% for item in blog.article.list_picture %}
+					<li class="picture-list__item">
+						{% include 'src/templates/partials/article_picture.twig' %}
+					</li>
+				{% endfor %}
+			</ul>
 
-		<p class="article-page__text">{{ blog.article.paragraph_2 }}</p>
+			<h3 class="sub-header article-page__sub-header">{{ blog.article.sub_header_1 }}</h3>
 
-		<p class="article-page__text">{{ blog.article.paragraph_3 }}</p>
+			<p class="article-page__text">{{ blog.article.paragraph_2 }}</p>
 
-		<h3 class="sub-header">{{ blog.article.sub_header_2 }}</h3>
+			<p class="article-page__text">{{ blog.article.paragraph_3 }}</p>
 
-		<p class="article-page__text">{{ blog.article.paragraph_4 }}</p>
+			<h3 class="sub-header article-page__sub-header">{{ blog.article.sub_header_2 }}</h3>
 
-		{% include 'src/templates/partials/article_footer.twig' %}
+			<p class="article-page__text">{{ blog.article.paragraph_4 }}</p>
 
-	</article>
+			{% include 'src/templates/partials/article_footer.twig' %}
+
+		</article>
+
+	</div>
 
 {% endblock %}
