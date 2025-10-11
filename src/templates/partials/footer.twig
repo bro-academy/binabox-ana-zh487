@@ -1,32 +1,38 @@
 <footer class="footer">
-	<div class="footer__info">
-		<a href="/" class="footer__logo">
-			<svg class="footer__logo-icon" width="36px" height="40px"><use href="/src/assets/logos/logo.svg" /></svg>
-			<svg class="footer__logo-text" width="135px" height="21px"><use href="/src/assets/logos/binabox.svg" /></svg>
-		</a>
-		<p class="footer__text">{{ common.footer.slogan }}</p>
+	<div class="content-wrapper">
+		<div class="footer__top">
+			<div class="footer__info">
+				<a href="/" class="footer__logo">
+					<svg class="footer__logo-icon" width="36px" height="40px"><use href="/src/assets/logos/logo.svg"/></svg>
+					<svg class="footer__logo-text" width="135px" height="21px"><use href="/src/assets/logos/binabox.svg"/></svg>
+				</a>
+				<p class="footer__text">{{ common.footer.slogan }}</p>
+			</div>
+			<nav class="footer__navigation">
+				<div class="footer__navigation-header">{{ common.footer.navigation.header }}</div>
+				<ul class="footer__navigation-list">
+					{% for item in common.footer.navigation.list %}
+						<li class="footer__navigation-item">
+							<a href="{{ item.link }}" class="footer__navigation-link link">{{ item.text }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+		<hr>
+		<div class="footer__bottom">
+			<p class="footer__text">{{ common.footer.copyright_text }}</p>
+			<nav class="footer__socials">
+				<ul class="footer__socials-list socials">
+					{% for item in common.footer.socials %}
+						<li class="socials__item">
+							<a href="{{ item.link }}" class="socials__item-link">
+								{{ icon ("socials__item-icon", item.icon_id, 24, 24) }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
 	</div>
-	<nav class="footer__navigation">
-		<div class="footer__navigation-header">{{ common.footer.navigation.header }}</div>
-		<ul class="footer__navigation-list">
-			{% for item in common.footer.navigation.list %}
-				<li class="footer__navigation-item">
-					<a href="{{ item.link }}" class="footer__navigation-link link">{{ item.text }}</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</nav>
-	<hr>
-	<p class="footer__text">{{ common.footer.copyright_text }}</p>
-	<nav class="footer__socials">
-		<ul class="footer__socials-list socials">
-			{% for item in common.footer.socials %}
-				<li class="socials__item">
-					<a href="{{ item.link }}" class="socials__item-link">
-					{{ icon ("socials__item-icon", item.icon_id, 24, 24) }}
-					</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</nav>
 </footer>

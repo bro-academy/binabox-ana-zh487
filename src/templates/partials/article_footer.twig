@@ -10,7 +10,7 @@
 	<div class="article-page__footer-unit">
 		<span class="article-page__footer-title">{{ blog.article.footer.share.header }}</span>
 		{% for item in blog.article.footer.share.list %}
-			<a href="{{ item.link }}" class="article-page__footer-button button button--small">
+			<a href="{{ item.link }}" class="article-page__footer-button button button--small button--icon">
 				{{ icon ("button__icon", item.icon_id, 16, 16) }}
 			</a>
 		{% endfor %}
