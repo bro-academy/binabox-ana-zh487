@@ -1,0 +1,11 @@
+@use '../base/variables' as *;
+
+.team {
+
+    padding-block: $space-xl;
+
+    &__header {
+        margin-block-end: $space-xl-minus;
+    }
+
+}

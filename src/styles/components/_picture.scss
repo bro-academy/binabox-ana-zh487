@@ -1,6 +1,9 @@
 @use '../base/variables' as *;
 
 .picture {
+
+    margin-block-end: $space-l-plus;
+
     &__title {
         font-size: $text-fs-s;
         line-height: $lh-s;

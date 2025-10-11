@@ -3,5 +3,11 @@
 .page-title {
 
     background-image: url(../../assets/images/page-title/big-circular-lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: $page-title-height;
+    padding-block-start: $space-xl;
+    text-align: center;
+    margin-block-end: $space-xl;
 
 }

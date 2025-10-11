@@ -6,6 +6,8 @@
 
     &__item {
         background-color: $card-bg-color-secondary;
+        padding-block: $space-l-plus;
+        padding-inline: $space-l-plus;
     }
 
     &__header {
@@ -13,6 +15,7 @@
         line-height: $lh-l;
         font-family: $ff-secondary;
         font-weight: $fw-s;
+        margin-block-end: $space-l;
     }
 
     &__description {

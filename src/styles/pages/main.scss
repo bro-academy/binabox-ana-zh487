@@ -1,6 +1,7 @@
 @use '../base/global';
 
 
+@use '../components/content-wrapper';
 @use '../components/link';
 @use '../components/button';
 @use '../components/about';
@@ -9,6 +10,7 @@
 @use '../components/field-checkbox';
 @use '../components/field-textarea';
 @use '../components/label-default';
+@use '../components/radio-group';
 @use '../components/search';
 @use '../components/select';
 @use '../components/article-info';
@@ -28,7 +30,10 @@
 @use '../components/sub-header';
 @use '../components/banner';
 @use '../components/catalog';
+@use '../components/blog';
+@use '../components/team';
 @use '../components/article-page';
+@use '../components/sidebar';
 @use '../components/sidebar-categories';
 @use '../components/sidebar-tags';
 @use '../components/contacts-form';

@@ -1,6 +1,9 @@
 @use '../base/variables' as *;
 
 .article-info {
+
+    margin-block-end: $space-m;
+
     &__author {
         color: $color-secondary;
         font-size: $text-fs-xs;
@@ -17,5 +20,6 @@
 
     &__icon {
         fill: currentColor;
+        margin-inline-end: $space-s;
     }
 }

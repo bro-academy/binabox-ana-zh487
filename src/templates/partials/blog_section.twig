@@ -1,9 +1,0 @@
-<section class="blog">
-	<h2 class="blog__header section-header">{{ index.blog.header }}</h2>
-	<ul class="blog__list">
-		{% for item in index.blog.list %}
-			<li class="blog__item">{% include "/blog_item.twig" %}</li>
-		{% endfor %}
-	</ul>
-	<a href="{{ index.blog.readmore_link }}" class="blog__button button button--large">{{ index.blog.readmore_text }}</a>
-</section>

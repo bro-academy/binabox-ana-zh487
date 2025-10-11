@@ -5,7 +5,7 @@
 
 			<details class="catalog-filter__fieldset accordion">
 				<summary class="catalog-filter__title accordion__header">{{ module.header }}</summary>
-				<div class="accordion__content">
+				<div class="catalog-filter__options accordion__content">
 				{% for item in module.fieldset %}
 					{% if item.type == "checkbox" %}
 						{% include '/field-checkbox.twig' %}
@@ -18,7 +18,7 @@
 
 		{% endfor %}
 
-		<button type="submit" class="button button--primary">{{ catalog.sidebar_button_text }}</button>
+		<button type="submit" class="catalog-filter__button button button--primary">{{ catalog.sidebar_button_text }}</button>
 
 	</form>
 

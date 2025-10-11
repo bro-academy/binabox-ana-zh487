@@ -3,24 +3,31 @@
 	<h2 class="section-header contacts-form__header">{{ contacts.form.header }}</h2>
 	<p class="contacts-form__description">{{ contacts.form.description }}</p>
 
-	{% for item in contacts.form.fields %}
-		{% if item.type == "subheader" %}
-			<span class="contacts-form__label">{{ item.text }}</span>
-		{% elseif item.type == "checkbox" %}
-			{% include '/field-checkbox.twig' %}
-		{% elseif item.type == "radio" %}
-			{% include '/field-radio.twig' %}
-		{% elseif item.type == "date" %}
-			{% include '/field-date.twig' %}
-		{% elseif item.type == "textarea" %}
-			{% include '/field-textarea.twig' %}
-		{% elseif item.type == "text" %}
-			{% include '/field-text.twig' %}
-		{% elseif item.type == "email" %}
-			{% include '/field-email.twig' %}
-		{% elseif item.type == "tel" %}
-			{% include '/field-tel.twig' %}
-		{% endif %}
-	{% endfor %}
-	<button type="submit" class="button button--primary">{{ contacts.form.button_text }}</button>
+	<div class="contacts-form__content">
+		{% for item in contacts.form.fields %}
+			{% if item.type == "subheader" %}
+				<span class="contacts-form__label">{{ item.text }}</span>
+			{% elseif item.type == "checkbox" %}
+				<div class="contacts-form__field">{% include '/field-checkbox.twig' %}</div>
+			{% elseif item.type == "radio" %}
+				<div class="contacts-form__field">{% include '/field-radio.twig' %}</div>
+			{% elseif item.type == "radio-group" %}
+				<div class="contacts-form__field">{% include '/radio-group.twig' %}</div>
+			{% elseif item.type == "date" %}
+				<div class="contacts-form__field">{% include '/field-date.twig' %}</div>
+			{% elseif item.type == "textarea" %}
+				<div class="contacts-form__field">{% include '/field-textarea.twig' %}</div>
+			{% elseif item.type == "text" %}
+				<div class="contacts-form__field">{% include '/field-text.twig' %}</div>
+			{% elseif item.type == "email" %}
+				<div class="contacts-form__field">{% include '/field-email.twig' %}</div>
+			{% elseif item.type == "tel" %}
+				<div class="contacts-form__field">{% include '/field-tel.twig' %}</div>
+			{% endif %}
+		{% endfor %}
+
+		<button type="submit" class="contacts-form__button button button--primary">{{ contacts.form.button_text }}</button>
+
+	</div>
+
 </form>

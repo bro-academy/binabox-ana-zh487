@@ -1,0 +1,11 @@
+<section class="faq">
+	<div class="content-wrapper">
+		<h2 class="faq__header section-header">{{ index.faq.header }}</h2>
+		{% for item in index.faq.list %}
+			<details class="faq__item accordion">
+				<summary class="faq__question accordion__header">{{ item.question }}</summary>
+				<p class="faq__answer accordion__content">{{ item.answer }}</p>
+			</details>
+		{% endfor %}
+	</div>
+</section>

@@ -5,6 +5,7 @@
     &__item {
         font-size: $text-fs-m;
         line-height: $lh-m;
+        margin-block-end: $space-s-plus;
     }
 
     &__item::before {
@@ -14,6 +15,7 @@
         height: 23.5px;
         background-image: url(../../assets/logos/logo.svg);
         background-size: contain;
+        margin-inline-end: $space-s;
     }
 
 }
