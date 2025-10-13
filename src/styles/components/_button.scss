@@ -79,12 +79,10 @@
 
 
 .button--icon {
-    padding-block: $space-s;
-    padding-inline: $space-s;
+    padding: $space-s;
 }
 
 
 .button--icon.button--large {
-    padding-block: $space-m-minus;
-    padding-inline: $space-m-minus;
+    padding: $space-m-minus;
 }

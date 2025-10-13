@@ -3,8 +3,7 @@
 .blockquote {
     background-color: $blockquote-bg-color;
     border-radius: 16px;
-    padding-block: $space-m;
-    padding-inline: $space-m;
+    padding: $space-m;
     margin-block-end: $space-l-plus;
 
     &__text {

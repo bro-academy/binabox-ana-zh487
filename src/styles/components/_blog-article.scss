@@ -2,8 +2,7 @@
 
 .blog-article {
     background-color: $card-bg-color;
-    padding-block: $space-l;
-    padding-inline: $space-l;
+    padding: $space-l;
 
     &__image {
         margin-block-end: $space-l;

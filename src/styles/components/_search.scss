@@ -4,8 +4,7 @@
 
     border: $border-width-s solid $separator-color;
     background-color: transparent;
-    padding-block: $space-m-minus;
-    padding-inline: $space-m-minus;
+    padding: $space-m-minus;
 
 
     &__button {
