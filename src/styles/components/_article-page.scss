@@ -44,12 +44,8 @@
         margin-inline-end: $space-m-minus;
     }
 
-    &__footer-button {
+    &__footer-button:not(:last-child) {
         margin-inline-end: $space-m-minus;
-    }
-
-    &__footer-button:last-child {
-        margin-inline-end: 0;
     }
 
     &__sub-header {

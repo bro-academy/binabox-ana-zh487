@@ -23,11 +23,10 @@
     &__item {
         padding-block: $space-s-minus;
         padding-inline: $space-m-minus;
-        margin-block-end: $space-s;
     }
 
-    &__item:last-child {
-        margin-block-end: 0;
+    &__item:not(:last-child) {
+        margin-block-end: $space-s;
     }
 
     &__link {

@@ -25,12 +25,8 @@
         margin-block-end: $space-l-plus;
     }
 
-    &__stats-item {
+    &__stats-item:not(:last-child) {
         margin-inline-end: $space-xl;
-
-        &:last-child {
-            margin-inline-end: 0;
-        }
     }
 
     &__stats-title {
@@ -46,12 +42,8 @@
         line-height: $lh-s;
     }
 
-    &__controls-button {
+    &__controls-button:not(:last-child) {
         margin-inline-end: $space-m;
-
-        &:last-child {
-            margin-inline-end: 0;
-        }
     }
 
 }
