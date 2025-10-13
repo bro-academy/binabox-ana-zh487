@@ -9,6 +9,7 @@
     line-height: $lh-xs;
     padding-block: $space-s-plus;
     padding-inline: $space-m-minus;
+    width: 100%;
 
     &::placeholder {
         color: $placeholder-color;
