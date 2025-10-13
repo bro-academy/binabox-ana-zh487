@@ -31,8 +31,8 @@
         margin-block-end: $space-l;
     }
 
-    &__field .field-textarea textarea {
-        height: 160px;
+    &__field .field-textarea__input {
+        height: $textarea-height;
     }
 
     &__button {
