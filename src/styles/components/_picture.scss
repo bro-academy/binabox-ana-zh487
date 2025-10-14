@@ -3,11 +3,16 @@
 .picture {
 
     margin-block-end: $space-l-plus;
+    position: relative;
 
     &__title {
         font-size: $text-fs-s;
         line-height: $lh-s;
         font-weight: $fw-m;
         color: $color-thirdly;
+        position: absolute;
+        bottom: $space-m;
+        left: $space-l;
+        max-width: 100%;
     }
 }
