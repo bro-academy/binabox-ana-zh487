@@ -4,6 +4,12 @@
 
     padding: $space-l-plus;
 
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: $body-bg-color;
+    z-index: 1;
+
     &__logo-icon {
         margin-inline-end: $space-m-plus;
     }
