@@ -3,6 +3,7 @@
 .blog-article {
     background-color: $card-bg-color;
     padding: $space-l;
+    position: relative;
 
     &__image {
         margin-block-end: $space-l;
@@ -20,5 +21,11 @@
         font-size: $text-fs-s;
         line-height: $lh-s;
         margin-block-end: $space-m;
+    }
+
+    &__label {
+        position: absolute;
+        top: $space-xl-minus;
+        right: $space-xl-minus;
     }
 }
