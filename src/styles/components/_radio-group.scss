@@ -1,0 +1,16 @@
+@use '../base/variables' as *;
+
+.radio-group {
+
+    &__header {
+        color: $color-primary;
+        font-size: $text-fs-xs;
+        line-height: $lh-xs;
+        margin-block-end: $space-s;
+    }
+
+    & .field-radio {
+        margin-block-end: $space-s;
+    }
+
+}

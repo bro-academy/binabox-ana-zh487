@@ -1,6 +1,13 @@
 @use '../base/variables' as *;
 
 .catalog {
+
+    padding-block: $space-xl;
+
+    &__title {
+        margin-block-end: $space-xl-minus;
+    }
+
     &__header {
         text-align: left;
         font-size: $text-fs-xl;
@@ -10,4 +17,9 @@
     &__item {
         background-color: $card-bg-color;
     }
+
+    &__controls-button {
+        margin-inline-start: $space-m;
+    }
+
 }

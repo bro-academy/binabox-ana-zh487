@@ -7,9 +7,13 @@
 {% block content %}
 
 	{% include 'src/templates/partials/page_title.twig' with { page_header:contacts.header, breadcrumbs_array:contacts.breadcrumbs } %}
+	
+	<div class="content-wrapper">
 
-    {% include 'src/templates/partials/contacts_info.twig' %}
+		{% include 'src/templates/partials/contacts_info.twig' %}
 
-    {% include 'src/templates/partials/contacts_form.twig' %}
+		{% include 'src/templates/partials/contacts_form.twig' %}
+
+	</div>
 
 {% endblock %}

@@ -62,57 +62,58 @@
                     "max": "2020-12-31"
                 },
                 {
-                    "type": "subheader",
-                    "text": "Sex"
-                },
-                {
-                    "id": "male",
+                    "header": "Sex",
                     "name": "sex",
-                    "type": "radio",
-                    "label": "Male",
-                    "value": "male"
+                    "type": "radio-group",
+                    "options": [
+                        {
+                            "name": "sex",
+                            "id": "male",
+                            "label": "Male",
+                            "value": "male"
+                        },
+                        {
+                            "name": "sex",
+                            "id": "female",
+                            "label": "Female",
+                            "value": "female"
+                        }
+                    ]
                 },
-                {
-                    "id": "female",
-                    "name": "sex",
-                    "type": "radio",
-                    "label": "Female",
-                    "value": "female"
-                },
-                {
-                    "id": "email",
-                    "name": "email",
-                    "type": "email",
-                    "placeholder": "Enter your email",
-                    "label": "Email",
-                    "required": "yes"
-                },
-                {
-                    "id": "phone",
-                    "name": "phone",
-                    "type": "tel",
-                    "placeholder": "Enter your number",
-                    "label": "Phone Number",
-                    "pattern": "[0-9]{11}"
-                },
-                {
-                    "id": "message",
-                    "name": "message",
-                    "type": "textarea",
-                    "placeholder": "Text your message here",
-                    "label": "Message",
-                    "maxlength": "1000"
-                },
-                {
-                    "id": "terms",
-                    "name": "terms",
-                    "type": "checkbox",
-                    "label": "By clicking on the ‘Send Message’ button I agree to <a href='#' class='link'>all the terms of the security policy</a>",
-                    "value": "accepted-terms",
-                    "required": "yes"
-                }
-            ],
-            "button_text": "Send Message"
-        }
+            {
+                "id": "email",
+                "name": "email",
+                "type": "email",
+                "placeholder": "Enter your email",
+                "label": "Email",
+                "required": "yes"
+            },
+            {
+                "id": "phone",
+                "name": "phone",
+                "type": "tel",
+                "placeholder": "Enter your number",
+                "label": "Phone Number",
+                "pattern": "[0-9]{11}"
+            },
+            {
+                "id": "message",
+                "name": "message",
+                "type": "textarea",
+                "placeholder": "Text your message here",
+                "label": "Message",
+                "maxlength": "1000"
+            },
+            {
+                "id": "terms",
+                "name": "terms",
+                "type": "checkbox",
+                "label": "By clicking on the ‘Send Message’ button I agree to <a href='#' class='link'>all the terms of the security policy</a>",
+                "value": "accepted-terms",
+                "required": "yes"
+            }
+        ],
+        "button_text": "Send Message"
     }
+}
 }

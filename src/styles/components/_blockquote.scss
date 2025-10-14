@@ -3,6 +3,8 @@
 .blockquote {
     background-color: $blockquote-bg-color;
     border-radius: 16px;
+    padding: $space-m;
+    margin-block-end: $space-l-plus;
 
     &__text {
         font-size: $text-fs-xxl;
@@ -10,6 +12,7 @@
         font-family: $ff-secondary;
         -webkit-text-stroke: 1px $blockquote-stroke-color;
         text-shadow: 0 4px 4px $blockquote-shadow-color;
+        margin-block-end: $space-s;
     }
 
     &__cite {
@@ -21,5 +24,11 @@
 
     &__cite-icon {
         fill: $blockquote-icon-color;
+        margin-inline-end: $space-s;
     }
+
+    &__cite-grade {
+        margin-inline-end: $space-s;
+    }
+
 }

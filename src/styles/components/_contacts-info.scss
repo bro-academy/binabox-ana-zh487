@@ -2,10 +2,20 @@
 
 .contacts-info {
 
+    &__item:not(:last-child) {
+        margin-inline-end: $space-m;
+    }
+
     &__block {
         border: $border-width-xs solid $check-color;
         fill: $color-primary;
         text-align: center;
+        padding-block: $space-xl-minus;
+        padding-inline: $space-l-plus;
+    }
+
+    &__icon {
+        margin-block-end: $space-l;
     }
 
     &__description {

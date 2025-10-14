@@ -8,10 +8,14 @@
 
 	{% include 'src/templates/partials/page_title.twig' with { page_header:catalog.header, breadcrumbs_array:catalog.breadcrumbs } %}
 
-	{% include 'src/templates/partials/catalog_filter.twig' %}
+	<div class="content-wrapper">
 
-	{% include 'src/templates/partials/select.twig' with { options_array:catalog.sort } %}
+		{% include 'src/templates/partials/catalog_filter.twig' %}
 
-	{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}
+		{% include 'src/templates/partials/select.twig' with { options_array:catalog.sort } %}
+
+		{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}
+
+	</div>
 
 {% endblock %}

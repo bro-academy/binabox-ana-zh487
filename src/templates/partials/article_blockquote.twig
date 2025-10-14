@@ -4,7 +4,7 @@
 	<p class="blockquote__text">{{ blog.article.blockquote.text }}</p>
 	<cite class="blockquote__cite">
 		{{ icon ("blockquote__cite-icon", "stars", 16, 16) }}
-		{{ blog.article.blockquote.grade }}
-		{{ blog.article.blockquote.cite }}
+		<span class="blockquote__cite-grade">{{ blog.article.blockquote.grade }}</span>
+		<span class="blockquote__cite-text">{{ blog.article.blockquote.cite }}</span>
 	</cite>
 </blockquote>

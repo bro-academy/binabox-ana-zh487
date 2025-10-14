@@ -2,11 +2,18 @@
 
 .product-item {
 
+    padding: $space-l;
+
+    &__picture {
+        margin-block-end: $space-l;
+    }
+
     &__price {
         font-family: $ff-secondary;
         font-size: $header-fs-s;
         line-height: $lh-xxl;
         letter-spacing: $ls-s;
+        margin-block-end: $space-s;
     }
 
     &__name {

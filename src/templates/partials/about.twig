@@ -1,0 +1,15 @@
+<section class="about">
+	<div class="content-wrapper">
+		<h2 class="about__header section-header">{{ index.about.header }}</h2>
+		<p class="about__description">{{ index.about.description }}</p>
+		<ol class="about__list counted-list">
+			{% for item in index.about.list %}
+				<li class="counted-list__item">
+					<h3 class="counted-list__header">{{ item.header }}</h3>
+					<p class="counted-list__description">{{ item.description }}</p>
+				</li>
+			{% endfor %}
+		</ol>
+		<a href="{{ index.about.readmore_link }}" class="about__button button button--large">{{ index.about.readmore_text }}</a>
+	</div>
+</section>

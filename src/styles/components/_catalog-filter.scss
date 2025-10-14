@@ -2,16 +2,34 @@
 
 .catalog-filter {
 
+    width: $catalog-sidebar-width;
+
     &__fieldset {
         background-color: $card-bg-color;
-        border: none;;
+        border: none;
+        padding: $space-l;
+        margin-block-end: $space-l-minus;
     }
 
     &__title {
         font-size: $text-fs-xl;
         line-height: $lh-l;
         font-family: $ff-secondary;
-        border-bottom: $border-width-xs solid $separator-color-secondary;
+    }
+
+    &__options {
+        border-top: $border-width-xs solid $separator-color-secondary;
+        margin-block-start: $space-m;
+        padding-block-start: $space-m;
+    }
+
+    &__button {
+        width: 100%;
+    }
+
+    & .field-checkbox,
+    .field-radio {
+        margin-block-end: $space-s;
     }
 
 }

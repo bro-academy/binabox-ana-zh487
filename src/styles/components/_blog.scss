@@ -1,22 +1,15 @@
 @use '../base/variables' as *;
 
-.about {
+.blog {
 
     padding-block: $space-xl;
 
     &__header {
-        margin-block-end: $space-m;
-    }
-
-    &__description {
-        text-align: center;
-        font-size: $text-fs-l;
-        line-height: $lh-m;
-        font-weight: $fw-m;
         margin-block-end: $space-xl-minus;
     }
 
     &__list {
         margin-block-end: $space-xl-minus;
     }
+
 }

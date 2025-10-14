@@ -2,6 +2,22 @@
 
 .footer {
     background-color: $card-bg-color-secondary;
+    padding-inline: $space-xl;
+    padding-block-start: $space-xl;
+    padding-block-end: $space-l-plus;
+    margin-block-start: $footer-top-space;
+
+    &__logo {
+        margin-block-end: $space-m-minus;
+    }
+
+    &__logo-icon {
+        margin-inline-end: $space-m-plus;
+    }
+
+    &__logo-text {
+        color: $accent-color;
+    }
 
     &__logo-text {
         color: $accent-color;
@@ -16,6 +32,11 @@
         font-size: $text-fs-l;
         line-height: $lh-m;
         font-weight: $fw-m;
+        margin-block-end: $space-s;
+    }
+
+    &__navigation-item:not(:last-child) {
+        margin-block-end: $space-s;
     }
 
     &__navigation-link {
@@ -23,5 +44,13 @@
         font-size: $text-fs-xxs;
         line-height: $lh-xxs;
         font-weight: $fw-l;
+    }
+
+    &__top {
+        margin-block-end: $space-xl;
+    }
+
+    &__bottom {
+        padding-block-start: $space-l-plus;
     }
 }

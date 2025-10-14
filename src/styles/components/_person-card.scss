@@ -1,8 +1,14 @@
 @use '../base/variables' as *;
 
 .person-card {
+
     background-color: $card-bg-color;
     text-align: center;
+    padding: $space-l-plus;
+
+    &__avatar {
+        margin-block-end: $space-m;
+    }
 
     &__name {
         font-size: $text-fs-xl;
@@ -15,6 +21,7 @@
         color: $color-secondary;
         font-size: $text-fs-m;
         line-height: $lh-m;
+        margin-block-end: $space-m;
     }
 
 }

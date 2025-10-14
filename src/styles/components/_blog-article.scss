@@ -2,6 +2,11 @@
 
 .blog-article {
     background-color: $card-bg-color;
+    padding: $space-l;
+
+    &__image {
+        margin-block-end: $space-l;
+    }
 
     &__header {
         font-size: $header-fs-s;
@@ -14,5 +19,6 @@
     &__description {
         font-size: $text-fs-s;
         line-height: $lh-s;
+        margin-block-end: $space-m;
     }
 }
