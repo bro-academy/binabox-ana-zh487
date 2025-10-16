@@ -1,0 +1,11 @@
+<section class="catalog-full">
+	<h2 class="catalog-full__header section-header">{{ catalog.list.header }}</h2>
+	<ul class="catalog-full__list">
+		{% for item in catalog.list.items %}
+			<li class="catalog-full__item">
+				{% include '/product_item.twig' %}
+			</li>
+		{% endfor %}
+	</ul>
+	<button type="button" class="button button--large">{{ catalog.list.btn_text }}</button>
+</section>
