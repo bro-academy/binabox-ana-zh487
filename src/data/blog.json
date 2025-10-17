@@ -94,17 +94,7 @@
                 "alt": "A Basilisk enters the arena",
                 "title": "A Basilisk enters the arena — its emerald scales shimmer with encoded rage.",
                 "width": "1024px",
-                "height": "560px",
-                "sources": [
-                    {
-                        "src": "/the-basilisk-nft/basilisk-enters-the-arena.avif",
-                        "type": "avif"
-                    },
-                    {
-                        "src": "/the-basilisk-nft/basilisk-enters-the-arena.webp",
-                        "type": "webp"
-                    }
-                ]
+                "height": "560px"
             },
             "header": "The Basilisks NFT",
             "category": "Gaming",
@@ -149,34 +139,14 @@
                     "alt": "Close-up of a Gen-3 Basilisk",
                     "title": "Close-up of a Gen-3 Basilisk. Eyes trained by code.",
                     "width": "500px",
-                    "height": "395px",
-                    "sources": [
-                        {
-                            "src": "/the-basilisk-nft/gen-3-basilisk.avif",
-                            "type": "avif"
-                        },
-                        {
-                            "src": "/the-basilisk-nft/gen-3-basilisk.webp",
-                            "type": "webp"
-                        }
-                    ]
+                    "height": "395px"
                 },
                 {
                     "src": "/the-basilisk-nft/basilisk-with-summoner.jpg",
                     "alt": "A bonded Basilisk with its summoner",
                     "title": "A bonded Basilisk with its summoner. Loyalty is minted — not earned.",
                     "width": "500px",
-                    "height": "395px",
-                    "sources": [
-                        {
-                            "src": "/the-basilisk-nft/basilisk-with-summoner.avif",
-                            "type": "avif"
-                        },
-                        {
-                            "src": "/the-basilisk-nft/basilisk-with-summoner.webp",
-                            "type": "webp"
-                        }
-                    ]
+                    "height": "395px"
                 }
             ],
             "sub_header_1": "NFTs are digital assets that represent real-world objects",
