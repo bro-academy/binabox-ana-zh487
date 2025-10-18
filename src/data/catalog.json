@@ -219,6 +219,111 @@
                 "value": "lower_price",
                 "text": "Lowering the price"
             }
-        ]
+        ],
+        "list": {
+            "header": "All item",
+            "items": [
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "Popular",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "Sold out",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                },
+                {
+                    "picture": {
+                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "alt": "Name Product",
+                        "width": "336px",
+                        "height": "453px"
+                    },
+                    "label": "New",
+                    "price": "$199",
+                    "name": "Name Product"
+                }
+            ],
+            "btn_text": "Load more"
+        }
     }
 }

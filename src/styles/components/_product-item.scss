@@ -3,6 +3,8 @@
 .product-item {
 
     padding: $space-l;
+    position: relative;
+    background-color: $card-bg-color;
 
     &__picture {
         margin-block-end: $space-l;
@@ -22,5 +24,11 @@
         font-size: $text-fs-l;
         line-height: $lh-m;
         color: $color-secondary;
+    }
+
+    &__label {
+        position: absolute;
+        top: $space-xl-minus;
+        right: $space-xl-minus;
     }
 }

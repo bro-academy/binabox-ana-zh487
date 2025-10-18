@@ -38,6 +38,10 @@
         margin-block-end: $space-l-plus;
     }
 
+    &__picture-item .picture__title {
+        left: $space-m;
+    }
+
     &__footer-title {
         font-size: $text-fs-s;
         line-height: $lh-s;
