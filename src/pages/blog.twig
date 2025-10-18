@@ -34,9 +34,9 @@
 
 			{% include 'src/templates/partials/article_blockquote.twig' %}
 
-			<ul class="picture-list">
+			<ul class="article-page__picture-list">
 				{% for item in blog.article.list_picture %}
-					<li class="picture-list__item">
+					<li class="article-page__picture-item">
 						{% include 'src/templates/partials/article_picture.twig' %}
 					</li>
 				{% endfor %}
