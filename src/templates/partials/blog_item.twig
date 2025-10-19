@@ -15,14 +15,20 @@
 
 	<span class="blog-article__label item-label">{{ item.label }}</span>
 	<div class="article-info">
-		{{ icon ("article-info__icon", "user", 16, 16) }}
-		<span class="article-info__author">{{ item.author }}</span>
-		{{ icon ("article-info__icon", "calendar", 16, 16) }}
-		<time datetime="{{ item.date }}" class="article-info__date">{{ item.date_text}}</time>
+		<div class="article-info__module">
+			{{ icon ("article-info__icon", "user", 16, 16) }}
+			<span class="article-info__author">{{ item.author }}</span>
+		</div>
+		<div class="article-info__module">
+			{{ icon ("article-info__icon", "calendar", 16, 16) }}
+			<time datetime="{{ item.date }}" class="article-info__date">{{ item.date_text}}</time>
+		</div>
 	</div>
-	<h3 class="blog-article__header">{{ item.header }}</h3>
-	<p class="blog-article__description">{{ item.description }}</p>
-	<a href="{{ item.link }}" class="blog-article__button button">Read more 
+	<div class="blog-article__text">
+		<h3 class="blog-article__header">{{ item.header }}</h3>
+		<p class="blog-article__description">{{ item.description }}</p>
+	</div>
+	<a href="{{ item.link }}" class="blog-article__button button">Read more
 		{{ icon ("button__icon", "right", 24, 24) }}
 	</a>
 </article>

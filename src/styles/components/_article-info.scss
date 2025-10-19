@@ -4,6 +4,28 @@
 
     margin-block-end: $space-m;
 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $space-s;
+
+    &::before {
+        content: '';
+        width: 2px;
+        height: 16px;
+        background-color: $separator-color;
+        border-radius: $border-radius-xxxs;
+    }
+
+    & > *:first-child {
+        order: -1;
+    }
+
+    &__module {
+        display: flex;
+        gap: $space-s;
+    }
+
     &__author {
         color: $color-secondary;
         font-size: $text-fs-xs;
@@ -20,6 +42,5 @@
 
     &__icon {
         fill: currentColor;
-        margin-inline-end: $space-s;
     }
 }

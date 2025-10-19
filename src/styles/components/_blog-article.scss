@@ -4,6 +4,11 @@
     background-color: $card-bg-color;
     padding: $space-l;
     position: relative;
+    width: $blog-item-width;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
     &__image {
         margin-block-end: $space-l;
