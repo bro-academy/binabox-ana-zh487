@@ -6,6 +6,12 @@
     position: relative;
     background-color: $card-bg-color;
 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: $card-width;
+
     &__picture {
         margin-block-end: $space-l;
     }
