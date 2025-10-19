@@ -13,8 +13,11 @@
 			"cover"
 		) }}
 
-	<h3 class="person-card__name">{{ item.name }}</h3>
-	<p class="person-card__role">{{ item.role }}</p>
+	<div class="person-card__description">
+		<h3 class="person-card__name">{{ item.name }}</h3>
+		<p class="person-card__role">{{ item.role }}</p>
+	</div>
+
 	<ul class="socials">
 		{% for unit in item.socials %}
 			<li class="socials__item">

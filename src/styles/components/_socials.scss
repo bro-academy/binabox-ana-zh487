@@ -2,8 +2,18 @@
 
 .socials {
 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: $space-s;
+
+    &__item {
+        padding: $space-s;
+    }
+
     &__item-icon {
         fill: currentColor;
+        display: block;
     }
 
     &__item-link:hover {
