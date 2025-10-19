@@ -11,6 +11,10 @@
     padding-block: $space-s;
     padding-inline: $space-l-minus;
 
+    display: inline-flex;
+    align-items: center;
+    gap: $space-s;
+
     &:hover,
     &:active {
         border: $border-width-s solid $separator-color-secondary;
