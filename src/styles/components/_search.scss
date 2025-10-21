@@ -6,6 +6,9 @@
     background-color: transparent;
     padding: $space-m-minus;
 
+    display: flex;
+    align-items: center;
+    column-gap: $space-s;
 
     &__button {
         background-color: transparent;
@@ -14,6 +17,7 @@
 
     &__button-icon {
         fill: $color-primary;
+        display: block;
     }
 
     &__input {

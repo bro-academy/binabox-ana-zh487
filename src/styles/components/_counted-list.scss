@@ -4,9 +4,16 @@
 
     list-style: auto;
 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: $space-l-plus;
+
     &__item {
         background-color: $card-bg-color-secondary;
         padding: $space-l-plus;
+        width: $counted-item-width;
+        text-align: left;
     }
 
     &__header {

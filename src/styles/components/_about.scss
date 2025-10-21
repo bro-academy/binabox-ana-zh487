@@ -3,6 +3,7 @@
 .about {
 
     padding-block: $space-xl;
+    text-align: center;
 
     &__header {
         margin-block-end: $space-m;
@@ -19,4 +20,5 @@
     &__list {
         margin-block-end: $space-xl-minus;
     }
+
 }

@@ -10,8 +10,21 @@
     background-color: $body-bg-color;
     z-index: 10;
 
-    &__logo-icon {
-        margin-inline-end: $space-m-plus;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__logo {
+        display: flex;
+        column-gap: $space-m-plus;
+        align-items: center;
+    }
+
+    &__navigation-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     &__navigation-link {
@@ -21,11 +34,9 @@
         line-height: $lh-s;
         padding-block: $space-s;
         padding-inline: $space-l-minus;
-    }
-
-    &__navigation-icon {
-        fill: currentColor;
-        margin-inline-start: $space-s;
+        display: flex;
+        align-items: center;
+        column-gap: $space-s;
     }
 
     &__navigation-icon {
@@ -36,8 +47,23 @@
         border-bottom: $border-width-s solid $accent-color;
     }
 
-    &__controls-button {
-        margin-inline-start: $space-m;
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: $space-m;
+
+        &::before {
+            content: '';
+            width: 2px;
+            height: 24px;
+            background-color: $separator-color;
+            border-radius: $border-radius-xxxxs;
+        }
+
+        & > *:first-child {
+            order: -1;
+        }
     }
 
 }

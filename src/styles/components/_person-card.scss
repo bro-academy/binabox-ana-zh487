@@ -6,9 +6,11 @@
     text-align: center;
     padding: $space-l-plus;
 
-    &__avatar {
-        margin-block-end: $space-m;
-    }
+    width: $card-width;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: $space-m;
 
     &__name {
         font-size: $text-fs-xl;
@@ -21,7 +23,10 @@
         color: $color-secondary;
         font-size: $text-fs-m;
         line-height: $lh-m;
-        margin-block-end: $space-m;
+    }
+
+    &__socials {
+        justify-content: center;
     }
 
 }

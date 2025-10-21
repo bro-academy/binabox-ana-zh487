@@ -6,16 +6,57 @@
 
     &__title {
         margin-block-end: $space-xl-minus;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: $space-l-plus;
+
+        &::before {
+            content: '';
+            height: 2px;
+            flex-grow: 1;
+            background-color: $separator-color;
+            border-radius: $border-radius-xxxs;
+        }
+
+        & > *:first-child {
+            order: -1;
+        }
     }
 
     &__header {
         text-align: left;
         font-size: $text-fs-xl;
         line-height: $lh-l;
+        display: flex;
+        align-items: center;
+        column-gap: $space-s;
     }
 
-    &__controls-button {
-        margin-inline-start: $space-m;
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: $space-m;
+
+        &::before {
+            content: '';
+            width: 2px;
+            height: 24px;
+            background-color: $separator-color;
+            border-radius: $border-radius-xxxxs;
+        }
+
+        & > *:first-child {
+            order: -1;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: $space-l;
     }
 
 }

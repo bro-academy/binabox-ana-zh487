@@ -4,6 +4,14 @@
 
     background: radial-gradient(ellipse 50% 30% at 5% 0, rgba($accent-color, 0.5), transparent);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        width: $banner-width;
+    }
+
     &__header {
         text-align: left;
         margin-block-start: 0;
@@ -23,10 +31,9 @@
 
     &__stats {
         margin-block-end: $space-l-plus;
-    }
-
-    &__stats-item:not(:last-child) {
-        margin-inline-end: $space-xl;
+        display: flex;
+        column-gap: $space-xl;
+        flex-wrap: wrap;
     }
 
     &__stats-title {
@@ -35,6 +42,7 @@
         font-size: $header-fs-m;
         line-height: $lh-xxxl;
         letter-spacing: $ls-s;
+        text-shadow: 0 4px 13px $text-shadow-color;
     }
 
     &__stats-description {
@@ -42,8 +50,10 @@
         line-height: $lh-s;
     }
 
-    &__controls-button:not(:last-child) {
-        margin-inline-end: $space-m;
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: $space-m;
     }
 
 }

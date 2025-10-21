@@ -8,19 +8,18 @@
     margin-block-start: $footer-top-space;
 
     &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: $space-m-plus;
         margin-block-end: $space-m-minus;
     }
 
-    &__logo-icon {
-        margin-inline-end: $space-m-plus;
-    }
-
     &__logo-text {
         color: $accent-color;
     }
 
-    &__logo-text {
-        color: $accent-color;
+    &__info {
+        width: $footer-info-width;
     }
 
     &__text {
@@ -28,14 +27,22 @@
         line-height: $lh-xs;
     }
 
+    &__navigation-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: $space-s;
+        height: $footer-navigation-height;
+    }
+
+    &__navigation-item {
+        min-width: $footer-navigation-width;
+    }
+
     &__navigation-header {
         font-size: $text-fs-l;
         line-height: $lh-m;
         font-weight: $fw-m;
-        margin-block-end: $space-s;
-    }
-
-    &__navigation-item:not(:last-child) {
         margin-block-end: $space-s;
     }
 
@@ -48,9 +55,17 @@
 
     &__top {
         margin-block-end: $space-xl;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     &__bottom {
         padding-block-start: $space-l-plus;
+        border-top: $border-width-xs solid $separator-color-secondary;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 }

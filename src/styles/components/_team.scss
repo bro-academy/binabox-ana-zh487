@@ -4,6 +4,13 @@
 
     padding-block: $space-xl;
 
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: $space-xl-minus;
+    }
+
     &__header {
         margin-block-end: $space-xl-minus;
     }
