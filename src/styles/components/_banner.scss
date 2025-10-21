@@ -32,7 +32,7 @@
     &__stats {
         margin-block-end: $space-l-plus;
         display: flex;
-        gap: $space-xl;
+        column-gap: $space-xl;
         flex-wrap: wrap;
     }
 
@@ -52,7 +52,8 @@
 
     &__controls {
         display: flex;
-        gap: $space-m;
+        flex-wrap: wrap;
+        column-gap: $space-m;
     }
 
 }

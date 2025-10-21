@@ -13,16 +13,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     &__logo {
         display: flex;
-        gap: $space-m-plus;
+        column-gap: $space-m-plus;
         align-items: center;
     }
 
     &__navigation-list {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     &__navigation-link {
@@ -34,7 +36,7 @@
         padding-inline: $space-l-minus;
         display: flex;
         align-items: center;
-        gap: $space-s;
+        column-gap: $space-s;
     }
 
     &__navigation-icon {
@@ -47,8 +49,9 @@
 
     &__controls {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        gap: $space-m;
+        column-gap: $space-m;
 
         &::before {
             content: '';

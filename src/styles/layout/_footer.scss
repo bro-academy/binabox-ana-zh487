@@ -10,7 +10,7 @@
     &__logo {
         display: flex;
         align-items: center;
-        gap: $space-m-plus;
+        column-gap: $space-m-plus;
         margin-block-end: $space-m-minus;
     }
 
@@ -56,6 +56,7 @@
     &__top {
         margin-block-end: $space-xl;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
@@ -63,6 +64,7 @@
         padding-block-start: $space-l-plus;
         border-top: $border-width-xs solid $separator-color-secondary;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
