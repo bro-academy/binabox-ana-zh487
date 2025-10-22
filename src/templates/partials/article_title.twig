@@ -4,9 +4,13 @@
 	<h2 class="article-page__header section-header">{{ blog.article.header }}</h2>
 	<a href="{{ blog.article.category_link }}" class="article-page__category button button--large button--primary">{{ blog.article.category }}</a>
 	<div class="article-info">
-		{{ icon ("article-info__icon", "user", 16, 16) }}
-		<span class="article-info__author">{{ blog.article.author }}</span>
-		{{ icon ("article-info__icon", "calendar", 16, 16) }}
-		<time class="article-info__date" datetime="{{ blog.article.date }}">{{ blog.article.date_text }}</time>
+		<div class="article-info__module">
+			{{ icon ("article-info__icon", "user", 16, 16) }}
+			<span class="article-info__author">{{ blog.article.author }}</span>
+		</div>
+		<div class="article-info__module">
+			{{ icon ("article-info__icon", "calendar", 16, 16) }}
+			<time class="article-info__date" datetime="{{ blog.article.date }}">{{ blog.article.date_text }}</time>
+		</div>
 	</div>
 </header>
