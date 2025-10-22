@@ -54,14 +54,22 @@
         left: $space-m;
     }
 
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__footer-unit {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: $space-m-minus;
+    }
+
     &__footer-title {
         font-size: $text-fs-s;
         line-height: $lh-s;
-        margin-inline-end: $space-m-minus;
-    }
-
-    &__footer-button:not(:last-child) {
-        margin-inline-end: $space-m-minus;
     }
 
     &__sub-header {
