@@ -27,6 +27,7 @@
     &__list {
         list-style: disc;
         margin-block-end: $space-l-plus;
+        padding-inline-start: $space-l-plus;
     }
 
     &__list-item {
