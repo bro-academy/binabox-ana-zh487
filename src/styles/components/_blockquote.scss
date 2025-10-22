@@ -20,15 +20,14 @@
         line-height: $lh-xs;
         font-weight: $fw-l;
         font-style: normal;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: $space-s;
     }
 
     &__cite-icon {
         fill: $blockquote-icon-color;
-        margin-inline-end: $space-s;
-    }
-
-    &__cite-grade {
-        margin-inline-end: $space-s;
     }
 
 }
