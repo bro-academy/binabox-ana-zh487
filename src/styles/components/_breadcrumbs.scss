@@ -2,11 +2,32 @@
 
 .breadcrumbs {
 
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item:not(:last-child)::after {
+        content: '';
+        display: inline-block;
+        width: 2px;
+        height: 24px;
+        border-radius: $border-radius-xxxs;
+        background-color: $separator-color;
+    }
+
     &__item-link {
         color: $color-primary;
         font-size: $text-fs-xs;
         line-height: $lh-xs;
         font-weight: $fw-l;
+        padding-block: $space-s-minus;
+        padding-inline: $space-l-minus;
 
         &--active {
             color: $placeholder-color;
