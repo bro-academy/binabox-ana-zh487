@@ -2,6 +2,11 @@
 
 .field-checkbox {
 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: $space-s;
+
     &__input {
         appearance: none;
         width: $checkbox-size;
@@ -9,7 +14,6 @@
         border-radius: $border-radius-xs;
         border: $border-width-s solid $check-color;
         background-color: $body-bg-color;
-        margin-inline-end: $space-xs;
 
         &::before {
             content: "";
