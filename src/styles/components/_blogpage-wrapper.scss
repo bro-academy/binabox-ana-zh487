@@ -1,8 +1,0 @@
-@use '../base/variables' as *;
-
-.blogpage-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    column-gap: $space-l-plus;
-}
