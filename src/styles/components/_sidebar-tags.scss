@@ -11,16 +11,16 @@
         line-height: $lh-l;
         font-family: $ff-secondary;
         font-weight: $fw-s;
-        margin-block-end: $space-m;
+        padding-block-end: $space-m;
+        border-bottom: 1px solid $separator-color-secondary;
     }
 
     &__list {
         margin-block-start: $space-m;
-    }
-
-    &__item {
-        margin-block-end: $space-s;
-        margin-inline-end: $space-s;
+        display: flex;
+        justify-content: flex-start;
+        gap: $space-s;
+        flex-wrap: wrap;
     }
 
     &__link {

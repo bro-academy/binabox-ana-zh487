@@ -27,6 +27,7 @@
     &__list {
         list-style: disc;
         margin-block-end: $space-l-plus;
+        padding-inline-start: $space-l-plus;
     }
 
     &__list-item {
@@ -38,18 +39,38 @@
         margin-block-end: $space-l-plus;
     }
 
-    &__picture-item .picture__title {
-        left: $space-m;
+    &__picture-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: $space-l;
+        margin-block-end: $space-l-plus;
+
+        .picture {
+            margin-block-end: 0;
+
+            &__title {
+                left: $space-m;
+            }
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__footer-unit {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: $space-m-minus;
     }
 
     &__footer-title {
         font-size: $text-fs-s;
         line-height: $lh-s;
-        margin-inline-end: $space-m-minus;
-    }
-
-    &__footer-button:not(:last-child) {
-        margin-inline-end: $space-m-minus;
     }
 
     &__sub-header {

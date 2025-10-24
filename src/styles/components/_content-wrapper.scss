@@ -4,3 +4,10 @@
     max-width: $content-width-m;
     margin-inline: auto;
 }
+
+.content-wrapper--blogpage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: $space-l-plus;
+}
