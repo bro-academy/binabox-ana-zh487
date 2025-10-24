@@ -45,14 +45,14 @@
         justify-content: flex-start;
         gap: $space-l;
         margin-block-end: $space-l-plus;
-    }
 
-    &__picture-list .picture {
-        margin-block-end: 0;
-    }
+        .picture {
+            margin-block-end: 0;
 
-    &__picture-list .picture__title {
-        left: $space-m;
+            &__title {
+                left: $space-m;
+            }
+        }
     }
 
     &__footer {
