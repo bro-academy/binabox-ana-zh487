@@ -24,13 +24,15 @@
 
     &:hover {
         background-color: $separator-color-secondary;
-        border: $border-width-l solid $accent-color-focus;
+        border: $border-width-s solid $accent-color-focus;
+        outline: $border-width-s solid $accent-color-focus;
         color: $accent-color-focus;
     }
 
     &:focus {
         background-color: $separator-color-secondary;
-        border: $border-width-l solid $accent-color-focus;
+        border: $border-width-s solid $accent-color-focus;
+        outline: $border-width-s solid $accent-color-focus;
         color: $color-primary;
     }
 
