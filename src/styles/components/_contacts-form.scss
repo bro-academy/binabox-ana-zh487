@@ -21,18 +21,14 @@
     &__content {
         max-width: $contact-form-width;
         margin: 0 auto;
-    }
-
-    &__field > div {
-        margin-block-end: $space-l;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: $space-l;
     }
 
     &__field .field-textarea__input {
         height: $textarea-height;
-    }
-
-    &__button {
-        width: 100%;
     }
 
     .label-default {
