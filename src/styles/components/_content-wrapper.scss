@@ -11,3 +11,10 @@
     align-items: flex-start;
     column-gap: $space-l-plus;
 }
+
+.content-wrapper--catalogpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: $space-xl;
+}

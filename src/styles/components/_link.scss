@@ -9,7 +9,7 @@
         }
 
         &:focus {
-            border: $border-width-l solid $accent-color-focus;
+            outline: $border-width-l solid $accent-color-focus;
             border-radius: $border-radius-s;
         }
 
