@@ -2,8 +2,16 @@
 
 .contacts-info {
 
-    &__item:not(:last-child) {
-        margin-inline-end: $space-m;
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: $space-m;
+    }
+
+    &__item {
+        flex-basis: $contacts-info-item-width;
     }
 
     &__block {
