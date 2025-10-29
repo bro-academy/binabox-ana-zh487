@@ -8,15 +8,29 @@
 
 	{% include 'src/templates/partials/page_title.twig' with { page_header:catalog.header, breadcrumbs_array:catalog.breadcrumbs } %}
 
-	<div class="content-wrapper">
+	<div class="content-wrapper content-wrapper--catalogpage">
 
 		{% include 'src/templates/partials/catalog_filter.twig' %}
 
-		{% include 'src/templates/partials/select.twig' with { options_array:catalog.sort } %}
+		<div class="catalog-full">
 
-		{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}
+			<div class="catalog-full__title">
 
-		{% include 'src/templates/partials/catalog_full.twig' %}
+				<h2 class="catalog-full__header section-header">{{ catalog.list.header }}</h2>
+
+				<div class="catalog-full__controls">
+
+					{% include 'src/templates/partials/select.twig' with { options_array:catalog.sort } %}
+
+					{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}
+
+				</div>
+
+			</div>
+
+			{% include 'src/templates/partials/catalog_full_content.twig' %}
+
+		</div>
 
 	</div>
 

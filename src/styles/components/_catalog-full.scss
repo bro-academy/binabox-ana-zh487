@@ -2,8 +2,27 @@
 
 .catalog-full {
 
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block-end: $space-l-plus;
+    }
+
+    &__controls {
+        display: flex;
+        align-items: center;
+        column-gap: $space-m;
+    }
+
     &__header {
         text-align: left;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $space-l-plus;
     }
 
 }

@@ -23,7 +23,8 @@
     }
 
     &:focus {
-        border: $border-width-l solid $accent-color-focus;
+        border: $border-width-s solid $accent-color-focus;
+        outline: $border-width-s solid $accent-color-focus;
         background-color: $separator-color-secondary;
     }
 
@@ -47,7 +48,8 @@
     }
 
     &:focus {
-        border: $border-width-l solid $accent-color-focus;
+        border: $border-width-s solid $accent-color-focus;
+        outline: $border-width-s solid $accent-color-focus;
         background-color: $accent-color;
     }
 

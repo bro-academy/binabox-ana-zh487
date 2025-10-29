@@ -59,4 +59,8 @@
         column-gap: $space-l;
     }
 
+    &__item {
+        max-width: $card-width;
+    }
+
 }
