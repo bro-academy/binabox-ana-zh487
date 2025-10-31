@@ -20,9 +20,17 @@
     }
 
     &__list {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: $space-l-plus;
+        justify-content: start;
+        justify-items: start;
+        align-items: start;
+        margin-block-end: $space-l-plus;
+    }
+
+    &__button {
+        width: 100%;
     }
 
 }
