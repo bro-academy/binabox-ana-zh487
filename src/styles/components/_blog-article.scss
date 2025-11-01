@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    height: 100%;
 
     &__image {
         margin-block-end: $space-l;
@@ -20,12 +21,14 @@
         font-family: $ff-secondary;
         letter-spacing: $ls-s;
         font-weight: $fw-s;
+        text-align: left;
     }
 
     &__description {
         font-size: $text-fs-s;
         line-height: $lh-s;
         margin-block-end: $space-m;
+        text-align: left;
     }
 
     &__label {

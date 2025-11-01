@@ -4,15 +4,16 @@
 
     list-style: auto;
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: start;
+    align-items: start;
+
     gap: $space-l-plus;
 
     &__item {
         background-color: $card-bg-color-secondary;
         padding: $space-l-plus;
-        width: $counted-item-width;
         text-align: left;
     }
 

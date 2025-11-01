@@ -100,7 +100,8 @@
           "date_text": "04 Dec 2022",
           "header": "Neural Drift",
           "description": "I woke up inside the void. My body stayed in the past — only thoughts were allowed through the wires.",
-          "link": "#"
+          "link": "#",
+          "large": "yes"
         },
         {
           "picture": {
@@ -149,21 +150,6 @@
         },
         {
           "picture": {
-            "src": "/blog/white-protocol.jpg",
-            "alt": "White Protocol",
-            "width": "736px",
-            "height": "198px"
-          },
-          "label": "NFT",
-          "author": "Tony Nguyen",
-          "date": "2022-06-20",
-          "date_text": "20 Jun 2022",
-          "header": "White Protocol",
-          "description": "At first, it was just a signal — clean, white, hypnotic. We didn't know it was alive.",
-          "link": "#"
-        },
-        {
-          "picture": {
             "src": "/blog/retrocore.jpg",
             "alt": "Retrocore",
             "width": "736px",
@@ -175,6 +161,22 @@
           "date_text": "09 Dec 2022",
           "header": "Retrocore",
           "description": "This console comes from a game no one remembers how to play. But it's still powered on.",
+          "link": "#",
+          "large": "yes"
+        },
+        {
+          "picture": {
+            "src": "/blog/white-protocol.jpg",
+            "alt": "White Protocol",
+            "width": "736px",
+            "height": "198px"
+          },
+          "label": "NFT",
+          "author": "Tony Nguyen",
+          "date": "2022-06-20",
+          "date_text": "20 Jun 2022",
+          "header": "White Protocol",
+          "description": "At first, it was just a signal — clean, white, hypnotic. We didn't know it was alive.",
           "link": "#"
         }
       ],
