@@ -3,6 +3,7 @@
 .blog {
 
     padding-block: $space-xl;
+    text-align: center;
 
     &__header {
         margin-block-end: $space-xl-minus;
@@ -10,6 +11,15 @@
 
     &__list {
         margin-block-end: $space-xl-minus;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+        gap: $space-l-plus;
+        align-items: stretch;
+    }
+
+    &__item--large {
+        grid-row: span 2;
     }
 
 }
