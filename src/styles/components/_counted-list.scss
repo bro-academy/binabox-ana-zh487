@@ -1,20 +1,46 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .counted-list {
 
     list-style: auto;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     justify-content: start;
     align-items: start;
 
-    gap: $space-l-plus;
+    gap: $space-m;
+
+    @include tablet {
+        gap: $space-l-plus;
+    }
+
+    @include desktop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include large-desktop {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
     &__item {
         background-color: $card-bg-color-secondary;
-        padding: $space-l-plus;
+        padding: $space-l;
         text-align: left;
+
+        @include tablet {
+            padding: $space-l-plus;
+        }
+
+        &:last-child {
+            @include desktop {
+                grid-column: span 3;
+            }
+
+            @include large-desktop {
+                grid-column: auto;
+            }
+        }
     }
 
     &__header {
@@ -30,4 +56,6 @@
         font-size: $text-fs-m;
         line-height: $lh-m;
     }
+
+    
 }
