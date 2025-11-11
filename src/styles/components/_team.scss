@@ -1,18 +1,43 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .team {
 
-    padding-block: $space-xl;
+    padding-block: $space-l-plus;
+    padding-inline: $space-m;
+
+    @include tablet {
+        padding-block: 0 $space-xl;
+        padding-inline: $space-l;
+    }
+
+    @include desktop {
+        padding-block: $space-xl;
+        padding-inline: $space-xl;
+    }
 
     &__list {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: $space-xl-minus;
+        gap: $space-m;
+        overflow-x: scroll;
+
+        @include desktop {
+            overflow-x: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: $space-xl-minus;
+        }
     }
 
     &__header {
         margin-block-end: $space-xl-minus;
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
+
+        @include desktop {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
 }

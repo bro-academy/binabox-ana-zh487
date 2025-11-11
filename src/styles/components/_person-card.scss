@@ -1,16 +1,24 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .person-card {
 
     background-color: $card-bg-color;
     text-align: center;
-    padding: $space-l-plus;
-
-    width: $card-width;
+    padding: $space-m;
+    width: $card-width-mobile;
 
     display: flex;
     flex-direction: column;
     row-gap: $space-m;
+
+    @include tablet {
+        padding: $space-l-plus;
+    }
+
+    @include desktop {
+        width: $card-width;
+    }
 
     &__name {
         font-size: $text-fs-xl;
