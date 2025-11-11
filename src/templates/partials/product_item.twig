@@ -4,12 +4,14 @@
 
 	{{ picture(
 			"product-item__picture",
-			item.picture.src,
+			item.picture.srcMobile,
 			item.picture.alt,
-			item.picture.width,
-			item.picture.height,
-			"center",
-			"cover"
+			'280',
+			'324',
+			"cover",
+			item.picture.srcTablet,
+			item.picture.srcDesktop,
+			item.picture.srcDesktopLg
 		) }}
 
 	<span class="product-item__label item-label
