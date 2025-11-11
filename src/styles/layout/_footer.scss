@@ -1,11 +1,21 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .footer {
     background-color: $card-bg-color-secondary;
-    padding-inline: $space-xl;
+    padding-inline: $space-m;
     padding-block-start: $space-xl;
     padding-block-end: $space-l-plus;
-    margin-block-start: $footer-top-space;
+    margin-block-start: $space-xl;
+
+    @include tablet {
+        padding-inline: $space-l;
+    }
+
+    @include desktop {
+        margin-block-start: $space-xl-minus;
+        padding-inline: $space-xl;
+    }
 
     &__logo {
         display: flex;
@@ -25,13 +35,15 @@
     &__text {
         font-size: $text-fs-xs;
         line-height: $lh-xs;
+        margin-block-end: $space-l-plus;
     }
 
     &__navigation-list {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        gap: $space-s;
+        row-gap: $space-s;
+        column-gap: $space-l;
         height: $footer-navigation-height;
     }
 
@@ -56,8 +68,13 @@
     &__top {
         margin-block-end: $space-xl;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        @include desktop {
+            flex-direction: row;
+        }
     }
 
     &__bottom {
@@ -67,5 +84,9 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+    }
+
+    &__bottom-text {
+        margin-block: 0;
     }
 }
