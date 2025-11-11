@@ -2,6 +2,7 @@
 
 
 @use '../components/content-wrapper';
+@use '../components/section-header';
 @use '../components/link';
 @use '../components/button';
 @use '../components/about';
@@ -26,7 +27,6 @@
 @use '../components/person-card';
 @use '../components/picture';
 @use '../components/product-item';
-@use '../components/section-header';
 @use '../components/sub-header';
 @use '../components/banner';
 @use '../components/catalog';
@@ -42,6 +42,7 @@
 @use '../components/socials';
 @use '../components/contacts-info';
 @use '../components/accordion';
+@use '../components/splide';
 
 
 @use '../layout/footer';
