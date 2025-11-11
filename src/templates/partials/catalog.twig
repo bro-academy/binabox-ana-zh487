@@ -1,26 +1,50 @@
 {% from "ui/icon.twig" import icon %}
 
-<section class="catalog">
-	<div class="content-wrapper">
+<section class="catalog splide">
+	<div class="content-wrapper splide__track">
 		<header class="catalog__title">
 			<h2 class="catalog__header section-header">
 				{{ icon ("section-header__icon","folder", 24, 24) }}
 				{{ index.catalog.header }}
 			</h2>
-			<div class="catalog__controls">
+			<div class="catalog__controls splide__arrows">
 				<a class="catalog__controls-link button button--large" href="#">See all</a>
-				<button type="button" class="catalog__controls-button button button--large button--icon">
+				<button type="button" class="catalog__controls-button button button--large button--icon splide__arrow splide__arrow--prev">
 					{{ icon ("button__icon", "left", 24, 24) }}
 				</button>
-				<button type="button" class="catalog__controls-button button button--large button--primary button--accent-text button--icon">
+				<button type="button" class="catalog__controls-button button button--large button--primary button--accent-text button--icon splide__arrow splide__arrow--next">
 					{{ icon ("button__icon", "right", 24, 24) }}
 				</button>
 			</div>
 		</header>
-		<ul class="catalog__list">
-			{% for item in index.catalog.list %}
-				<li class="catalog__item">{% include "/product_item.twig" %}</li>
-			{% endfor %}
-		</ul>
+			<ul class="catalog__list splide__list">
+				{% for item in index.catalog.list %}
+					<li class="catalog__item splide__slide">{% include "/product_item.twig" %}</li>
+				{% endfor %}
+			</ul>
 	</div>
+
+	<script>
+		var splide = new Splide('.splide', {
+			perPage: 5,
+			gap: '24px',
+			breakpoints: {
+				678: {
+					perPage: 1,
+					gap: '0',
+				},
+				1280: {
+					perPage: 2,
+					gap: '24px',
+				},
+				1728: {
+					perPage: 4,
+					gap: '24px'
+				},
+			},
+		});
+		
+		splide.mount();
+	</script>
+
 </section>

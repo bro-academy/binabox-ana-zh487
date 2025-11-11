@@ -11,14 +11,15 @@
     align-items: flex-start;
 
     &__picture {
-        margin-block-end: $space-l;
+        margin-block-end: $space-m;
+        width: 100%;
+        height: auto;
     }
 
     &__price {
         font-family: $ff-secondary;
-        font-size: $header-fs-s;
-        line-height: $lh-xxl;
-        letter-spacing: $ls-s;
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
         margin-block-end: $space-s;
     }
 
