@@ -18,10 +18,11 @@
         }
       ],
       "picture": {
-        "src": "/banner/banner-cube.png",
+        "srcDesktop": "/banner/binabox-cube-desktop.png",
+        "srcDesktopLg": "/banner/binabox-cube-desktop-lg.png",
         "alt": "shadow box Binabox",
-        "width": "534px",
-        "height": "640px"
+        "width": "438",
+        "height": "475"
       }
     },
     "catalog": {
@@ -29,10 +30,11 @@
       "list": [
         {
           "picture": {
-            "src": "/catalog/echo-of-bones.jpg",
+            "srcMobile": "/catalog/echo-of-bones-mobile.jpg",
             "alt": "Echo of Bones",
-            "width": "253px",
-            "height": "324px"
+            "srcTablet": "/catalog/echo-of-bones-tablet.jpg",
+            "srcDesktop": "/catalog/echo-of-bones-desktop.jpg",
+            "srcDesktopLg": "/catalog/echo-of-bones-desktop-lg.jpg"
           },
           "label": "New",
           "price": "$1990",
@@ -40,10 +42,11 @@
         },
         {
           "picture": {
-            "src": "/catalog/nyx-the-watcher.jpg",
-            "alt": "Nyx the Watcher",
-            "width": "253px",
-            "height": "324px"
+            "srcMobile": "/catalog/nyx-the-watcher-mobile.jpg",
+            "alt": "Nyx the watcher",
+            "srcTablet": "/catalog/nyx-the-watcher-tablet.jpg",
+            "srcDesktop": "/catalog/nyx-the-watcher-desktop.jpg",
+            "srcDesktopLg": "/catalog/nyx-the-watcher-desktop-lg.jpg"
           },
           "label": "New",
           "price": "$299.99",
@@ -51,10 +54,11 @@
         },
         {
           "picture": {
-            "src": "/catalog/blade-of-silence.jpg",
+            "srcMobile": "/catalog/blade-of-silence-mobile.jpg",
             "alt": "Blade of Silence",
-            "width": "253px",
-            "height": "324px"
+            "srcTablet": "/catalog/blade-of-silence-tablet.jpg",
+            "srcDesktop": "/catalog/blade-of-silence-desktop.jpg",
+            "srcDesktopLg": "/catalog/blade-of-silence-desktop-lg.jpg"
           },
           "label": "Sold out",
           "price": "$20",
@@ -62,10 +66,11 @@
         },
         {
           "picture": {
-            "src": "/catalog/data-core-alpha.jpg",
+            "srcMobile": "/catalog/data-core-alpha-mobile.jpg",
             "alt": "Data Core: Alpha",
-            "width": "253px",
-            "height": "324px"
+            "srcTablet": "/catalog/data-core-alpha-tablet.jpg",
+            "srcDesktop": "/catalog/data-core-alpha-desktop.jpg",
+            "srcDesktopLg": "/catalog/data-core-alpha-desktop-lg.jpg"
           },
           "label": "New",
           "price": "$1.000.000",
@@ -73,10 +78,71 @@
         },
         {
           "picture": {
-            "src": "/catalog/phantom-console.jpg",
+            "srcMobile": "/catalog/phantom-console-mobile.jpg",
             "alt": "Phantom Console",
-            "width": "253px",
-            "height": "324px"
+            "srcTablet": "/catalog/phantom-console-tablet.jpg",
+            "srcDesktop": "/catalog/phantom-console-desktop.jpg",
+            "srcDesktopLg": "/catalog/phantom-console-desktop-lg.jpg"
+          },
+          "label": "New",
+          "price": "$199.5",
+          "name": "Phantom Console"
+        },
+        {
+          "picture": {
+            "srcMobile": "/catalog/echo-of-bones-mobile.jpg",
+            "alt": "Echo of Bones",
+            "srcTablet": "/catalog/echo-of-bones-tablet.jpg",
+            "srcDesktop": "/catalog/echo-of-bones-desktop.jpg",
+            "srcDesktopLg": "/catalog/echo-of-bones-desktop-lg.jpg"
+          },
+          "label": "New",
+          "price": "$1990",
+          "name": "Echo of Bones"
+        },
+        {
+          "picture": {
+            "srcMobile": "/catalog/nyx-the-watcher-mobile.jpg",
+            "alt": "Nyx the watcher",
+            "srcTablet": "/catalog/nyx-the-watcher-tablet.jpg",
+            "srcDesktop": "/catalog/nyx-the-watcher-desktop.jpg",
+            "srcDesktopLg": "/catalog/nyx-the-watcher-desktop-lg.jpg"
+          },
+          "label": "New",
+          "price": "$299.99",
+          "name": "Nyx the Watcher"
+        },
+        {
+          "picture": {
+            "srcMobile": "/catalog/blade-of-silence-mobile.jpg",
+            "alt": "Blade of Silence",
+            "srcTablet": "/catalog/blade-of-silence-tablet.jpg",
+            "srcDesktop": "/catalog/blade-of-silence-desktop.jpg",
+            "srcDesktopLg": "/catalog/blade-of-silence-desktop-lg.jpg"
+          },
+          "label": "Sold out",
+          "price": "$20",
+          "name": "Blade of Silence"
+        },
+        {
+          "picture": {
+            "srcMobile": "/catalog/data-core-alpha-mobile.jpg",
+            "alt": "Data Core: Alpha",
+            "srcTablet": "/catalog/data-core-alpha-tablet.jpg",
+            "srcDesktop": "/catalog/data-core-alpha-desktop.jpg",
+            "srcDesktopLg": "/catalog/data-core-alpha-desktop-lg.jpg"
+          },
+          "label": "New",
+          "price": "$1.000.000",
+          "name": "Data Core: Alpha"
+        },
+        {
+          "picture": {
+            "srcMobile": "/catalog/phantom-console-mobile.jpg",
+            "alt": "Phantom Console",
+            "srcTablet": "/catalog/phantom-console-tablet.jpg",
+            "srcDesktop": "/catalog/phantom-console-desktop.jpg",
+            "srcDesktopLg": "/catalog/phantom-console-desktop-lg.jpg"
           },
           "label": "New",
           "price": "$199.5",
@@ -89,10 +155,13 @@
       "list": [
         {
           "picture": {
-            "src": "/blog/neural-drift.jpg",
+            "srcMobile": "/blog/neural-drift-mobile.jpg",
             "alt": "Neural Drift",
-            "width": "736px",
-            "height": "664px"
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/neural-drift-tablet.jpg",
+            "srcDesktop": "/blog/neural-drift-desktop.jpg",
+            "srcDesktopLg": "/blog/neural-drift-desktop-lg.jpg"
           },
           "label": "NFT",
           "author": "NOVA RIVEN",
@@ -105,10 +174,13 @@
         },
         {
           "picture": {
-            "src": "/blog/deadframe.jpg",
-            "alt": "Neural Drift",
-            "width": "736px",
-            "height": "198px"
+            "srcMobile": "/blog/deadframe-mobile.jpg",
+            "alt": "Deadframe",
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/deadframe-tablet.jpg",
+            "srcDesktop": "/blog/deadframe-desktop.jpg",
+            "srcDesktopLg": "/blog/deadframe-desktop-lg.jpg"
           },
           "label": "DROP",
           "author": "Kairo Null",
@@ -120,10 +192,13 @@
         },
         {
           "picture": {
-            "src": "/blog/glytch-panther.jpg",
-            "alt": "Glytch Panther",
-            "width": "736px",
-            "height": "198px"
+            "srcMobile": "/blog/glitch-panther-mobile.jpg",
+            "alt": "Glitch Panther",
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/glitch-panther-tablet.jpg",
+            "srcDesktop": "/blog/glitch-panther-desktop.jpg",
+            "srcDesktopLg": "/blog/glitch-panther-desktop-lg.jpg"
           },
           "label": "NFT",
           "author": "Synthya Void",
@@ -135,10 +210,13 @@
         },
         {
           "picture": {
-            "src": "/blog/primal.jpg",
+            "srcMobile": "/blog/primal-mobile.jpg",
             "alt": "Primal",
-            "width": "736px",
-            "height": "198px"
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/primal-tablet.jpg",
+            "srcDesktop": "/blog/primal-desktop.jpg",
+            "srcDesktopLg": "/blog/primal-desktop-lg.jpg"
           },
           "label": "RARE",
           "author": "Dr. Wex Omega",
@@ -150,10 +228,13 @@
         },
         {
           "picture": {
-            "src": "/blog/retrocore.jpg",
-            "alt": "Retrocore",
-            "width": "736px",
-            "height": "664px"
+            "srcMobile": "/blog/retrocore-mobile.jpg",
+            "alt": "Primal",
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/retrocore-tablet.jpg",
+            "srcDesktop": "/blog/retrocore-desktop.jpg",
+            "srcDesktopLg": "/blog/retrocore-desktop-lg.jpg"
           },
           "label": "ARTIFACT",
           "author": "Echo Zero",
@@ -166,10 +247,13 @@
         },
         {
           "picture": {
-            "src": "/blog/white-protocol.jpg",
-            "alt": "White Protocol",
-            "width": "736px",
-            "height": "198px"
+            "srcMobile": "/blog/white-protocol-mobile.jpg",
+            "alt": "Primal",
+            "width": "261",
+            "height": "340",
+            "srcTablet": "/blog/white-protocol-tablet.jpg",
+            "srcDesktop": "/blog/white-protocol-desktop.jpg",
+            "srcDesktopLg": "/blog/white-protocol-desktop-lg.jpg"
           },
           "label": "NFT",
           "author": "Tony Nguyen",
