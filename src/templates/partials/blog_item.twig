@@ -5,12 +5,14 @@
 
 	{{ picture(
 			"blog-article__image",
-			item.picture.src,
+			item.picture.srcMobile,
 			item.picture.alt,
 			item.picture.width,
 			item.picture.height,
-			"center",
-			"cover"
+			"cover",
+			item.picture.srcTablet,
+			item.picture.srcDesktop,
+			item.picture.srcDesktopLg
 		) }}
 
 	<span class="blog-article__label item-label">{{ item.label }}</span>
