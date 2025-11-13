@@ -4,6 +4,7 @@ body {
     font-family: $ff-primary;
     background-color: $body-bg-color;
     color: $color-primary;
+    min-width: $mobile-w;
 }
 
 a {
