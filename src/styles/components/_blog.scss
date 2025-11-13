@@ -30,7 +30,7 @@
 
     &__list {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, $card-width-mobile);
         gap: $space-m;
         overflow-x: scroll;
         margin-block-end: $space-xl-minus;
