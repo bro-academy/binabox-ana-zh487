@@ -4,12 +4,13 @@
     alt='',
     width='auto',
     height='auto',
-    fit='',
+    position='center',
+    fit='cover',
     srcTablet='',
     srcDesktop='',
     srcDesktopLg=''
 ) %}
-  <picture>
+  <picture class="{{ classes }}-wrapper">
     {# Desktop Large #}
     {% if srcDesktopLg %}
       <source media="(min-width: 1728px)" srcset="/src/assets/images/{{ srcDesktopLg }}?format=webp" type="image/webp">
@@ -39,7 +40,7 @@
       decoding="async"
       width="{{ width }}"
       height="{{ height }}"
-      {% if fit %}style="object-fit: {{ fit }}"{% endif %}
+      style="object-position: {{ position }}; object-fit: {{ fit }}"
     >
   </picture>
 {% endmacro %}

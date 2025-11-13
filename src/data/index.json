@@ -32,6 +32,7 @@
           "picture": {
             "srcMobile": "/catalog/echo-of-bones-mobile.jpg",
             "alt": "Echo of Bones",
+            "position": "top",
             "srcTablet": "/catalog/echo-of-bones-tablet.jpg",
             "srcDesktop": "/catalog/echo-of-bones-desktop.jpg",
             "srcDesktopLg": "/catalog/echo-of-bones-desktop-lg.jpg"
@@ -178,6 +179,7 @@
             "alt": "Deadframe",
             "width": "261",
             "height": "340",
+            "position": "top",
             "srcTablet": "/blog/deadframe-tablet.jpg",
             "srcDesktop": "/blog/deadframe-desktop.jpg",
             "srcDesktopLg": "/blog/deadframe-desktop-lg.jpg"
@@ -251,6 +253,7 @@
             "alt": "Primal",
             "width": "261",
             "height": "340",
+            "position": "top",
             "srcTablet": "/blog/white-protocol-tablet.jpg",
             "srcDesktop": "/blog/white-protocol-desktop.jpg",
             "srcDesktopLg": "/blog/white-protocol-desktop-lg.jpg"
