@@ -26,24 +26,21 @@
 
 	<script>
 		var splide = new Splide('.splide', {
+			pagination: false,
 			perPage: 5,
 			gap: '24px',
 			breakpoints: {
 				678: {
 					perPage: 1,
-					gap: '0',
 				},
 				1280: {
 					perPage: 2,
-					gap: '24px',
 				},
 				1728: {
 					perPage: 4,
-					gap: '24px'
 				},
 			},
 		});
-		
 		splide.mount();
 	</script>
 

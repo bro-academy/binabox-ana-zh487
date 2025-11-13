@@ -75,10 +75,8 @@
         }
     }
 
-    &__item {
-        @include tablet {
-            max-width: 303px;
-        }
+    & .product-item {
+        height: 100%;
     }
 
 }
