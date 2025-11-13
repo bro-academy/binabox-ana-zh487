@@ -40,6 +40,13 @@
     }
 
     &__content {
+
+        width: 100%;
+
+        @include desktop {
+            width: auto;
+        }
+
         @include large-desktop {
             width: $banner-width;
         }
