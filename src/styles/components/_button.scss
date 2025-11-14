@@ -31,6 +31,7 @@
     &:disabled {
         border: $border-width-s solid $separator-color-disabled;
         background-color: $background-color-disabled;
+        color: $separator-color-disabled;
     }
 
     &__icon {

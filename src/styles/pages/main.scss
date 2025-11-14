@@ -2,6 +2,7 @@
 
 
 @use '../components/content-wrapper';
+@use '../components/section-header';
 @use '../components/link';
 @use '../components/button';
 @use '../components/about';
@@ -26,7 +27,6 @@
 @use '../components/person-card';
 @use '../components/picture';
 @use '../components/product-item';
-@use '../components/section-header';
 @use '../components/sub-header';
 @use '../components/banner';
 @use '../components/catalog';

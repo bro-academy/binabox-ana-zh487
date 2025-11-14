@@ -1,27 +1,59 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .blog-article {
+
+    width: 100%;
+    padding: $space-m;
+
     background-color: $card-bg-color;
-    padding: $space-l;
     position: relative;
-    width: $blog-item-width;
 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: 100%;
 
+    @include tablet {
+        padding: $space-l;
+    }
+
+    &__image-wrapper {
+        width: 100%;
+    }
+
     &__image {
-        margin-block-end: $space-l;
+        width: 100%;
+        height: auto;
+        margin-block-end: $space-m;
+
+        @include tablet {
+            margin-block-end: $space-l;
+            height: 210px;
+        }
+
+        @include desktop {
+            height: auto;
+        }
     }
 
     &__header {
-        font-size: $header-fs-s;
-        line-height: $lh-xxl;
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
         font-family: $ff-secondary;
         letter-spacing: $ls-s;
         font-weight: $fw-s;
         text-align: left;
+
+        @include tablet {
+            font-size: $text-fs-xxl;
+            line-height: $lh-xl;
+        }
+
+        @include desktop {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
     &__description {

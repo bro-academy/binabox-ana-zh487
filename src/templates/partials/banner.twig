@@ -21,13 +21,16 @@
 	</div>
 
 	{{ picture(
-			"banner__picture",
-			index.banner.picture.src,
+			"banner__picture mobile-hidden tablet-hidden",
+			index.banner.picture.srcDesktop,
 			index.banner.picture.alt,
 			index.banner.picture.width,
 			index.banner.picture.height,
 			"center",
-			"cover"
+			"cover",
+			index.banner.picture.srcDesktop,
+			index.banner.picture.srcDesktop,
+			index.banner.picture.srcDesktopLg
 		) }}
 
 </section>

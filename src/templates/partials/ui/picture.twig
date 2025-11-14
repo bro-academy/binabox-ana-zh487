@@ -1,17 +1,46 @@
-{% macro picture(classes, source, alt, width, height, position, fit) %}
-
-    <picture>
-        <source srcset="/src/assets/images/{{ source }}?format=webp" type="image/webp">
-        <source srcset="/src/assets/images/{{ source }}?format=avif" type="image/avif">
-        <img 
-            class="{{ classes }}"
-            src="/src/assets/images/{{ source }}"
-            alt="{{ alt }}"
-            loading="lazy"
-            decoding="async"
-            width="{{ width }}"
-            height="{{ height }}"
-            style="object-position: {{ position }}; object-fit: {{ fit }}">
-    </picture>
-
+{% macro picture(
+    classes='',
+    src,
+    alt='',
+    width='auto',
+    height='auto',
+    position='center',
+    fit='cover',
+    srcTablet='',
+    srcDesktop='',
+    srcDesktopLg=''
+) %}
+  <picture class="{{ classes }}-wrapper">
+    {# Desktop Large #}
+    {% if srcDesktopLg %}
+      <source media="(min-width: 1728px)" srcset="/src/assets/images/{{ srcDesktopLg }}?format=webp" type="image/webp">
+      <source media="(min-width: 1728px)" srcset="/src/assets/images/{{ srcDesktopLg }}?format=avif" type="image/avif">
+      <source media="(min-width: 1728px)" srcset="/src/assets/images/{{ srcDesktopLg }}">
+    {% endif %}
+    {# Desktop #}
+    {% if srcDesktop %}
+      <source media="(min-width: 1024px)" srcset="/src/assets/images/{{ srcDesktop }}?format=webp" type="image/webp">
+      <source media="(min-width: 1024px)" srcset="/src/assets/images/{{ srcDesktop }}?format=avif" type="image/avif">
+      <source media="(min-width: 1024px)" srcset="/src/assets/images/{{ srcDesktop }}">
+    {% endif %}
+    {# Tablet #}
+    {% if srcTablet %}
+      <source media="(min-width: 678px)" srcset="/src/assets/images/{{ srcTablet }}?format=webp" type="image/webp">
+      <source media="(min-width: 678px)" srcset="/src/assets/images/{{ srcTablet }}?format=avif" type="image/avif">
+      <source media="(min-width: 678px)" srcset="/src/assets/images/{{ srcTablet }}">
+    {% endif %}
+    {# Default (mobile) #}
+    <source srcset="/src/assets/images/{{ src }}?format=webp" type="image/webp">
+    <source srcset="/src/assets/images/{{ src }}?format=avif" type="image/avif">
+    <img
+      class="{{ classes }}"
+      src="/src/assets/images/{{ src }}"
+      alt="{{ alt }}"
+      loading="lazy"
+      decoding="async"
+      width="{{ width }}"
+      height="{{ height }}"
+      style="object-position: {{ position }}; object-fit: {{ fit }}"
+    >
+  </picture>
 {% endmacro %}

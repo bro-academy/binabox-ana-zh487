@@ -1,15 +1,27 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .catalog {
 
-    padding-block: $space-xl;
+    padding-block: $space-l-plus;
+    padding-inline: $space-m;
+
+    @include tablet {
+        padding-block: 0 $space-xl;
+        padding-inline: $space-l;
+    }
+
+    @include desktop {
+        padding: $space-xl;
+    }
 
     &__title {
         margin-block-end: $space-xl-minus;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
-        column-gap: $space-l-plus;
+        gap: $space-l-plus;
 
         &::before {
             content: '';
@@ -19,8 +31,12 @@
             border-radius: $border-radius-xxxs;
         }
 
-        & > *:first-child {
+        &>*:first-child {
             order: -1;
+        }
+
+        @include tablet {
+            flex-wrap: nowrap;
         }
     }
 
@@ -35,9 +51,11 @@
 
     &__controls {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
         column-gap: $space-m;
+        width: 100%;
 
         &::before {
             content: '';
@@ -47,21 +65,18 @@
             border-radius: $border-radius-xxxxs;
         }
 
-        & > *:first-child {
+        &>*:first-child {
             order: -1;
+            flex-grow: 1;
+        }
+
+        @include tablet {
+            width: auto;
         }
     }
 
-    &__list {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        column-gap: $space-l;
-        justify-content: start;
-        align-items: start;
-    }
-
-    &__item {
-        max-width: $card-width;
+    & .product-item {
+        height: 100%;
     }
 
 }

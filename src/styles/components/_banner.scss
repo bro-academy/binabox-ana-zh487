@@ -1,21 +1,55 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .banner {
 
     background: radial-gradient(ellipse 50% 30% at 5% 0, rgba($accent-color, 0.5), transparent);
 
     display: flex;
-    justify-content: center;
     align-items: center;
 
-    &__content {
-        width: $banner-width;
+    padding-block: $space-l-plus;
+    padding-inline: $space-m;
+
+    @include tablet {
+        padding-block: $space-xl;
+        padding-inline: $space-l;
+    }
+
+    @include desktop {
+        justify-content: center;
+        padding: 0;
     }
 
     &__header {
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
         text-align: left;
         margin-block-start: 0;
         margin-block-end: $space-s;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
+
+        @include desktop {
+            font-size: $header-fs-m;
+            line-height: $lh-xxxl;
+        }
+    }
+
+    &__content {
+
+        width: 100%;
+
+        @include desktop {
+            width: auto;
+        }
+
+        @include large-desktop {
+            width: $banner-width;
+        }
     }
 
     &__header-highlighted {
@@ -39,10 +73,21 @@
     &__stats-title {
         font-family: $ff-secondary;
         font-weight: $fw-s;
-        font-size: $header-fs-m;
-        line-height: $lh-xxxl;
-        letter-spacing: $ls-s;
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
         text-shadow: 0 4px 13px $text-shadow-color;
+        margin-block-end: $space-xs;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+            letter-spacing: $ls-s;
+        }
+
+        @include desktop {
+            font-size: $header-fs-m;
+            line-height: $lh-xxxl;
+        }
     }
 
     &__stats-description {
@@ -53,7 +98,12 @@
     &__controls {
         display: flex;
         flex-wrap: wrap;
-        column-gap: $space-m;
+        gap: $space-m;
+        flex-direction: column;
+
+        @include tablet {
+            flex-direction: row;
+        }
     }
 
 }

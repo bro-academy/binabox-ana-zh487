@@ -44,6 +44,19 @@ $ff-secondary: 'Bakbak one', 'Verdana', sans-serif;
 $ls-s: -0.5px;
 
 
+/* font-size */
+$text-fs-xxs: 12px;
+$text-fs-xs: 14px;
+$text-fs-s: 16px;
+$text-fs-m: 18px;
+$text-fs-l: 20px;
+$text-fs-xl: 24px;
+$text-fs-xxl: 28px;
+
+$header-fs-s: 36px;
+$header-fs-m: 52px;
+
+
 /* line-heights */
 $lh-xxs: 16px;
 $lh-xs: 20px;
@@ -59,19 +72,6 @@ $lh-xxxl: 62px;
 $fw-s: 400;
 $fw-m: 500;
 $fw-l: 600;
-
-
-/* font-size */
-$text-fs-xxs: 12px;
-$text-fs-xs: 14px;
-$text-fs-s: 16px;
-$text-fs-m: 18px;
-$text-fs-l: 20px;
-$text-fs-xl: 24px;
-$text-fs-xxl: 28px;
-
-$header-fs-s: 36px;
-$header-fs-m: 52px;
 
 
 /* border-width */
@@ -97,6 +97,8 @@ $checkbox-size: 16px;
 /* content sizes */
 $content-width-m: 1600px;
 $content-width-s: 1024px;
+$header-width: 1664px;
+$header-search-width: 190px;
 $page-title-height: 375px;
 $blog-sidebar-width: 328px;
 $catalog-sidebar-width: 320px;
@@ -105,6 +107,7 @@ $textarea-height: 160px;
 $banner-width: 866px;
 $blog-item-width: 784px;
 $card-width: 300px;
+$card-width-mobile: 293px;
 $footer-info-width: 320px;
 $footer-navigation-height: 120px;
 $footer-navigation-width: 150px;
@@ -113,22 +116,23 @@ $contacts-info-item-width: 328px;
 
 
 /* spacing */
-
 $space-xs: 4px;
-
 $space-s-minus: 6px;
 $space-s: 8px;
 $space-s-plus: 10px;
-
 $space-m-minus: 12px;
 $space-m: 16px;
 $space-m-plus: 18px;
-
 $space-l-minus: 20px;
 $space-l: 24px;
 $space-l-plus: 32px;
-
 $space-xl-minus: 40px;
 $space-xl: 64px;
-
 $footer-top-space: 104px;
+
+
+/* adaptive sizes */
+$mobile-w: 360px;
+$tablet-w: 678px;
+$desktop-w: 1280px;
+$large-desktop-w: 1728px; 

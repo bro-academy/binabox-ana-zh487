@@ -1,0 +1,27 @@
+@use '../base/variables' as *;
+
+@mixin mobile {
+    @media (min-width: $mobile-w) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet-w) {
+        @content;
+    }
+}
+
+
+@mixin desktop {
+    @media (min-width: $desktop-w) {
+        @content;
+    }
+}
+
+
+@mixin large-desktop {
+    @media (min-width: $large-desktop-w) {
+        @content
+    }
+}
