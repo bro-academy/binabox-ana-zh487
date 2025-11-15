@@ -1,11 +1,19 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .sidebar-categories {
 
     background-color: $card-bg-color;
-    padding: $space-l;
+    padding: $space-m;
     margin-block-end: $space-l-minus;
-    width: $blog-sidebar-width;
+
+    @include tablet {
+        padding: $space-l;
+    }
+
+    @include desktop {
+        width: $blog-sidebar-width;
+    }
 
     &__header {
         font-size: $text-fs-xl;

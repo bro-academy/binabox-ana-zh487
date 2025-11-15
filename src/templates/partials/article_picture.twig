@@ -4,12 +4,15 @@
 
 	{{ picture(
 			"picture__image",
-			item.src,
+			item.srcMobile,
 			item.alt,
 			item.width,
 			item.height,
-			"center",
-			"cover"
+			item.position,
+			"cover",
+			item.srcTablet,
+			item.srcDesktop,
+			item.srcDesktopLg
 		) }}
 
 	<figcaption class="picture__title">{{ item.title }}</figcaption>

@@ -1,17 +1,48 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .page-title {
 
     background-image: url(../../assets/images/page-title/big-circular-lines.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: $page-title-height;
-    padding-block-start: $space-xl;
+    background-position: bottom;
     text-align: center;
-    margin-block-end: $space-xl;
+
+    padding-block-start: $space-m-minus;
+    padding-block-end: $space-xl-minus;
+
+    @include tablet {
+        padding-block-start: $space-l;
+        padding-block-end: $space-xl;
+        margin-block-end: $space-l;
+    }
+
+    @include desktop {
+        padding-block-start: $space-xl;
+        padding-inline: $space-xl;
+        min-height: $page-title-height-desktop;
+        margin-block-end: $space-xl;
+    }
+
+    @include large-desktop {
+        min-height: $page-title-height-desktop-lg;
+    }
+
 
     &__header {
-        margin-block-end: $space-l-minus;
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
+
+        @include desktop {
+            font-size: $header-fs-m;
+            line-height: $lh-xxxl;
+            margin-block-end: $space-l-minus;
+        }
     }
 
 }
