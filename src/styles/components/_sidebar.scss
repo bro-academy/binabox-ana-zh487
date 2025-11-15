@@ -1,8 +1,15 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
 .sidebar {
 
-    position: sticky;
-    left: 0;
-    top: 20vh;
-    z-index: 1;
+    margin-block-end: $space-xl-minus;
+
+    @include desktop {
+        position: sticky;
+        left: 0;
+        top: 20vh;
+        z-index: 1;
+    }
 
 }

@@ -97,9 +97,13 @@ $checkbox-size: 16px;
 /* content sizes */
 $content-width-m: 1600px;
 $content-width-s: 1024px;
+$content-width-mobile: 328px;
+$content-width-tablet: 630px;
+$content-width-desktop: 1152px;
 $header-width: 1664px;
 $header-search-width: 190px;
-$page-title-height: 375px;
+$page-title-height-desktop-lg: 375px;
+$page-title-height-desktop: 278px;
 $blog-sidebar-width: 328px;
 $catalog-sidebar-width: 320px;
 $contact-form-width: 640px;
