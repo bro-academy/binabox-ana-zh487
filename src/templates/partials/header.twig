@@ -4,7 +4,7 @@
 
 	<div class="content-wrapper">
 		<div class="header__left-block">
-			<button class="header__burger desktop-hidden large-desktop-hidden js-burger-button">
+			<button class="header__burger mobile-visible tablet-visible desktop-hidden large-desktop-hidden js-burger-button">
 				<div class="header__burger-bar header__burger-bar-1"></div>
 				<div class="header__burger-bar header__burger-bar-2"></div>
 				<div class="header__burger-bar header__burger-bar-3"></div>
@@ -12,18 +12,18 @@
 
 			<a href="/" class="header__logo">
 				<svg class="header__logo-icon" width="36px" height="40px"><use href="/src/assets/logos/logo.svg"/></svg>
-				<svg class="header__logo-text mobile-hidden desktop-hidden" width="135px" height="21px"><use href="/src/assets/logos/binabox.svg"/></svg>
+				<svg class="header__logo-text mobile-hidden tablet-visible desktop-hidden large-desktop-visible" width="135px" height="21px"><use href="/src/assets/logos/binabox.svg"/></svg>
 			</a>
 		</div>
 
-		<div class="header__center-block js-burger-dropdown mobile-hidden tablet-hidden">
+		<div class="header__center-block js-burger-dropdown mobile-hidden tablet-hidden desktop-visible">
 			<nav class="header__navigation">
 				<ul class="header__navigation-list">
 					{% for item in common.header.navigation %}
 						<li class="header__navigation-item">
 							<a href="{{ item.link }}" class="header__navigation-link link {% if item.link == page %} header__navigation-link--active {% endif %}">
 								{{ item.text }}
-								{{ icon ("header__navigation-icon mobile-hidden tablet-hidden", "down", 24, 24) }}
+								{{ icon ("header__navigation-icon mobile-hidden tablet-hidden desktop-visible", "down", 24, 24) }}
 							</a>
 						</li>
 					{% endfor %}

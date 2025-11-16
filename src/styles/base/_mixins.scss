@@ -1,27 +1,28 @@
 @use '../base/variables' as *;
+@use 'sass:map';
 
 @mixin mobile {
-    @media (min-width: $mobile-w) {
+    @media (min-width: map.get($breakpoints, mobile)) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media (min-width: $tablet-w) {
+    @media (min-width: map.get($breakpoints, tablet)) {
         @content;
     }
 }
 
 
 @mixin desktop {
-    @media (min-width: $desktop-w) {
+    @media (min-width: map.get($breakpoints, desktop)) {
         @content;
     }
 }
 
 
 @mixin large-desktop {
-    @media (min-width: $large-desktop-w) {
+    @media (min-width: map.get($breakpoints, large-desktop)) {
         @content
     }
 }

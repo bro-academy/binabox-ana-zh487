@@ -1,10 +1,11 @@
 @use 'variables' as *;
+@use 'sass:map';
 
 body {
     font-family: $ff-primary;
     background-color: $body-bg-color;
     color: $color-primary;
-    min-width: $mobile-w;
+    min-width: map.get($breakpoints, mobile);
 }
 
 a {
@@ -39,42 +40,24 @@ img {
     padding: 0;
 }
 
-@media (min-width: $mobile-w) and (max-width: $tablet-w) {
-    .mobile-hidden {
-        opacity: 0;
-        width: 0;
-        height: 0;
-        position: absolute;
-        overflow: hidden;
+@each $name, $value in $breakpoints {
+    .#{$name}-hidden {
+        @media (min-width: $value) {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            position: absolute;
+            z-index: -1;
+        }
     }
-}
 
-@media (min-width: $tablet-w) and (max-width: $desktop-w) {
-    .tablet-hidden {
-        opacity: 0;
-        width: 0;
-        height: 0;
-        position: absolute;
-        overflow: hidden;
-    }
-}
-
-@media (min-width: $desktop-w) and (max-width: $large-desktop-w) {
-    .desktop-hidden {
-        opacity: 0;
-        width: 0;
-        height: 0;
-        position: absolute;
-        overflow: hidden;
-    }
-}
-
-@media (min-width: $large-desktop-w) {
-    .large-desktop-hidden {
-        opacity: 0;
-        width: 0;
-        height: 0;
-        position: absolute;
-        overflow: hidden;
+    .#{$name}-visible {
+        @media (min-width: $value) {
+            opacity: 1;
+            width: auto;
+            height: auto;
+            position: static;
+            z-index: 0;
+        }
     }
 }
