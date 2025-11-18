@@ -9,18 +9,10 @@
 .content-wrapper--blogpage {
     display: flex;
     flex-direction: column;
-    max-width: $content-width-mobile;
+    padding: $space-m;
 
     @include tablet {
-        max-width: $content-width-tablet;
-    }
-
-    @include desktop {
-        max-width: $content-width-desktop;
-    }
-
-    @include large-desktop {
-        max-width: $content-width-m;
+        padding: $space-l;
     }
 
     @include desktop {
@@ -28,8 +20,12 @@
         column-gap: $space-l-plus;
         justify-content: center;
         align-items: flex-start;
+        padding: $space-xl;
     }
 
+    @include large-desktop {
+        padding: 0;
+    }
 
 }
 

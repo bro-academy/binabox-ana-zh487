@@ -3,7 +3,9 @@
 
 .article-page {
 
-    max-width: $content-width-s;
+    @include desktop {
+        max-width: $content-width-s;
+    }
 
     &__title {
         margin-block-end: $space-l-plus;
@@ -65,7 +67,7 @@
 
     &__picture-item {
         @include tablet {
-            max-width: calc((100% - $space-l)/2);
+            width: calc((100% - $space-l)/2);
         }
     }
 
