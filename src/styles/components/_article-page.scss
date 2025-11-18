@@ -1,8 +1,11 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .article-page {
 
-    max-width: $content-width-s;
+    @include desktop {
+        max-width: $content-width-s;
+    }
 
     &__title {
         margin-block-end: $space-l-plus;
@@ -42,30 +45,49 @@
     &__picture-list {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: flex-start;
-        gap: $space-l;
+        gap: $space-l-plus;
         margin-block-end: $space-l-plus;
+
+        @include tablet {
+            flex-direction: row;
+            gap: $space-l;
+        }
 
         .picture {
             margin-block-end: 0;
 
             &__title {
                 left: $space-m;
+                right: $space-m;
             }
+        }
+    }
+
+    &__picture-item {
+        @include tablet {
+            width: calc((100% - $space-l)/2);
         }
     }
 
     &__footer {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        gap: $space-l;
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 
     &__footer-unit {
         display: flex;
         justify-content: flex-start;
+        flex-wrap: wrap;
         align-items: center;
-        column-gap: $space-m-minus;
+        gap: $space-m-minus;
     }
 
     &__footer-title {
@@ -74,7 +96,7 @@
     }
 
     &__sub-header {
-        margin-block-end: $space-s-plus;
+        margin-block-end: $space-m;
     }
 
 }

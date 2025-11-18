@@ -1,10 +1,18 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .sidebar-tags {
 
     background-color: $card-bg-color;
-    padding: $space-l;
-    width: $blog-sidebar-width;
+    padding: $space-m;
+
+    @include tablet {
+        padding: $space-l;
+    }
+
+    @include desktop {
+        width: $blog-sidebar-width;
+    }
 
     &__header {
         font-size: $text-fs-xl;
@@ -12,7 +20,7 @@
         font-family: $ff-secondary;
         font-weight: $fw-s;
         padding-block-end: $space-m;
-        border-bottom: 1px solid $separator-color-secondary;
+        border-bottom: $border-width-xs solid $separator-color-secondary;
     }
 
     &__list {

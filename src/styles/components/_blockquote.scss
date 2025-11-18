@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .blockquote {
     background-color: $blockquote-bg-color;
@@ -10,9 +11,12 @@
         font-size: $text-fs-xxl;
         line-height: $lh-xl;
         font-family: $ff-secondary;
-        -webkit-text-stroke: 1px $blockquote-stroke-color;
-        text-shadow: 0 4px 4px $blockquote-shadow-color;
         margin-block-end: $space-s;
+
+        @include desktop {
+            -webkit-text-stroke: 1px $blockquote-stroke-color;
+            text-shadow: 0 4px 4px $blockquote-shadow-color;
+        }
     }
 
     &__cite {

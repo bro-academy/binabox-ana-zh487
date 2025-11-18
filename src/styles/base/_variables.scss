@@ -99,7 +99,8 @@ $content-width-m: 1600px;
 $content-width-s: 1024px;
 $header-width: 1664px;
 $header-search-width: 190px;
-$page-title-height: 375px;
+$page-title-height-desktop-lg: 375px;
+$page-title-height-desktop: 278px;
 $blog-sidebar-width: 328px;
 $catalog-sidebar-width: 320px;
 $contact-form-width: 640px;
@@ -136,3 +137,12 @@ $mobile-w: 360px;
 $tablet-w: 678px;
 $desktop-w: 1280px;
 $large-desktop-w: 1728px; 
+
+
+/* breakpoints */
+$breakpoints: (
+    mobile: 360px,
+    tablet: 678px,
+    desktop: 1280px,
+    large-desktop: 1728px
+)
