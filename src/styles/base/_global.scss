@@ -1,11 +1,10 @@
 @use 'variables' as *;
-@use 'sass:map';
 
 body {
     font-family: $ff-primary;
     background-color: $body-bg-color;
     color: $color-primary;
-    min-width: map.get($breakpoints, mobile);
+    min-width: $mobile-w;
 }
 
 a {
