@@ -4,11 +4,9 @@
 .contacts-info {
 
     padding-block: $space-m;
-    padding-inline: $space-m;
 
     @include tablet {
         padding-block: $space-l-plus;
-        padding-inline: $space-l;
     }
 
     &__list {
@@ -20,10 +18,14 @@
     }
 
     &__item {
-        flex-basis: $contacts-info-item-width-tab;
+        flex-basis: $contacts-info-item-width-m;
+
+        @include tablet {
+            flex-basis: $contacts-info-item-width-s;
+        }
 
         @include desktop {
-            flex-basis: $contacts-info-item-width-desk;
+            flex-basis: $contacts-info-item-width-m;
         }
     }
 
