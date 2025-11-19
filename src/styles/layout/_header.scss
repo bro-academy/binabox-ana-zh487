@@ -8,11 +8,10 @@
     left: 0;
     background-color: $body-bg-color;
     z-index: 10;
-    padding: $space-m;
+    padding-block: $space-m;
 
     @include desktop {
         padding-block: $space-l-plus;
-        padding-inline: $space-xl;
     }
 
     & .content-wrapper {

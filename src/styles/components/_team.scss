@@ -4,16 +4,13 @@
 .team {
 
     padding-block: $space-l-plus;
-    padding-inline: $space-s;
 
     @include tablet {
         padding-block: 0 $space-xl;
-        padding-inline: $space-l;
     }
 
     @include desktop {
         padding-block: $space-xl;
-        padding-inline: $space-xl;
     }
 
     &__list {

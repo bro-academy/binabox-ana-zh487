@@ -4,16 +4,13 @@
 .faq {
 
     padding-block: $space-l-plus 0;
-    padding-inline: $space-m;
 
     @include tablet {
         padding-block: 0;
-        padding-inline: $space-l;
     }
 
     @include desktop {
         padding-block: $space-xl;
-        padding-inline: $space-xl;
     }
 
     &__header {

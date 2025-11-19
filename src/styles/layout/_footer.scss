@@ -3,18 +3,13 @@
 
 .footer {
     background-color: $card-bg-color-secondary;
-    padding-inline: $space-m;
     padding-block-start: $space-xl;
     padding-block-end: $space-l-plus;
     margin-block-start: $space-xl;
 
-    @include tablet {
-        padding-inline: $space-l;
-    }
 
     @include desktop {
         margin-block-start: $space-xl-minus;
-        padding-inline: $space-xl;
     }
 
     &__logo {

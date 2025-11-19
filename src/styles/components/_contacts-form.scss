@@ -4,12 +4,10 @@
 .contacts-form {
 
     padding-block-start: $space-m;
-    padding-inline: $space-m;
     
     @include tablet {
         padding-block-start: $space-l-plus;
         padding-block-end: $space-xl-minus;
-        padding-inline: $space-l;
     }
 
     &__header {
