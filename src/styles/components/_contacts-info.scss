@@ -1,29 +1,61 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .contacts-info {
+
+    padding-block: $space-m;
+    padding-inline: $space-m;
+
+    @include tablet {
+        padding-block: $space-l-plus;
+        padding-inline: $space-l;
+    }
 
     &__list {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-        column-gap: $space-m;
+        gap: $space-m;
     }
 
     &__item {
-        flex-basis: $contacts-info-item-width;
+        flex-basis: $contacts-info-item-width-tab;
+
+        @include desktop {
+            flex-basis: $contacts-info-item-width-desk;
+        }
     }
 
     &__block {
         border: $border-width-xs solid $check-color;
         fill: $color-primary;
         text-align: center;
-        padding-block: $space-xl-minus;
-        padding-inline: $space-l-plus;
+        padding-block: $space-l;
+        padding-inline: $space-m;
+
+        @include tablet {
+            padding-block: $space-xl-minus;
+            padding-inline: $space-l-plus;
+        }
     }
 
     &__icon {
-        margin-block-end: $space-l;
+        margin-block-end: $space-m;
+
+        @include tablet {
+            margin-block-end: $space-l;
+        }
+    }
+
+    &__title {
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
     &__description {

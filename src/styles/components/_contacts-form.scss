@@ -1,12 +1,27 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .contacts-form {
 
-    padding: $space-xl;
+    padding-block-start: $space-m;
+    padding-inline: $space-m;
+    
+    @include tablet {
+        padding-block-start: $space-l-plus;
+        padding-block-end: $space-xl-minus;
+        padding-inline: $space-l;
+    }
 
     &__header {
+        font-size: $text-fs-xxl;
+        line-height: $lh-xl;
         color: $color-thirdly;
         margin-block-end: $space-s;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
     &__description {
@@ -25,6 +40,10 @@
         flex-direction: column;
         justify-content: center;
         row-gap: $space-l;
+    }
+
+    & .link {
+        font-weight: $fw-s;
     }
 
     &__field .field-textarea__input {
