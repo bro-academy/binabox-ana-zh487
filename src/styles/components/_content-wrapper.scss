@@ -4,15 +4,25 @@
 .content-wrapper {
     max-width: $content-width-m;
     margin-inline: auto;
+
+    padding-inline: $space-m;
+
+    @include tablet {
+        padding-inline: $space-l;
+    }
+
+    @include desktop {
+        padding-inline: $space-xl;
+    }
 }
 
 .content-wrapper--blogpage {
     display: flex;
     flex-direction: column;
-    padding: $space-m;
+    padding-block: $space-m;
 
     @include tablet {
-        padding: $space-l;
+        padding-block: $space-l;
     }
 
     @include desktop {
@@ -20,7 +30,7 @@
         column-gap: $space-l-plus;
         justify-content: center;
         align-items: flex-start;
-        padding: $space-xl;
+        padding-block: $space-xl;
     }
 
     @include large-desktop {

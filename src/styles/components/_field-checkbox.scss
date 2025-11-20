@@ -1,11 +1,16 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .field-checkbox {
 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-start;
-    column-gap: $space-s;
+    column-gap: $space-xs;
+
+    @include tablet {
+        align-items: center;
+    }
 
     &__input {
         appearance: none;
@@ -17,6 +22,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 0;
+        margin: $space-xs;
 
         &::before {
             content: "";
