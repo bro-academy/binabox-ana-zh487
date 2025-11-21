@@ -225,10 +225,13 @@
             "items": [
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -236,21 +239,27 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "Popular",
                     "price": "$199",
                     "name": "Name Product"
                 },
                 {
-                    "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                   "picture": {
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "Sold out",
                     "price": "$199",
@@ -258,10 +267,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -269,10 +281,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -280,10 +295,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -291,10 +309,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -302,10 +323,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
@@ -313,10 +337,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/catalog-full/catalog-full-item.jpg",
+                        "srcMobile": "/catalog-full/catalog-page-item-mobile.jpg",
                         "alt": "Name Product",
-                        "width": "336px",
-                        "height": "453px"
+                        "width": "296",
+                        "height": "400",
+                        "srcTablet": "/catalog-full/catalog-page-item-tablet.jpg",
+                        "srcDesktop": "/catalog-full/catalog-page-item-desktop.jpg",
+                        "srcDesktopLg": "/catalog-full/catalog-page-item-large-desktop.jpg"
                     },
                     "label": "New",
                     "price": "$199",
