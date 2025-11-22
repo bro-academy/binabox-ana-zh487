@@ -16,15 +16,15 @@
 
 			<div class="catalog-full__title">
 
-				<h2 class="catalog-full__header section-header">{{ catalog.list.header }}</h2>
+				<div class="catalog-full__title-content">
 
-				<div class="catalog-full__controls">
+					<h2 class="catalog-full__header section-header">{{ catalog.list.header }}</h2>
 
 					{% include 'src/templates/partials/select.twig' with { options_array:catalog.sort } %}
 
-					{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}
-
 				</div>
+
+				<div class="catalog-full__title-search">{% include 'src/templates/partials/search.twig' with { item:catalog.search } %}</div>
 
 			</div>
 
