@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .catalog-full {
 
@@ -7,26 +8,57 @@
         justify-content: space-between;
         align-items: center;
         margin-block-end: $space-l-plus;
+        flex-wrap: wrap;
+        gap: $space-m;
     }
 
-    &__controls {
+    &__title-content {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        column-gap: $space-m;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+    &__title-search {
+        width: 100%;
+
+        @include tablet {
+            width: auto;
+        }
     }
 
     &__header {
         text-align: left;
+        font-size: $text-fs-xl;
+        line-height: $lh-l;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
     &__list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         gap: $space-l-plus;
         justify-content: start;
         justify-items: start;
         align-items: start;
         margin-block-end: $space-l-plus;
+
+        @include tablet {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include large-desktop {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__item {
+        width: 100%;
     }
 
     &__button {

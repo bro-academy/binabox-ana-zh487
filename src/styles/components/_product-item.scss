@@ -1,14 +1,19 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .product-item {
 
-    padding: $space-l;
+    padding: $space-m;
     position: relative;
     background-color: $card-bg-color;
 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    @include tablet {
+        padding: $space-l;
+    }
 
     &__picture-wrapper {
         width: 100%;
@@ -17,6 +22,10 @@
     &__picture {
         margin-block-end: $space-m;
         width: 100%;
+
+        @include tablet {
+            margin-block-end: $space-l;
+        }
     }
 
     &__price {
@@ -24,6 +33,11 @@
         font-size: $text-fs-xxl;
         line-height: $lh-xl;
         margin-block-end: $space-s;
+
+        @include tablet {
+            font-size: $header-fs-s;
+            line-height: $lh-xxl;
+        }
     }
 
     &__name {
