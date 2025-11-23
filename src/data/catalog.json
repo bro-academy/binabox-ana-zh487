@@ -121,6 +121,7 @@
                 "fieldset": [
                     {
                         "type": "radio",
+                        "toggle": "yes",
                         "id": "dark",
                         "name": "skin",
                         "label": "Dark",
@@ -128,6 +129,7 @@
                     },
                     {
                         "type": "radio",
+                        "toggle": "yes",
                         "id": "light",
                         "name": "skin",
                         "label": "Light",
