@@ -1,4 +1,5 @@
 {% from "ui/picture.twig" import picture %}
+{% from "ui/icon.twig" import icon %}
 
 <article class="product-item card-hover">
 
@@ -16,10 +17,18 @@
 		) }}
 
 	<span class="product-item__label item-label
-	{% if item.label == "Sold out" %}
-	item-label--accent
-	{% endif %}
-	">{{ item.label }}</span>
+			{% if item.label == " sold out" %}v
+			item-label--accent
+			{% endif %}
+			">{{ item.label }}</span>
 	<p class="product-item__price">{{ item.price}}</p>
 	<h3 class="product-item__name">{{ item.name}}</h3>
+
+	<div class="product-item__overlay">
+		<button type="button" class="button button--large button--alternative product-item__overlay-button">
+			{{ icon ("button__icon", "heart", 24, 24) }}
+			Favourites</button>
+		<button type="button" class="button button--large button--primary product-item__overlay-button">Buy</button>
+	</div>
+
 </article>

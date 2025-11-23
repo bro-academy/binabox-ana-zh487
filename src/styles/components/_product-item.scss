@@ -53,4 +53,24 @@
         top: $space-xl-minus;
         right: $space-xl-minus;
     }
+
+    &__overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgb(13 13 21 / 60%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: $space-l;
+        opacity: 0;
+    }
+
+    &:hover &__overlay {
+        opacity: 1;
+    }
+
+    &__overlay-button {
+        min-width: 60%;
+    }
 }
