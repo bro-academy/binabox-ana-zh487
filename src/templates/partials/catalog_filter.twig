@@ -1,6 +1,11 @@
-<aside class="sidebar">
+<div class="catalog-filter">
 
-	<form action="{{ catalog.sidebar_action }}" method="post" class="catalog-filter">
+<input type="checkbox" id="catalog-filter-toggler" class="catalog-filter__toggler"/>
+<label for="catalog-filter-toggler" class="button button--large catalog-filter__filter-button desktop-hidden">Filter</label>
+
+<aside class="sidebar catalog-filter__sidebar mobile-hidden desktop-visible">
+
+	<form action="{{ catalog.sidebar_action }}" method="post" class="catalog-filter__form">
 		{% for module in catalog.sidebar_filter %}
 
 			<details class="catalog-filter__fieldset accordion">
@@ -23,3 +28,6 @@
 	</form>
 
 </aside>
+
+
+</div>

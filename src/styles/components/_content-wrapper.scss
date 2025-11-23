@@ -14,6 +14,10 @@
     @include desktop {
         padding-inline: $space-xl;
     }
+
+    @include large-desktop {
+        padding-inline: 0;
+    }
 }
 
 .content-wrapper--blogpage {
@@ -41,7 +45,21 @@
 
 .content-wrapper--catalogpage {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    column-gap: $space-xl;
+    flex-direction: column;
+    padding-block: $space-m;
+    row-gap: $space-xl;
+
+    @include tablet {
+        padding-block: $space-l-plus;
+        row-gap: $space-l-plus;
+    }
+
+    @include desktop {
+        flex-direction: row;
+        column-gap: $space-xl;
+        justify-content: center;
+        align-items: flex-start;
+        padding-block: $space-xl;
+    }
+
 }

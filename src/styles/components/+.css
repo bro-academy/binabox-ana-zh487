@@ -19,6 +19,7 @@
 @import "./_field-checkbox.scss";
 @import "./_field-radio.scss";
 @import "./_field-textarea.scss";
+@import "./_field-toggle.scss";
 @import "./_icon-list.scss";
 @import "./_input-default.scss";
 @import "./_item-label.scss";
