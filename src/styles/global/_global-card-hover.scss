@@ -1,6 +1,6 @@
 @use '../base/variables' as *;
 
-.card-hover {
+.global-card-hover {
 
     &:hover {
         background-image: url(../../assets/images/card-hover/hover-top.png), url(../../assets/images/card-hover/hover-bottom.png);
