@@ -1,7 +1,8 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .button {
-    
+
     border: $border-width-s solid $separator-color;
     font-size: $text-fs-s;
     line-height: $lh-s;
@@ -16,7 +17,11 @@
     align-items: center;
     column-gap: $space-s;
 
-    &:hover,
+    @include hover {
+        border: $border-width-s solid $separator-color-secondary;
+        background-color: $separator-color-secondary;
+    }
+
     &:active {
         border: $border-width-s solid $separator-color-secondary;
         background-color: $separator-color-secondary;
@@ -44,7 +49,7 @@
     border-color: transparent;
     background-color: $accent-color;
 
-    &:hover {
+    @include hover {
         background-color: $accent-color-focus;
     }
 
@@ -64,6 +69,33 @@
         color: $separator-color-disabled;
     }
 
+}
+
+.button--alternative {
+    color: $body-bg-color;
+    border-color: transparent;
+    background-color: $base-invert-color;
+
+    @include hover {
+        background-color: $base-alternative-color;
+    }
+
+    &:focus {
+        border: $border-width-s solid $accent-color-focus;
+        outline: $border-width-s solid $accent-color-focus;
+        background-color: $base-invert-color;
+    }
+
+    &:active {
+        color: $color-primary;
+        background-color: $separator-color-disabled;
+    }
+
+    &:disabled {
+        color: $separator-color-disabled;
+        background-color: $background-color-disabled;
+        border-color: transparent;
+    }
 }
 
 .button--large {

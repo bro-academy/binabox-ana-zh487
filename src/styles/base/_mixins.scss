@@ -22,6 +22,14 @@
 
 @mixin large-desktop {
     @media (min-width: $large-desktop-w) {
-        @content
+        @content;
+    }
+}
+
+@mixin hover {
+    @media (hover) {
+        &:hover {
+            @content;
+        }
     }
 }

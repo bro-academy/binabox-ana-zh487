@@ -45,7 +45,7 @@
 
         }
 
-        &:hover {
+        @include hover {
             background-color: $card-bg-color;
 
             &:checked {

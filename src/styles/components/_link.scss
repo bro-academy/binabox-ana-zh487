@@ -1,10 +1,11 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
     .link {
         color: $link-color;
         font-weight: $fw-l;
 
-        &:hover {
+        @include hover {
             color: $accent-color-focus;
         }
 
