@@ -64,10 +64,10 @@
         align-items: center;
         gap: $space-l;
         opacity: 0;
-    }
 
-    &:hover &__overlay {
-        opacity: 1;
+        &:hover {
+            opacity: 1;
+        }
     }
 
     &__overlay-button {
