@@ -1,8 +1,9 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .global-card-hover {
 
-    &:hover {
+    @include hover {
         background-image: url(../../assets/images/card-hover/hover-top.png), url(../../assets/images/card-hover/hover-bottom.png);
         background-repeat: no-repeat;
         background-position: top left, right bottom;

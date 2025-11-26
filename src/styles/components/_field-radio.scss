@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .field-radio {
 
@@ -19,7 +20,7 @@
             border: $border-width-xl solid $accent-color;
         }
 
-        &:hover {
+        @include hover {
             background-color: $card-bg-color;
 
             &:checked {

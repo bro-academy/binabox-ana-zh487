@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .socials {
 
@@ -16,8 +17,10 @@
         display: block;
     }
 
-    &__item-link:hover {
-        color: $accent-color-focus;
+    &__item-link {
+        @include hover {
+            color: $accent-color-focus;
+        }
     }
 
 }

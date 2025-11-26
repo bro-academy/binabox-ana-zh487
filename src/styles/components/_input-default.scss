@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .input-default {
 
@@ -15,7 +16,7 @@
         color: $placeholder-color;
     }
 
-    &:hover {
+    @include hover {
         border-color: $accent-color-focus;
     }
 

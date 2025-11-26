@@ -1,4 +1,5 @@
 @use '../base/variables' as *;
+@use '../base/mixins' as *;
 
 .button {
 
@@ -16,7 +17,11 @@
     align-items: center;
     column-gap: $space-s;
 
-    &:hover,
+    @include hover {
+        border: $border-width-s solid $separator-color-secondary;
+        background-color: $separator-color-secondary;
+    }
+
     &:active {
         border: $border-width-s solid $separator-color-secondary;
         background-color: $separator-color-secondary;
@@ -44,7 +49,7 @@
     border-color: transparent;
     background-color: $accent-color;
 
-    &:hover {
+    @include hover {
         background-color: $accent-color-focus;
     }
 
@@ -71,7 +76,7 @@
     border-color: transparent;
     background-color: $base-invert-color;
 
-    &:hover {
+    @include hover {
         background-color: $base-alternative-color;
     }
 

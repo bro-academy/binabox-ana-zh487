@@ -65,7 +65,7 @@
         gap: $space-l;
         opacity: 0;
 
-        &:hover {
+        @include hover {
             opacity: 1;
         }
     }
