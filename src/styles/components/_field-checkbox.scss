@@ -24,6 +24,9 @@
         align-items: center;
         flex-shrink: 0;
         margin: $space-xs;
+        outline: $border-width-s solid transparent;
+
+        @include transition((background-color, border-color, opacity, outline-color));
 
         &::before {
             content: "";
@@ -67,7 +70,7 @@
         }
 
         &:focus {
-            outline: $border-width-s solid $accent-color-focus;
+            outline-color: $accent-color-focus;
             background-color: $card-bg-color-secondary;
 
             &:checked {

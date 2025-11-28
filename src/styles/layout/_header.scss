@@ -43,10 +43,11 @@
             left: 0;
             display: flex;
             flex-direction: column;
-            opacity: 100;
+            opacity: 1;
             width: 100%;
             height: 100vh;
             padding: $space-m;
+            @include transition(opacity);
         }
 
         @include desktop {
@@ -172,7 +173,7 @@
         height: 2px;
         border-radius: $border-radius-xxxxs;
         background-color: $color-primary;
-        transition: .2s ease;
+        @include transition((opacity, transform));
     }
 
 }

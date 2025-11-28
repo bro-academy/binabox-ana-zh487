@@ -18,6 +18,9 @@
     }
 
     &__item-link {
+
+        @include transition(color);
+
         @include hover {
             color: $accent-color-focus;
         }

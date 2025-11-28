@@ -4,14 +4,19 @@
     .link {
         color: $link-color;
         font-weight: $fw-l;
+        outline: $border-width-l solid transparent;
+        border-radius: $border-radius-s;
+
+        @include transition((color, outline-color));
 
         @include hover {
             color: $accent-color-focus;
         }
 
         &:focus {
-            outline: $border-width-l solid $accent-color-focus;
+            outline-color: $accent-color-focus;
             border-radius: $border-radius-s;
+            color: $accent-color-focus;
         }
 
         &:active {

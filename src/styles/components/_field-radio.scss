@@ -15,9 +15,13 @@
         border-radius: $radio-size;
         border: $border-width-s solid $check-color;
         background-color: $body-bg-color;
+        outline: $border-width-s solid transparent;
+
+        @include transition((border-color, border-width, outline-color, outline-offset, background-color));
 
         &:checked {
-            border: $border-width-xl solid $accent-color;
+            border-color: $accent-color;
+            border-width: $border-width-xl;
         }
 
         @include hover {
@@ -29,21 +33,25 @@
         }
 
         &:active {
-            border: $border-width-xl solid $check-active-border;
+            border-color: $check-active-border;
+            border-width: $border-width-xl;
 
             &:checked {
-                border: $border-width-xl solid $check-active-border;
+                border-color: $check-active-border;
+                border-width: $border-width-xl;
             }
         }
 
         &:focus {
-            border: $border-width-s solid $placeholder-color;
-            outline: $border-width-s solid $accent-color-focus;
+            border-color: $placeholder-color;
+            border-width: $border-width-s;
+            outline-color: $accent-color-focus;
             outline-offset: 1px;
 
             &:checked {
-                border: $border-width-xl solid $accent-color-focus;
-                outline: $border-width-s solid $accent-color-focus;
+                border-color: $accent-color-focus;
+                border-width: $border-width-xl;
+                outline-color: $accent-color-focus;
                 outline-offset: 1px;
             }
         }

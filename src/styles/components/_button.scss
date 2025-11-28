@@ -11,30 +11,33 @@
     color: $color-primary;
     padding-block: $space-s;
     padding-inline: $space-l-minus;
+    outline: $border-width-s solid transparent;
 
     display: inline-flex;
     justify-content: center;
     align-items: center;
     column-gap: $space-s;
 
+    @include transition((background-color, border-color, outline-color, color));
+
     @include hover {
-        border: $border-width-s solid $separator-color-secondary;
+        border-color: $separator-color-secondary;
         background-color: $separator-color-secondary;
     }
 
     &:active {
-        border: $border-width-s solid $separator-color-secondary;
+        border-color: $separator-color-secondary;
         background-color: $separator-color-secondary;
     }
 
     &:focus {
-        border: $border-width-s solid $accent-color-focus;
-        outline: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
         background-color: $separator-color-secondary;
     }
 
     &:disabled {
-        border: $border-width-s solid $separator-color-disabled;
+        border-color: $separator-color-disabled;
         background-color: $background-color-disabled;
         color: $separator-color-disabled;
     }
@@ -54,8 +57,8 @@
     }
 
     &:focus {
-        border: $border-width-s solid $accent-color-focus;
-        outline: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
         background-color: $accent-color;
     }
 
@@ -81,8 +84,8 @@
     }
 
     &:focus {
-        border: $border-width-s solid $accent-color-focus;
-        outline: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
         background-color: $base-invert-color;
     }
 
