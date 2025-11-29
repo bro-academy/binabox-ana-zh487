@@ -96,6 +96,7 @@
         display: inline-flex;
         align-items: center;
         column-gap: $space-s;
+        border-radius: 0;
     }
 
     &__navigation-link--active {
