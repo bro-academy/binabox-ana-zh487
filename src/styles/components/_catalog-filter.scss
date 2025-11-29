@@ -49,6 +49,8 @@
     &__sidebar {
         margin-block-start: $space-l-minus;
 
+        @include transition(opacity);
+
         @include desktop {
             margin-block-start: 0;
         }

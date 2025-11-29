@@ -4,12 +4,15 @@
 .search {
 
     border: $border-width-s solid $separator-color;
+    outline: $border-width-xs solid transparent;
     background-color: transparent;
     padding: $space-m-minus;
 
     display: flex;
     align-items: center;
     column-gap: $space-s;
+
+    @include transition((border-color, outline-color, background-color));
 
     &__button {
         background-color: transparent;
@@ -34,15 +37,16 @@
     }
 
     @include hover {
-        border: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
     }
 
     &:focus {
-        border: $border-width-m solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
     }
 
     &:has(&__input:user-invalid) {
-        border: $border-width-s solid $negative-color;
+        border-color: $negative-color;
     }
 
     &:has(&__input[disabled]) {
