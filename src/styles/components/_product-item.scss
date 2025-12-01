@@ -58,12 +58,16 @@
         position: absolute;
         inset: 0;
         background-color: rgb(13 13 21 / 60%);
+        background-image: url(../../assets/images/card-hover/hover-top.png), url(../../assets/images/card-hover/hover-bottom.png);
+        background-repeat: no-repeat;
+        background-position: top left, right bottom;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: $space-l;
         opacity: 0;
+        @include transition(opacity);
 
         @include hover {
             opacity: 1;

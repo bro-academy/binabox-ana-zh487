@@ -4,6 +4,7 @@
 .input-default {
 
     border: $border-width-s solid $separator-color;
+    outline: $border-width-xs solid transparent;
     background-color: transparent;
     color: $color-primary;
     font-size: $text-fs-xs;
@@ -11,6 +12,8 @@
     padding-block: $space-s-plus;
     padding-inline: $space-m-minus;
     width: 100%;
+
+    @include transition((border-color, border-width, background-color));
 
     &::placeholder {
         color: $placeholder-color;
@@ -21,7 +24,8 @@
     }
 
     &:focus {
-        border: $border-width-m solid $accent-color-focus;
+        outline-color: $accent-color-focus;
+        border-color: $accent-color-focus;
     }
     
     &:user-invalid {

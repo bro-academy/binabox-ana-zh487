@@ -3,10 +3,25 @@
 
 .global-card-hover {
 
-    @include hover {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
         background-image: url(../../assets/images/card-hover/hover-top.png), url(../../assets/images/card-hover/hover-bottom.png);
         background-repeat: no-repeat;
         background-position: top left, right bottom;
+        opacity: 0;
+        pointer-events: none;
+
+        @include transition(opacity);
+    }
+
+    @include hover {
+        &::after {
+            opacity: 1;
+        }
     }
 
 }

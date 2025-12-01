@@ -15,8 +15,10 @@
     padding-block: $space-s-plus;
     padding-inline: $space-l;
     border: $border-width-s solid $separator-color;
+    outline: $border-width-s solid transparent;
     width: $sort-width;
 
+    @include transition((border-color, outline-color, background-color, color));
 
     option {
         background-color: $dropdown-bg-color;
@@ -25,15 +27,15 @@
 
     @include hover {
         background-color: $separator-color-secondary;
-        border: $border-width-s solid $accent-color-focus;
-        outline: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
         color: $accent-color-focus;
     }
 
     &:focus {
         background-color: $separator-color-secondary;
-        border: $border-width-s solid $accent-color-focus;
-        outline: $border-width-s solid $accent-color-focus;
+        border-color: $accent-color-focus;
+        outline-color: $accent-color-focus;
         color: $color-primary;
     }
 
